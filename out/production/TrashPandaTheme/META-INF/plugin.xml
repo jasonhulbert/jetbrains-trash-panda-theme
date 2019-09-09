@@ -1,0 +1,38 @@
+<idea-plugin>
+  <id>com.villains.intelij.plugin.trashpandatheme</id>
+  <name>Trash Panda Theme</name>
+  <version>1.0</version>
+  <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert">Jason Hulbert</vendor>
+
+  <description><![CDATA[
+      <h1>Trash Panda Theme</h1>
+      <p>A theme for raccoons and other creatures of the night.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <h2>2019.09.09</h2>
+      <ul>
+        <li>Publishing initial plugin</li>
+        <li>Updates soon to follow</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment next line to enable plugin in all products -->
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="d6b0e072-3367-4550-802c-0efcc27e40ba" path="/TrashPandaTheme.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
