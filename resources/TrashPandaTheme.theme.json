@@ -4,18 +4,18 @@
   "author": "jasonhulbert",
   "editorScheme": "/TrashPandaTheme.xml",
   "colors": {
-    "background": "#2D3133",
+    "background": "#1B1D1F",
     "foreground": "#CCD3DB",
-    "altBackground": "#404447",
+    "altBackground": "#292C2E",
     "altForeground": "#DAE2EB",
-    "border": "#494E52",
+    "border": "#34383B",
     "shadow": "#00000000",
     "disabled": "#6A7175",
     "conflict": "#E69C8E",
     "conflictBackground": "#704D46",
     "added": "#14B5A5",
     "addedBackground": "#0B665D",
-    "deleted": "#EBCC7B",
+    "deleted": "#F7C281",
     "deletedBackground": "#6B5D38",
     "ignored": "#6A7175",
     "ignoredBackground": "#4F5457",
@@ -64,10 +64,10 @@
     "redAlpha20": "#E69C8E20",
     "redAlpha40": "#E69C8E40",
     "redAlpha60": "#E69C8E60",
-    "orange": "#EBCC7B",
-    "orangeAlpha20": "#EBCC7B20",
-    "orangeAlpha40": "#EBCC7B40",
-    "orangeAlpha60": "#EBCC7B60",
+    "orange": "#F7C281",
+    "orangeAlpha20": "#F7C28120",
+    "orangeAlpha40": "#F7C28140",
+    "orangeAlpha60": "#F7C28160",
     "yellow": "#D8EBA1",
     "yellowAlpha20": "#D8EBA120",
     "yellowAlpha40": "#D8EBA140",
@@ -123,7 +123,7 @@
     },
 
     "ComboPopup" : {
-      "border": "1,1,1,1,494E52"
+      "border": "1,1,1,1,34383B"
     },
 
     "Component": {
@@ -476,7 +476,7 @@
       "separatorColor": "border"
     },
 
-    "Window.border" : "1,1,1,1,494E52"
+    "Window.border" : "1,1,1,1,34383B"
   },
   "icons": {
     "ColorPalette": {
@@ -495,14 +495,14 @@
       "Objects.Green": "#14B5A5",
       "Objects.Blue": "#20B1D2",
       "Objects.Purple": "#9586CF",
-      "Objects.BlackText": "#2D3133",
-      "Objects.YellowDark": "#EBCC7B",
+      "Objects.BlackText": "#1B1D1F",
+      "Objects.YellowDark": "#F7C281",
       "Objects.GreenAndroid": "#C3FF9E",
 
-      "Checkbox.Background.Default.Dark": "#404447",
+      "Checkbox.Background.Default.Dark": "#292C2E",
       "Checkbox.Border.Default.Dark": "#CCD3DB",
       "Checkbox.Foreground.Selected.Dark": "#82D7FF",
-      "Checkbox.Focus.Wide.Dark": "#404447",
+      "Checkbox.Focus.Wide.Dark": "#292C2E",
       "Checkbox.Focus.Thin.Default.Dark": "#CCD3DB",
       "Checkbox.Focus.Thin.Selected.Dark": "#82D7FF",
       "Checkbox.Background.Disabled.Dark": "#6A7175",

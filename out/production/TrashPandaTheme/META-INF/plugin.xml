@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.villains.intelij.plugin.trashpandatheme</id>
   <name>Trash Panda Theme</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert">Jason Hulbert</vendor>
 
   <description><![CDATA[
@@ -10,6 +10,14 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <h2>2019.09.10</h2>
+      <ul>
+        <li>Updates background and border colors (slightly darker)</li>
+        <li>Updates default identifier colors</li>
+        <li>Updates function/method colors</li>
+        <li>Updates meta/decorator colors</li>
+        <li>Minor adjustments specific to java, javascript, css and sass</li>
+      </ul>
       <h2>2019.09.09</h2>
       <ul>
         <li>Publishing initial plugin</li>
