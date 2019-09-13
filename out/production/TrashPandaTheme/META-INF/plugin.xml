@@ -1,15 +1,23 @@
 <idea-plugin>
   <id>com.villains.intelij.plugin.trashpandatheme</id>
   <name>Trash Panda Theme</name>
-  <version>1.1</version>
+  <version>1.2</version>
   <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert">Jason Hulbert</vendor>
 
   <description><![CDATA[
-      <h1>Trash Panda Theme</h1>
-      <p>A theme for raccoons and other creatures of the night.
+      <p>A theme for raccoons and other creatures of the night.</p>
     ]]></description>
 
   <change-notes><![CDATA[
+      <h2>2019.09.13</h2>
+      <ul>
+        <li>Removes 'attention' color. Now 'accent' is used for all ui accents</li>
+        <li>Modifies border color to be slightly darker</li>
+        <li>Modifies foreground color to be slightly darker</li>
+        <li>Updates lime to be less "puke-colored"</li>
+        <li>Updates orange to be less vibrant</li>
+        <li>Adds new plugin icon</li>
+      </ul>
       <h2>2019.09.10</h2>
       <ul>
         <li>Updates background and border colors (slightly darker)</li>
@@ -27,7 +35,7 @@
   </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="191.0"/>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->

@@ -5,17 +5,17 @@
   "editorScheme": "/TrashPandaTheme.xml",
   "colors": {
     "background": "#1B1D1F",
-    "foreground": "#CCD3DB",
+    "foreground": "#C0C7CF",
     "altBackground": "#292C2E",
-    "altForeground": "#DAE2EB",
-    "border": "#34383B",
+    "altForeground": "#CAD1D9",
+    "border": "#2B2E30",
     "shadow": "#00000000",
     "disabled": "#6A7175",
-    "conflict": "#E69C8E",
+    "conflict": "#E68680",
     "conflictBackground": "#704D46",
     "added": "#14B5A5",
     "addedBackground": "#0B665D",
-    "deleted": "#F7C281",
+    "deleted": "#E1AB89",
     "deletedBackground": "#6B5D38",
     "ignored": "#6A7175",
     "ignoredBackground": "#4F5457",
@@ -28,18 +28,14 @@
     "comment": "#7A8187",
     "black": "#000000",
     "white": "#FFFFFF",
-    "attention": "#FFB985",
-    "attentionAlpha20": "#FFB98520",
-    "attentionAlpha40": "#FFB98540",
-    "attentionAlpha60": "#FFB98560",
-    "accent": "#82D7FF",
-    "accentAlpha20": "#82D7FF20",
-    "accentAlpha40": "#82D7FF40",
-    "accentAlpha60": "#82D7FF60",
-    "lime": "#C3FF9E",
-    "limeAlhpa20": "#C3FF9E20",
-    "limeAlhpa40": "#C3FF9E40",
-    "limeAlhpa60": "#C3FF9E60",
+    "accent": "#429CEB",
+    "accentAlpha20": "#429CEB20",
+    "accentAlpha40": "#429CEB40",
+    "accentAlpha60": "#429CEB60",
+    "lime": "#A3DEA1",
+    "limeAlhpa20": "#A3DEA120",
+    "limeAlhpa40": "#A3DEA140",
+    "limeAlhpa60": "#A3DEA160",
     "green": "#14B5A5",
     "greenAlpha20": "#14B5A520",
     "greenAlpha40": "#14B5A540",
@@ -48,10 +44,10 @@
     "blueAlpha20": "#20B1D220",
     "blueAlpha40": "#20B1D240",
     "blueAlpha60": "#20B1D260",
-    "cyan": "#82D7FF",
-    "cyanAlpha20": "#82D7FF20",
-    "cyanAlpha40": "#82D7FF40",
-    "cyanAlpha60": "#82D7FF60",
+    "cyan": "#7BE1E3",
+    "cyanAlpha20": "#7BE1E320",
+    "cyanAlpha40": "#7BE1E340",
+    "cyanAlpha60": "#7BE1E360",
     "purple": "#9586CF",
     "purpleAlpha20": "#9586CF20",
     "purpleAlpha40": "#9586CF40",
@@ -60,14 +56,14 @@
     "pinkAlpha20": "#CE9DDA20",
     "pinkAlpha40": "#CE9DDA40",
     "pinkAlpha60": "#CE9DDA60",
-    "red": "#E69C8E",
-    "redAlpha20": "#E69C8E20",
-    "redAlpha40": "#E69C8E40",
-    "redAlpha60": "#E69C8E60",
-    "orange": "#F7C281",
-    "orangeAlpha20": "#F7C28120",
-    "orangeAlpha40": "#F7C28140",
-    "orangeAlpha60": "#F7C28160",
+    "red": "#E68680",
+    "redAlpha20": "#E6868020",
+    "redAlpha40": "#E6868040",
+    "redAlpha60": "#E6868060",
+    "orange": "#E1AB89",
+    "orangeAlpha20": "#E1AB8920",
+    "orangeAlpha40": "#E1AB8940",
+    "orangeAlpha60": "#E1AB8960",
     "yellow": "#D8EBA1",
     "yellowAlpha20": "#D8EBA120",
     "yellowAlpha40": "#D8EBA140",
@@ -123,7 +119,7 @@
     },
 
     "ComboPopup" : {
-      "border": "1,1,1,1,34383B"
+      "border": "1,1,1,1,2B2E30"
     },
 
     "Component": {
@@ -163,7 +159,7 @@
     "Editor": {
       "background": "altBackground",
       "foreground": "altForeground",
-      "shortcutForeground": "attention"
+      "shortcutForeground": "accent"
     },
 
     "EditorPane" : {
@@ -255,7 +251,7 @@
     },
 
     "Plugins": {
-      "tagBackground": "attention",
+      "tagBackground": "accent",
       "tagForeground": "background",
       "lightSelectionBackground": "altBackground",
       "Tab": {
@@ -476,35 +472,35 @@
       "separatorColor": "border"
     },
 
-    "Window.border" : "1,1,1,1,34383B"
+    "Window.border" : "1,1,1,1,2B2E30"
   },
   "icons": {
     "ColorPalette": {
       "Actions.Grey": "#7A8187",
-      "Actions.Red": "#E69C8E",
+      "Actions.Red": "#E68680",
       "Actions.Yellow": "#D8EBA1",
       "Actions.Green": "#14B5A5",
       "Actions.Blue": "#20B1D2",
       "Actions.GreyInline.Dark": "#6A7175",
 
       "Objects.Grey": "#7A8187",
-      "Objects.RedStatus": "#E69C8E",
-      "Objects.Red": "#E69C8E",
+      "Objects.RedStatus": "#E68680",
+      "Objects.Red": "#E68680",
       "Objects.Pink": "#CE9DDA",
       "Objects.Yellow": "#D8EBA1",
       "Objects.Green": "#14B5A5",
       "Objects.Blue": "#20B1D2",
       "Objects.Purple": "#9586CF",
       "Objects.BlackText": "#1B1D1F",
-      "Objects.YellowDark": "#F7C281",
-      "Objects.GreenAndroid": "#C3FF9E",
+      "Objects.YellowDark": "#E1AB89",
+      "Objects.GreenAndroid": "#A3DEA1",
 
       "Checkbox.Background.Default.Dark": "#292C2E",
-      "Checkbox.Border.Default.Dark": "#CCD3DB",
-      "Checkbox.Foreground.Selected.Dark": "#82D7FF",
+      "Checkbox.Border.Default.Dark": "#C0C7CF",
+      "Checkbox.Foreground.Selected.Dark": "#7BE1E3",
       "Checkbox.Focus.Wide.Dark": "#292C2E",
-      "Checkbox.Focus.Thin.Default.Dark": "#CCD3DB",
-      "Checkbox.Focus.Thin.Selected.Dark": "#82D7FF",
+      "Checkbox.Focus.Thin.Default.Dark": "#C0C7CF",
+      "Checkbox.Focus.Thin.Selected.Dark": "#7BE1E3",
       "Checkbox.Background.Disabled.Dark": "#6A7175",
       "Checkbox.Border.Disabled.Dark": "#6A7175",
       "Checkbox.Foreground.Disabled.Dark": "#6A7175"
