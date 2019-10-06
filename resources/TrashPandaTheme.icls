@@ -1,11 +1,11 @@
-<scheme name="TrashPandaTheme" version="142" parent_scheme="Darcula">
+<scheme name="TrashPandaTheme copy" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2019-09-26T12:42:29</property>
-    <property name="ide">PhpStorm</property>
+    <property name="created">2019-10-06T17:20:38</property>
+    <property name="ide">Python</property>
     <property name="ideVersion">2019.2.3.0.0</property>
-    <property name="modified">2019-09-26T12:42:41</property>
-    <property name="originalScheme">_@user_TrashPandaTheme</property>
+    <property name="modified">2019-10-06T17:20:55</property>
+    <property name="originalScheme">TrashPandaTheme copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.3" />
   <font>
@@ -578,11 +578,18 @@
         <option name="FOREGROUND" value="6a7175" />
       </value>
     </option>
-    <option name="PHP_ALIAS_REFERENCE" baseAttributes="PHP_CLASS" />
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
-    <option name="PHP_EXEC_COMMAND_ID" baseAttributes="DEFAULT_STRING" />
-    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="PY.DECORATOR">
+      <value>
+        <option name="FOREGROUND" value="20b1d2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="9876aa" />
+      </value>
+    </option>
     <option name="REGEXP.META" baseAttributes="DEFAULT_KEYWORD" />
     <option name="REGEXP.QUOTE_CHARACTER" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="REGEXP.REDUNDANT_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
@@ -694,7 +701,7 @@
     <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
     <option name="XPATH.XPATH_NAME">
       <value>
         <option name="FOREGROUND" value="c6ccd3" />
@@ -702,7 +709,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="" />
     <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
