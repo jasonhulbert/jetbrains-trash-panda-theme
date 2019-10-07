@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.villains.intelij.plugin.trashpandatheme</id>
   <name>Trash Panda Theme</name>
-  <version>1.2</version>
+  <version>1.4</version>
   <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert">Jason Hulbert</vendor>
 
   <description><![CDATA[
@@ -9,8 +9,14 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <h2>2019.10.01</h2>
+      <ul>
+        <li>Updates Regex highlighting</li>
+        <li>Updates plugin icon</li>
+      </ul>
       <h2>2019.09.26</h2>
       <ul>
+        <li>Adds better support for PHP</li>
         <li>Red is now only used for errors, conflicts, etc</li>
         <li>Adds slight differentiation between general ide background and editor background</li>
         <li>Slight adjustment to accent blue for better contrast</li>
