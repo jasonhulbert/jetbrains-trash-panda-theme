@@ -43,22 +43,22 @@
         <option name="FILESTATUS_modifiedOutside" value="20b1d2" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="7a8187" />
         <option name="GUTTER_BACKGROUND" value="222629" />
-        <option name="INDENT_GUIDE" value="303438" />
+        <option name="INDENT_GUIDE" value="383c40" />
         <option name="LINE_NUMBERS_COLOR" value="6a7175" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4a9bf2" />
         <option name="MODIFIED_LINES_COLOR" value="105d6e" />
         <option name="NOTIFICATION_BACKGROUND" value="222629" />
-        <option name="RIGHT_MARGIN_COLOR" value="303438" />
+        <option name="RIGHT_MARGIN_COLOR" value="383c40" />
         <option name="SELECTED_INDENT_GUIDE" value="7a8187" />
         <option name="SELECTED_TEARLINE_COLOR" value="7a8187" />
-        <option name="SELECTION_BACKGROUND" value="303438" />
+        <option name="SELECTION_BACKGROUND" value="383c40" />
         <option name="SELECTION_FOREGROUND" value="4a9bf2" />
-        <option name="SEPARATOR_BELOW_COLOR" value="303438" />
-        <option name="ScrollBar.Mac.hoverThumbColor" value="4a9bf28c" />
-        <option name="ScrollBar.Mac.thumbColor" value="4a9bf259" />
-        <option name="TEARLINE_COLOR" value="303438" />
-        <option name="VISUAL_INDENT_GUIDE" value="303438" />
-        <option name="WHITESPACES" value="303438" />
+        <option name="SEPARATOR_BELOW_COLOR" value="383c40" />
+        <option name="ScrollBar.Mac.hoverThumbColor" value="383c40" />
+        <option name="ScrollBar.Mac.thumbColor" value="383c40" />
+        <option name="TEARLINE_COLOR" value="383c40" />
+        <option name="VISUAL_INDENT_GUIDE" value="383c40" />
+        <option name="WHITESPACES" value="383c40" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="105d6e" />
     </colors>
     <attributes>
@@ -489,7 +489,7 @@
         <option name="INJECTED_LANGUAGE_FRAGMENT">
             <value>
                 <option name="FOREGROUND" value="c6ccd3" />
-                <option name="BACKGROUND" value="303438" />
+                <option name="BACKGROUND" value="383c40" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT">
@@ -570,7 +570,7 @@
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="4a9bf2" />
-                <option name="BACKGROUND" value="303438" />
+                <option name="BACKGROUND" value="383c40" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -628,7 +628,7 @@
         </option>
         <option name="SPY-JS.FUNCTION_SCOPE">
             <value>
-                <option name="EFFECT_COLOR" value="303438" />
+                <option name="EFFECT_COLOR" value="383c40" />
             </value>
         </option>
         <option name="SPY-JS.PATH_LEVEL_ONE">
@@ -676,7 +676,7 @@
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="e68680" />
-                <option name="BACKGROUND" value="303438" />
+                <option name="BACKGROUND" value="383c40" />
             </value>
         </option>
         <option name="WARNING_ATTRIBUTES">
