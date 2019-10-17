@@ -8,7 +8,7 @@
     "foreground": "#B1B7BE",
     "altBackground": "#222629",
     "altForeground": "#C6CCD3",
-    "border": "#303438",
+    "border": "#383C40",
     "shadow": "#00000000",
     "disabled": "#6A7175",
     "conflict": "#E68680",
@@ -161,7 +161,7 @@
     },
 
     "ComboPopup" : {
-      "border": "1,1,1,1,303438"
+      "border": "1,1,1,1,383C40"
     },
 
     "Component": {
@@ -365,31 +365,31 @@
 
     "ScrollBar": {
       "Transparent": {
-        "thumbColor": "accent",
-        "thumbBorderColor": "accentAlpha40",
-        "hoverThumbColor": "accentAlpha60",
-        "hoverThumbBorderColor": "accentAlpha40",
-        "hoverTrackColor": "accentAlpha20"
+        "thumbColor": "border",
+        "thumbBorderColor": "border",
+        "hoverThumbColor": "border",
+        "hoverThumbBorderColor": "border",
+        "hoverTrackColor": "altBackground"
       },
-      "thumbColor": "accent",
-      "thumbBorderColor": "accentAlpha40",
-      "hoverThumbColor": "accentAlpha60",
-      "hoverThumbBorderColor": "accentAlpha40",
-      "hoverTrackColor": "accentAlpha20",
+      "thumbColor": "border",
+      "thumbBorderColor": "border",
+      "hoverThumbColor": "border",
+      "hoverThumbBorderColor": "border",
+      "hoverTrackColor": "altBackground",
 
       "Mac": {
         "Transparent": {
-          "thumbColor": "accent",
-          "thumbBorderColor": "accentAlpha40",
-          "hoverThumbColor": "accentAlpha60",
-          "hoverThumbBorderColor": "accentAlpha40",
-          "hoverTrackColor": "accentAlpha20"
+          "thumbColor": "border",
+          "thumbBorderColor": "border",
+          "hoverThumbColor": "border",
+          "hoverThumbBorderColor": "border",
+          "hoverTrackColor": "altBackground"
         },
-        "thumbColor": "accent",
-        "thumbBorderColor": "accentAlpha40",
-        "hoverThumbColor": "accentAlpha60",
-        "hoverThumbBorderColor": "accentAlpha40",
-        "hoverTrackColor": "accentAlpha20"
+        "thumbColor": "border",
+        "thumbBorderColor": "border",
+        "hoverThumbColor": "border",
+        "hoverThumbBorderColor": "border",
+        "hoverTrackColor": "altBackground"
       }
     },
 
@@ -537,6 +537,6 @@
       "separatorColor": "border"
     },
 
-    "Window.border" : "1,1,1,1,303438"
+    "Window.border" : "1,1,1,1,383C40"
   }
 }
