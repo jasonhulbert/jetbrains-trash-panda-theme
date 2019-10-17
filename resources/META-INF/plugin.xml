@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.villains.intelij.plugin.trashpandatheme</id>
   <name>Trash Panda Theme</name>
-  <version>1.4</version>
+  <version>1.5</version>
   <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert">Jason Hulbert</vendor>
 
   <description><![CDATA[
@@ -9,6 +9,11 @@
     ]]></description>
 
   <change-notes><![CDATA[
+      <h2>2019.10.17</h2>
+      <ul>
+        <li>Modifies scrollbar color to use border color instead of accent color.</li>
+        <li>Modifies general ide border color (slightly lighter)</li>
+      </ul>
       <h2>2019.10.01</h2>
       <ul>
         <li>Updates Regex highlighting</li>
