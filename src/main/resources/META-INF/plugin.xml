@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.villains.intelij.plugin.trashpandatheme</id>
+    <name>Trash Panda Theme</name>
+    <version>1.8</version>
+    <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
+
+    <description><![CDATA[
+    <p>A theme for raccoons and other creatures of the night.</p>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="d6b0e072-3367-4550-802c-0efcc27e40ba" path="/trash-panda-theme.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

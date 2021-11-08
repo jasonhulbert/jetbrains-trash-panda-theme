@@ -2,29 +2,29 @@
   "name": "Trash Panda Theme",
   "dark": true,
   "author": "jasonhulbert",
-  "editorScheme": "/TrashPandaTheme.xml",
+  "editorScheme": "/trash-panda-theme.xml",
   "colors": {
-    "background": "#272B2E",
+    "background": "#212527",
     "foreground": "#B1B7BE",
-    "altBackground": "#222629",
+    "altBackground": "#181B1D",
     "altForeground": "#C6CCD3",
-    "border": "#383C40",
+    "border": "#000000",
     "shadow": "#00000000",
     "disabled": "#6A7175",
     "conflict": "#E68680",
-    "conflictBackground": "#704D46",
+    "conflictBackground": "#AA2A22",
     "added": "#14B5A5",
-    "addedBackground": "#0B665D",
+    "addedBackground": "#0A5750",
     "deleted": "#E1AB89",
-    "deletedBackground": "#6B5D38",
+    "deletedBackground": "#A75A2A",
     "ignored": "#6A7175",
-    "ignoredBackground": "#4F5457",
+    "ignoredBackground": "#3A3E40",
     "modified": "#20B1D2",
-    "modifiedBackground": "#105D6E",
+    "modifiedBackground": "#126577",
     "untracked": "#9586CF",
-    "untrackedBackground": "#544C75",
+    "untrackedBackground": "#5944AC",
     "submodule": "#7A8187",
-    "submoduleBackground": "#5C6166",
+    "submoduleBackground": "#3A3E40",
     "comment": "#7A8187",
     "black": "#000000",
     "white": "#FFFFFF",
@@ -77,7 +77,6 @@
       "Actions.Green": "#14B5A5",
       "Actions.Blue": "#20B1D2",
       "Actions.GreyInline.Dark": "#6A7175",
-
       "Objects.Grey": "#7A8187",
       "Objects.RedStatus": "#E68680",
       "Objects.Red": "#E68680",
@@ -86,14 +85,13 @@
       "Objects.Green": "#14B5A5",
       "Objects.Blue": "#20B1D2",
       "Objects.Purple": "#9586CF",
-      "Objects.BlackText": "#222629",
+      "Objects.BlackText": "#181B1D",
       "Objects.YellowDark": "#E1AB89",
       "Objects.GreenAndroid": "#A3DEA1",
-
-      "Checkbox.Background.Default.Dark": "#272B2E",
+      "Checkbox.Background.Default.Dark": "#212527",
       "Checkbox.Border.Default.Dark": "#B1B7BE",
       "Checkbox.Foreground.Selected.Dark": "#4A9BF2",
-      "Checkbox.Focus.Wide.Dark": "#272B2E",
+      "Checkbox.Focus.Wide.Dark": "#212527",
       "Checkbox.Focus.Thin.Default.Dark": "#B1B7BE",
       "Checkbox.Focus.Thin.Selected.Dark": "#7BE1E3",
       "Checkbox.Background.Disabled.Dark": "#6A7175",
@@ -107,12 +105,10 @@
       "background": "background",
       "foreground": "altForeground"
     },
-
     "Borders": {
       "color": "border",
       "ContrastBorderColor": "border"
     },
-
     "Button": {
       "arc": 0,
       "foreground": "foreground",
@@ -136,18 +132,15 @@
         "focusedBorderColor": "accent"
       }
     },
-
     "CheckBox": {
       "background": "background",
       "foreground": "altForeground",
       "select": "accent",
       "disabledText": "disabled"
     },
-
     "CheckBoxMenuItem": {
-      "background" : "background"
+      "background": "background"
     },
-
     "ComboBox": {
       "background": "background",
       "nonEditableBackground": "border",
@@ -159,11 +152,9 @@
         "nonEditableBackground": "border"
       }
     },
-
-    "ComboPopup" : {
+    "ComboPopup": {
       "border": "1,1,1,1,383C40"
     },
-
     "Component": {
       "errorFocusColor": "red",
       "inactiveErrorFocusColor": "redAlpha60",
@@ -172,16 +163,13 @@
       "iconColor": "foreground",
       "hoverIconColor": "accent"
     },
-
     "Counter": {
       "background": "background",
       "foreground": "altForeground"
     },
-
     "DebuggerPopup": {
       "borderColor": "border"
     },
-
     "DefaultTabs": {
       "background": "background",
       "hoverBackground": "background",
@@ -191,33 +179,28 @@
       "underlinedTabBackground": "background",
       "underlinedTabForeground": "altForeground"
     },
-
     "DragAndDrop": {
       "areaForeground": "altForeground",
       "areaBackground": "accent",
       "areaBorderColor": "accentAlpha60"
     },
-
     "Editor": {
       "background": "background",
       "foreground": "foreground",
       "shortcutForeground": "accent"
     },
-
-    "EditorPane" : {
+    "EditorPane": {
       "inactiveBackground": "background"
     },
-
     "EditorTabs": {
       "background": "background",
       "underlineColor": "accent",
-      "inactiveUnderlineColor": "accentAlpha60",
       "underlineHeight": 2,
       "underlinedTabForeground": "altForeground",
       "underlinedTabBackground": "background",
+      "inactiveUnderlineColor": "accentAlpha40",
       "inactiveColoredFileBackground": "background"
     },
-
     "FileColor": {
       "Yellow": "yellowAlpha20",
       "Green": "greenAlpha20",
@@ -226,11 +209,9 @@
       "Orange": "orangeAlpha20",
       "Rose": "pinkAlpha20"
     },
-
     "InplaceRefactoringPopup": {
       "borderColor": "border"
     },
-
     "Link": {
       "activeForeground": "accent",
       "hoverForeground": "accent",
@@ -238,18 +219,17 @@
       "visitedForeground": "accent",
       "secondaryForeground": "accent"
     },
-
     "List": {
-      "selectionBackground": "altBackground",
+      "selectionBackground": "accentAlpha20",
       "selectionForeground": "altForeground"
     },
-
     "MemoryIndicator": {
       "usedBackground": "blue",
       "allocatedBackground": "purple"
     },
-
     "Menu": {
+      "foreground": "foreground",
+      "background": "background",
       "selectionForeground": "altForeground",
       "acceleratorSelectionForeground": "accent",
       "acceleratorForeground": "foreground",
@@ -258,47 +238,38 @@
       "disabledBackground": "background",
       "disabledForeground": "disabled"
     },
-
     "NavBar": {
       "borderColor": "border"
     },
-
     "Notification": {
       "foreground": "foreground",
       "background": "background",
       "borderColor": "accent",
-
       "errorForeground": "foreground",
       "errorBackground": "background",
       "errorBorderColor": "red",
-
       "MoreButton": {
         "background": "altBackground",
         "innerBorderColor": "border"
       },
-
       "ToolWindow": {
         "informativeForeground": "foreground",
         "informativeBackground": "background",
         "informativeBorderColor": "blue",
-
         "warningForeground": "foreground",
         "warningBackground": "background",
         "warningBorderColor": "orange",
-
         "errorForeground": "foreground",
         "errorBackground": "background",
         "errorBorderColor": "red"
       }
     },
-
     "ParameterInfo": {
       "background": "purple",
       "foreground": "background",
       "currentOverloadBackground": "blue",
       "currentParameterForeground": "background"
     },
-
     "Plugins": {
       "tagBackground": "accent",
       "tagForeground": "background",
@@ -316,15 +287,14 @@
       },
       "Button": {
         "installForeground": "accent",
-        "installBorderColor":"accent",
+        "installBorderColor": "accent",
         "installFocusedBackground": "altBackground",
         "installFillForeground": "accent",
         "installFillBackground": "altBackground",
-        "updateForeground":"altBackground",
+        "updateForeground": "altBackground",
         "updateBackground": "accent"
       }
     },
-
     "Popup": {
       "paintBorder": true,
       "borderColor": "border",
@@ -344,14 +314,12 @@
         "borderInsets": "3,8,5,0"
       }
     },
-
     "PopupMenu": {
       "background": "background",
       "selectionBackground": "",
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
     },
-
     "ProgressBar": {
       "trackColor": "background",
       "progressColor": "altForeground",
@@ -362,7 +330,6 @@
       "passedColor": "green",
       "passedEndColor": "greenAlpha40"
     },
-
     "ScrollBar": {
       "Transparent": {
         "thumbColor": "border",
@@ -376,7 +343,6 @@
       "hoverThumbColor": "border",
       "hoverThumbBorderColor": "border",
       "hoverTrackColor": "altBackground",
-
       "Mac": {
         "Transparent": {
           "thumbColor": "border",
@@ -392,7 +358,6 @@
         "hoverTrackColor": "altBackground"
       }
     },
-
     "SearchEverywhere": {
       "Tab": {
         "selectedForeground": "foreground",
@@ -408,14 +373,11 @@
         "borderInsets": "3,8,5,0"
       }
     },
-
     "SearchMatch": {
       "startBackground": "accent",
       "endBackground": "accent"
     },
-
     "StatusBar.borderColor": "border",
-
     "TabbedPane": {
       "foreground": "altForeground",
       "background": "background",
@@ -426,13 +388,11 @@
       "hoverColor": "background",
       "focusColor": "background"
     },
-
     "TableHeader": {
       "cellBorder": "5,0,5,0",
       "foreground": "altForeground",
       "background": "background"
     },
-
     "Table": {
       "foreground": "altForeground",
       "gridColor": "border",
@@ -441,21 +401,18 @@
       "sortIconColor": "accent",
       "stripeColor": "border",
       "lightSelectionForeground": "altForeground",
-      "lightSelectionInactiveForeground":"foreground",
+      "lightSelectionInactiveForeground": "foreground",
       "lightSelectionBackground": "background",
-      "lightSelectionInactiveBackground":"background"
+      "lightSelectionInactiveBackground": "background"
     },
-
     "TextArea": {
       "background": "background",
       "foreground": "altForeground"
     },
-
     "TextField": {
       "background": "background",
       "foreground": "altForeground"
     },
-
     "ToggleButton": {
       "background": "background",
       "foreground": "foreground",
@@ -463,29 +420,25 @@
       "onBackground": "green",
       "offForeground": "background",
       "offBackground": "disabled",
-      "buttonColor":  "foreground",
+      "buttonColor": "foreground",
       "borderColor": "foreground"
     },
-
     "ToolBar": {
-      "background": "accent"
+      "background": "accent",
+      "borderHandleColor": "border"
     },
-
     "ToolTip": {
       "foreground": "altForeground",
       "background": "background",
       "Actions.background": "background"
     },
-
     "ToolWindow": {
       "Header": {
         "borderColor": "border",
         "background": "background",
         "inactiveBackground": "background"
       },
-
       "HeaderTab": {
-        "selectedBackground": "background",
         "selectedInactiveBackground": "background",
         "hoverBackground": "background",
         "hoverInactiveBackground": "background",
@@ -495,31 +448,26 @@
         "underlinedTabInactiveBackground": "background",
         "underlineHeight": 2
       },
-
       "Button": {
         "hoverBackground": "accentAlpha60",
         "selectedBackground": "altBackground",
         "selectedForeground": "altForeground"
       }
     },
-
     "Tree": {
       "foreground": "foreground",
-      "rowHeight": 24,
+      "rowHeight": 26,
       "modifiedItemForeground": "modified",
       "errorForeground": "conflict",
-      "selectionForeground": "altForeground",
-      "selectionBackground": "altBackground",
-      "selectionInactiveBackground": "altBackground"
+      "selectionBackground": "accentAlpha40",
+      "selectionInactiveBackground": "accentAlpha20"
     },
-
     "ValidationTooltip": {
       "errorBackground": "red",
       "errorBorderColor": "red",
       "warningBackground": "orange",
       "warningBorderColor": "orange"
     },
-
     "VersionControl": {
       "Log.Commit": {
         "currentBranchBackground": "background",
@@ -531,12 +479,10 @@
       },
       "FileHistory.Commit.selectedBranchBackground": "#0D0D40"
     },
-
     "WelcomeScreen": {
       "Projects.selectionInactiveBackground": "background",
       "separatorColor": "border"
     },
-
-    "Window.border" : "1,1,1,1,383C40"
+    "Window.border": "1,1,1,1,383C40"
   }
 }
