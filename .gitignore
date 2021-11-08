@@ -3,7 +3,7 @@ build/
 .gradle/
 
 # IDEs and Editors
-.idea
+.idea/
 .project
 .classpath
 .c9/
