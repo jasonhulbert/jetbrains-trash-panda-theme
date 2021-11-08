@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '1.8'
+version '1.9'
 
 repositories {
     mavenCentral()
@@ -21,6 +21,10 @@ intellij {
 }
 patchPluginXml {
     changeNotes = """
+      <h2>1.9 (2021.11.08)</h2>
+      <ul>
+        <li>Fixes UI border color.</li>
+      </ul>
       <h2>1.8 (2021.11.08)</h2>
       <ul>
         <li>Updates plugin icon.</li>
