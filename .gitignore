@@ -1,6 +1,6 @@
 # Dist / Artifacts
-build
-.gradle
+build/
+.gradle/
 
 # IDEs and Editors
 .idea
