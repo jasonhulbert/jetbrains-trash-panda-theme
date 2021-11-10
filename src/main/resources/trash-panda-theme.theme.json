@@ -12,62 +12,62 @@
     "shadow": "#00000000",
     "disabled": "#6A7175",
     "conflict": "#E68680",
-    "conflictBackground": "#AA2A22",
+    "conflictBackground": "#392120",
     "added": "#14B5A5",
-    "addedBackground": "#0A5750",
+    "addedBackground": "#052D29",
     "deleted": "#E1AB89",
-    "deletedBackground": "#A75A2A",
+    "deletedBackground": "#382B22",
     "ignored": "#6A7175",
     "ignoredBackground": "#3A3E40",
     "modified": "#20B1D2",
-    "modifiedBackground": "#126577",
+    "modifiedBackground": "#082C34",
     "untracked": "#9586CF",
-    "untrackedBackground": "#5944AC",
+    "untrackedBackground": "#252134",
     "submodule": "#7A8187",
     "submoduleBackground": "#3A3E40",
     "comment": "#7A8187",
     "black": "#000000",
     "white": "#FFFFFF",
     "accent": "#4A9BF2",
-    "accentAlpha20": "#4A9BF220",
-    "accentAlpha40": "#4A9BF240",
-    "accentAlpha60": "#4A9BF260",
+    "accentShade3": "#13273D",
+    "accentShade2": "#254E79",
+    "accentShade1": "#3874B5",
     "lime": "#A3DEA1",
-    "limeAlhpa20": "#A3DEA120",
-    "limeAlhpa40": "#A3DEA140",
-    "limeAlhpa60": "#A3DEA160",
+    "limeShade3": "#293828",
+    "limeShade2": "#526F51",
+    "limeShade1": "#7AA779",
     "green": "#14B5A5",
-    "greenAlpha20": "#14B5A520",
-    "greenAlpha40": "#14B5A540",
-    "greenAlpha60": "#14B5A560",
+    "greenShade3": "#052D29",
+    "greenShade2": "#0A5B53",
+    "greenShade1": "#0F887C",
     "blue": "#20B1D2",
-    "blueAlpha20": "#20B1D220",
-    "blueAlpha40": "#20B1D240",
-    "blueAlpha60": "#20B1D260",
+    "blueShade3": "#082C34",
+    "blueShade2": "#105969",
+    "blueShade1": "#18859E",
     "cyan": "#7BE1E3",
-    "cyanAlpha20": "#7BE1E320",
-    "cyanAlpha40": "#7BE1E340",
-    "cyanAlpha60": "#7BE1E360",
+    "cyanShade3": "#1F3839",
+    "cyanShade2": "#3E7172",
+    "cyanShade1": "#5CA9AA",
     "purple": "#9586CF",
-    "purpleAlpha20": "#9586CF20",
-    "purpleAlpha40": "#9586CF40",
-    "purpleAlpha60": "#9586CF60",
+    "purpleShade3": "#252134",
+    "purpleShade2": "#4B4368",
+    "purpleShade1": "#70659B",
     "pink": "#DEA6B6",
-    "pinkAlpha20": "#DEA6B620",
-    "pinkAlpha40": "#DEA6B640",
-    "pinkAlpha60": "#DEA6B660",
+    "pinkShade3": "#38292E",
+    "pinkShade2": "#6F535B",
+    "pinkShade1": "#A77D89",
     "red": "#E68680",
-    "redAlpha20": "#E6868020",
-    "redAlpha40": "#E6868040",
-    "redAlpha60": "#E6868060",
+    "redShade3": "#392120",
+    "redShade2": "#734340",
+    "redShade1": "#AD6560",
     "orange": "#E1AB89",
-    "orangeAlpha20": "#E1AB8920",
-    "orangeAlpha40": "#E1AB8940",
-    "orangeAlpha60": "#E1AB8960",
+    "orangeShade3": "#382B22",
+    "orangeShade2": "#715645",
+    "orangeShade1": "#A98067",
     "yellow": "#D8EBA1",
-    "yellowAlpha20": "#D8EBA120",
-    "yellowAlpha40": "#D8EBA140",
-    "yellowAlpha60": "#D8EBA160"
+    "yellowShade3": "#363B28",
+    "yellowShade2": "#6C7651",
+    "yellowShade1": "#A2B079"
   },
   "icons": {
     "ColorPalette": {
@@ -157,11 +157,11 @@
     },
     "Component": {
       "errorFocusColor": "red",
-      "inactiveErrorFocusColor": "redAlpha60",
+      "inactiveErrorFocusColor": "redShade1",
       "warningFocusColor": "yellow",
-      "inactiveWarningFocusColor": "yellowAlpha60",
+      "inactiveWarningFocusColor": "yellowShade1",
       "iconColor": "foreground",
-      "hoverIconColor": "accent"
+      "hoverIconColor": "altForeground"
     },
     "Counter": {
       "background": "background",
@@ -172,17 +172,17 @@
     },
     "DefaultTabs": {
       "background": "background",
-      "hoverBackground": "background",
+      "hoverBackground": "altBackground",
       "underlineColor": "accent",
-      "inactiveUnderlineColor": "accentAlpha60",
+      "inactiveUnderlineColor": "border",
       "underlineHeight": 2,
-      "underlinedTabBackground": "background",
+      "underlinedTabBackground": "altBackground",
       "underlinedTabForeground": "altForeground"
     },
     "DragAndDrop": {
       "areaForeground": "altForeground",
       "areaBackground": "accent",
-      "areaBorderColor": "accentAlpha60"
+      "areaBorderColor": "accentShade1"
     },
     "Editor": {
       "background": "background",
@@ -198,16 +198,16 @@
       "underlineHeight": 2,
       "underlinedTabForeground": "altForeground",
       "underlinedTabBackground": "background",
-      "inactiveUnderlineColor": "accentAlpha40",
+      "inactiveUnderlineColor": "accentShade2",
       "inactiveColoredFileBackground": "background"
     },
     "FileColor": {
-      "Yellow": "yellowAlpha20",
-      "Green": "greenAlpha20",
-      "Blue": "blueAlpha20",
-      "Violet": "purpleAlpha20",
-      "Orange": "orangeAlpha20",
-      "Rose": "pinkAlpha20"
+      "Yellow": "yellowShade3",
+      "Green": "greenShade3",
+      "Blue": "blueShade3",
+      "Violet": "purpleShade3",
+      "Orange": "orangeShade3",
+      "Rose": "pinkShade3"
     },
     "InplaceRefactoringPopup": {
       "borderColor": "border"
@@ -220,7 +220,7 @@
       "secondaryForeground": "accent"
     },
     "List": {
-      "selectionBackground": "accentAlpha20",
+      "selectionBackground": "accentShade3",
       "selectionForeground": "altForeground"
     },
     "MemoryIndicator": {
@@ -272,12 +272,12 @@
     },
     "Plugins": {
       "tagBackground": "accent",
-      "tagForeground": "background",
-      "lightSelectionBackground": "altBackground",
+      "tagForeground": "altForeground",
+      "lightSelectionBackground": "accentShade2",
       "Tab": {
-        "selectedForeground": "background",
-        "selectedBackground": "accent",
-        "hoverBackground": "background"
+        "selectedBackground": "background",
+        "selectedForeground": "altForeground",
+        "hoverBackground": "altBackground"
       },
       "SearchField": {
         "borderColor": "border"
@@ -302,6 +302,7 @@
       "inactiveBorderColor": "border",
       "separatorForeground": "border",
       "Toolbar": {
+        "background": "background",
         "borderColor": "border"
       },
       "Header": {
@@ -316,7 +317,7 @@
     },
     "PopupMenu": {
       "background": "background",
-      "selectionBackground": "",
+      "selectionBackground": "accentShade2",
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
     },
@@ -326,9 +327,9 @@
       "indeterminateStartColor": "altForeground",
       "indeterminateEndColor": "background",
       "failedColor": "red",
-      "failedEndColor": "redAlpha40",
+      "failedEndColor": "redShade2",
       "passedColor": "green",
-      "passedEndColor": "greenAlpha40"
+      "passedEndColor": "greenShade2"
     },
     "ScrollBar": {
       "Transparent": {
@@ -383,7 +384,7 @@
       "background": "background",
       "underlineColor": "accent",
       "tabSelectionHeight": 2,
-      "disabledUnderlineColor": "accentAlpha60",
+      "disabledUnderlineColor": "accentShade1",
       "contentAreaColor": "foreground",
       "hoverColor": "background",
       "focusColor": "background"
@@ -424,7 +425,7 @@
       "borderColor": "foreground"
     },
     "ToolBar": {
-      "background": "accent",
+      "background": "background",
       "borderHandleColor": "border"
     },
     "ToolTip": {
@@ -443,24 +444,24 @@
         "hoverBackground": "background",
         "hoverInactiveBackground": "background",
         "underlineColor": "accent",
-        "inactiveUnderlineColor": "accentAlpha60",
+        "inactiveUnderlineColor": "accentShade1",
         "underlinedTabBackground": "background",
         "underlinedTabInactiveBackground": "background",
         "underlineHeight": 2
       },
       "Button": {
-        "hoverBackground": "accentAlpha60",
+        "hoverBackground": "accentShade1",
         "selectedBackground": "altBackground",
         "selectedForeground": "altForeground"
       }
     },
     "Tree": {
       "foreground": "foreground",
-      "rowHeight": 26,
+      "rowHeight": 22,
       "modifiedItemForeground": "modified",
       "errorForeground": "conflict",
-      "selectionBackground": "accentAlpha40",
-      "selectionInactiveBackground": "accentAlpha20"
+      "selectionBackground": "accentShade2",
+      "selectionInactiveBackground": "accentShade3"
     },
     "ValidationTooltip": {
       "errorBackground": "red",
