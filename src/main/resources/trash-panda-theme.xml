@@ -602,9 +602,8 @@
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
-        <option name="INJECTED_LANGUAGE_FRAGMENT">
+        <option name="INJECTED_LANGUAGE_FRAGMENT" baseAttributes="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="6a7175" />
                 <option name="BACKGROUND" value="212527" />
             </value>
         </option>

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '1.11'
+version '1.12'
 
 repositories {
     mavenCentral()
@@ -21,11 +21,15 @@ intellij {
 }
 patchPluginXml {
     changeNotes = """
+      <h2>1.12 (2021.11.10)</h2>
+      <ul>
+        <li>Fixes injected language fragment color scheme.</li>
+      </ul>
       <h2>1.11 (2021.11.10)</h2>
       <ul>
         <li>Replaces all transparent variations of colors with shade (darkened) variations. This corrects issues previously discovered wherein transparent colors would sometimes overlay ecachother causing unexpected results.</li>
         <li>Fixes markup/html/xml scheme colors.</li>
-        <li>Updates diff viewer colors and gutter VCS colors</li>
+        <li>Updates diff viewer colors and gutter VCS colors.</li>
         <li>Updates global variables/references to be theme orange.</li>
         <li>Reduces the height of tree list items.</li>
         <li>Changes default/recommended theme font (editor and console) to Fira Code instead of Fira Code Retina</li>
