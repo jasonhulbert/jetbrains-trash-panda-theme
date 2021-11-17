@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '1.12'
+version '1.13'
 
 repositories {
     mavenCentral()
@@ -21,6 +21,10 @@ intellij {
 }
 patchPluginXml {
     changeNotes = """
+      <h2>1.13 (2021.11.11)</h2>
+      <ul>
+        <li>Adds a more noticeable effect for matched braces.</li>
+      </ul>
       <h2>1.12 (2021.11.10)</h2>
       <ul>
         <li>Fixes injected language fragment color scheme.</li>

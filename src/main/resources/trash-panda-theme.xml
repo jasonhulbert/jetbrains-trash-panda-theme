@@ -227,6 +227,7 @@
                 <option name="FOREGROUND" value="d8eba1" />
             </value>
         </option>
+        <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
         <option name="CSS.IMPORTANT">
             <value>
                 <option name="FOREGROUND" value="e1ab89" />
@@ -702,7 +703,7 @@
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="4a9bf2" />
-                <option name="EFFECT_TYPE" value="5" />
+                <option name="BACKGROUND" value="383c40" />
             </value>
         </option>
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -717,6 +718,7 @@
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
+        <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
         <option name="SASS_MIXIN">
             <value>
                 <option name="FOREGROUND" value="9586cf" />
@@ -784,7 +786,7 @@
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="4a9bf2" />
-                <option name="BACKGROUND" value="82c34" />
+                <option name="BACKGROUND" value="13273d" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
