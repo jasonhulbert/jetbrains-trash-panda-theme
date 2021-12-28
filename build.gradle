@@ -1,10 +1,10 @@
 plugins {
-    id 'org.jetbrains.intellij' version '1.2.1'
+    id 'org.jetbrains.intellij' version '1.3.0'
     id 'java'
 }
 
 group 'com.villains'
-version '1.13'
+version '1.14'
 
 repositories {
     mavenCentral()
@@ -17,10 +17,14 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2021.2.3'
+    version = '2021.3'
 }
 patchPluginXml {
     changeNotes = """
+      <h2>1.14 (2021.12.28)</h2>
+      <ul>
+        <li>Updates intelij compatability version to 2021.3</li>
+      </ul>
       <h2>1.13 (2021.11.11)</h2>
       <ul>
         <li>Adds a more noticeable effect for matched braces.</li>
