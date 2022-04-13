@@ -4,96 +4,96 @@
   "author": "jasonhulbert",
   "editorScheme": "/trash-panda-theme.xml",
   "colors": {
+    "black": "#000000",
+    "white": "#FFFFFF",
     "background": "#212527",
     "foreground": "#B1B7BE",
     "altBackground": "#181B1D",
     "altForeground": "#C6CCD3",
     "border": "#383C40",
-    "shadow": "#00000000",
     "disabled": "#6A7175",
+    "comment": "#7A8187",
+    "shadow": "#00000000",
     "conflict": "#E68680",
     "conflictBackground": "#392120",
-    "added": "#14B5A5",
-    "addedBackground": "#052D29",
+    "added": "#0DB79F",
+    "addedBackground": "#032E28",
     "deleted": "#E1AB89",
     "deletedBackground": "#382B22",
     "ignored": "#6A7175",
-    "ignoredBackground": "#3A3E40",
-    "modified": "#20B1D2",
-    "modifiedBackground": "#082C34",
-    "untracked": "#9586CF",
-    "untrackedBackground": "#252134",
+    "ignoredBackground": "#383C40",
+    "modified": "#25A1D8",
+    "modifiedBackground": "#092836",
+    "untracked": "#917CCD",
+    "untrackedBackground": "#241F33",
     "submodule": "#7A8187",
-    "submoduleBackground": "#3A3E40",
-    "comment": "#7A8187",
-    "black": "#000000",
-    "white": "#FFFFFF",
-    "accent": "#4A9BF2",
-    "accentShade3": "#13273D",
-    "accentShade2": "#254E79",
-    "accentShade1": "#3874B5",
+    "submoduleBackground": "#383C40",
+    "accent": "#4FF7E3",
+    "accentShade1": "#3BB9AA",
+    "accentShade2": "#287C72",
+    "accentShade3": "#143E39",
     "lime": "#A3DEA1",
-    "limeShade3": "#293828",
-    "limeShade2": "#526F51",
     "limeShade1": "#7AA779",
-    "green": "#14B5A5",
-    "greenShade3": "#052D29",
-    "greenShade2": "#0A5B53",
-    "greenShade1": "#0F887C",
-    "blue": "#20B1D2",
-    "blueShade3": "#082C34",
-    "blueShade2": "#105969",
-    "blueShade1": "#18859E",
-    "cyan": "#7BE1E3",
-    "cyanShade3": "#1F3839",
-    "cyanShade2": "#3E7172",
-    "cyanShade1": "#5CA9AA",
-    "purple": "#9586CF",
-    "purpleShade3": "#252134",
-    "purpleShade2": "#4B4368",
-    "purpleShade1": "#70659B",
-    "pink": "#DEA6B6",
-    "pinkShade3": "#38292E",
-    "pinkShade2": "#6F535B",
-    "pinkShade1": "#A77D89",
+    "limeShade2": "#526F51",
+    "limeShade3": "#293828",
+    "green": "#0DB79F",
+    "greenShade1": "#0A8977",
+    "greenShade2": "#075C50",
+    "greenShade3": "#032E28",
+    "blue": "#25A1D8",
+    "blueShade1": "#1C79A2",
+    "blueShade2": "#13516C",
+    "blueShade3": "#092836",
+    "cyan": "#31CBDB",
+    "cyanShade1": "#2598A4",
+    "cyanShade2": "#19666E",
+    "cyanShade3": "#0C3337",
+    "purple": "#917CCD",
+    "purpleShade1": "#6D5D9A",
+    "purpleShade2": "#493E67",
+    "purpleShade3": "#241F33",
+    "pink": "#DA83C1",
+    "pinkShade1": "#A36291",
+    "pinkShade2": "#6D4261",
+    "pinkShade3": "#372130",
     "red": "#E68680",
-    "redShade3": "#392120",
-    "redShade2": "#734340",
     "redShade1": "#AD6560",
+    "redShade2": "#734340",
+    "redShade3": "#392120",
     "orange": "#E1AB89",
-    "orangeShade3": "#382B22",
-    "orangeShade2": "#715645",
     "orangeShade1": "#A98067",
+    "orangeShade2": "#715645",
+    "orangeShade3": "#382B22",
     "yellow": "#D8EBA1",
-    "yellowShade3": "#363B28",
+    "yellowShade1": "#A2B079",
     "yellowShade2": "#6C7651",
-    "yellowShade1": "#A2B079"
+    "yellowShade3": "#363B28"
   },
   "icons": {
     "ColorPalette": {
       "Actions.Grey": "#7A8187",
       "Actions.Red": "#E68680",
       "Actions.Yellow": "#D8EBA1",
-      "Actions.Green": "#14B5A5",
-      "Actions.Blue": "#20B1D2",
+      "Actions.Green": "#0DB79F",
+      "Actions.Blue": "#25A1D8",
       "Actions.GreyInline.Dark": "#6A7175",
       "Objects.Grey": "#7A8187",
       "Objects.RedStatus": "#E68680",
       "Objects.Red": "#E68680",
-      "Objects.Pink": "#DEA6B6",
+      "Objects.Pink": "#DA83C1",
       "Objects.Yellow": "#D8EBA1",
-      "Objects.Green": "#14B5A5",
-      "Objects.Blue": "#20B1D2",
-      "Objects.Purple": "#9586CF",
+      "Objects.Green": "#0DB79F",
+      "Objects.Blue": "#25A1D8",
+      "Objects.Purple": "#917CCD",
       "Objects.BlackText": "#181B1D",
       "Objects.YellowDark": "#E1AB89",
       "Objects.GreenAndroid": "#A3DEA1",
       "Checkbox.Background.Default.Dark": "#212527",
       "Checkbox.Border.Default.Dark": "#B1B7BE",
-      "Checkbox.Foreground.Selected.Dark": "#4A9BF2",
+      "Checkbox.Foreground.Selected.Dark": "#4FF7E3",
       "Checkbox.Focus.Wide.Dark": "#212527",
       "Checkbox.Focus.Thin.Default.Dark": "#B1B7BE",
-      "Checkbox.Focus.Thin.Selected.Dark": "#7BE1E3",
+      "Checkbox.Focus.Thin.Selected.Dark": "#31CBDB",
       "Checkbox.Background.Disabled.Dark": "#6A7175",
       "Checkbox.Border.Disabled.Dark": "#6A7175",
       "Checkbox.Foreground.Disabled.Dark": "#6A7175"
@@ -110,7 +110,7 @@
       "ContrastBorderColor": "border"
     },
     "Button": {
-      "arc": 0,
+      "arc": 5,
       "foreground": "foreground",
       "background": "background",
       "shadowColor": "shadow",
@@ -174,7 +174,7 @@
       "background": "background",
       "hoverBackground": "altBackground",
       "underlineColor": "accent",
-      "inactiveUnderlineColor": "border",
+      "inactiveUnderlineColor": "accentShade1",
       "underlineHeight": 2,
       "underlinedTabBackground": "altBackground",
       "underlinedTabForeground": "altForeground"
@@ -182,7 +182,7 @@
     "DragAndDrop": {
       "areaForeground": "altForeground",
       "areaBackground": "accent",
-      "areaBorderColor": "accentShade1"
+      "borderColor": "accentShade1"
     },
     "Editor": {
       "background": "background",
@@ -193,12 +193,6 @@
       "inactiveBackground": "background"
     },
     "EditorTabs": {
-      "background": "background",
-      "underlineColor": "accent",
-      "underlineHeight": 2,
-      "underlinedTabForeground": "altForeground",
-      "underlinedTabBackground": "background",
-      "inactiveUnderlineColor": "accentShade2",
       "inactiveColoredFileBackground": "background"
     },
     "FileColor": {
@@ -216,12 +210,16 @@
       "activeForeground": "accent",
       "hoverForeground": "accent",
       "pressedForeground": "accent",
-      "visitedForeground": "accent",
-      "secondaryForeground": "accent"
+      "visitedForeground": "purple",
+      "secondaryForeground": "cyan"
     },
     "List": {
-      "selectionBackground": "accentShade3",
-      "selectionForeground": "altForeground"
+      "background": "background",
+      "foreground": "foreground",
+      "selectionBackground": "altBackground",
+      "selectionForeground": "accent",
+      "selectionInactiveBackground": "altBackground",
+      "selectionInactiveForeground": "altForeground"
     },
     "MemoryIndicator": {
       "usedBackground": "blue",
@@ -230,13 +228,22 @@
     "Menu": {
       "foreground": "foreground",
       "background": "background",
-      "selectionForeground": "altForeground",
+      "selectionForeground": "accent",
       "acceleratorSelectionForeground": "accent",
       "acceleratorForeground": "foreground",
       "borderColor": "border",
       "separatorColor": "border",
       "disabledBackground": "background",
       "disabledForeground": "disabled"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "foreground",
+      "background": "background",
+      "disabledBackground": "background",
+      "disabledForeground": "disabled",
+      "foreground": "foreground",
+      "selectionBackground": "altBackground",
+      "selectionForeground": "accent"
     },
     "NavBar": {
       "borderColor": "border"
@@ -272,10 +279,11 @@
     },
     "Plugins": {
       "tagBackground": "accent",
-      "tagForeground": "altForeground",
-      "lightSelectionBackground": "accentShade2",
+      "tagForeground": "altBackground",
+      "lightSelectionBackground": "altBackground",
+      "hoverBackground": "altBackground",
       "Tab": {
-        "selectedBackground": "background",
+        "selectedBackground": "altBackground",
         "selectedForeground": "altForeground",
         "hoverBackground": "altBackground"
       },
@@ -283,7 +291,8 @@
         "borderColor": "border"
       },
       "SectionHeader": {
-        "background": "background"
+        "foreground": "altForeground",
+        "background": "border"
       },
       "Button": {
         "installForeground": "accent",
@@ -317,14 +326,15 @@
     },
     "PopupMenu": {
       "background": "background",
-      "selectionBackground": "accentShade2",
+      "translucentBackground": "shadow",
+      "selectionBackground": "altBackground",
       "borderWidth": 1,
       "borderInsets": "4,1,4,1"
     },
     "ProgressBar": {
       "trackColor": "background",
-      "progressColor": "altForeground",
-      "indeterminateStartColor": "altForeground",
+      "progressColor": "accent",
+      "indeterminateStartColor": "accent",
       "indeterminateEndColor": "background",
       "failedColor": "red",
       "failedEndColor": "redShade2",
@@ -384,10 +394,10 @@
       "background": "background",
       "underlineColor": "accent",
       "tabSelectionHeight": 2,
-      "disabledUnderlineColor": "accentShade1",
+      "disabledUnderlineColor": "border",
       "contentAreaColor": "foreground",
-      "hoverColor": "background",
-      "focusColor": "background"
+      "hoverColor": "altBackground",
+      "focusColor": "altBackground"
     },
     "TableHeader": {
       "cellBorder": "5,0,5,0",
@@ -440,28 +450,25 @@
         "inactiveBackground": "background"
       },
       "HeaderTab": {
-        "selectedInactiveBackground": "background",
-        "hoverBackground": "background",
-        "hoverInactiveBackground": "background",
-        "underlineColor": "accent",
-        "inactiveUnderlineColor": "accentShade1",
-        "underlinedTabBackground": "background",
-        "underlinedTabInactiveBackground": "background",
-        "underlineHeight": 2
+        "selectedInactiveBackground": "altBackground"
       },
       "Button": {
-        "hoverBackground": "accentShade1",
+        "hoverBackground": "altBackground",
         "selectedBackground": "altBackground",
         "selectedForeground": "altForeground"
       }
     },
     "Tree": {
+      "paintLines": false,
+      "rowHeight": 24,
+      "hash": "border",
       "foreground": "foreground",
-      "rowHeight": 22,
-      "modifiedItemForeground": "modified",
-      "errorForeground": "conflict",
-      "selectionBackground": "accentShade2",
-      "selectionInactiveBackground": "accentShade3"
+      "background": "background",
+      "selectionForeground": "accent",
+      "selectionBackground": "altBackground",
+      "selectionInactiveBackground": "altBackground",
+      "errorForeground": "red",
+      "modifiedItemForeground": "modified"
     },
     "ValidationTooltip": {
       "errorBackground": "red",
