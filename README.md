@@ -1,5 +1,5 @@
-# Jetbrains Trash Panda Theme
+# JetBrains Trash Panda Theme
 
-![](./README.svg)
+[Download/Install](https://plugins.jetbrains.com/plugin/12995-trash-panda-theme)
 
 A theme for raccoons and other creatures of the night.
