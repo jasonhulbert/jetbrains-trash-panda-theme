@@ -1,73 +1,73 @@
-<scheme name="Trash Panda Theme" version="142" parent_scheme="Darcula">
+<scheme name="{{ name }}" version="142" parent_scheme="{{ parent_scheme }}">
     <colors>
-        <option name="ADDED_LINES_COLOR" value="032E28" />
-        <option name="BORDER_LINES_COLOR" value="3b3b3b" />
-        <option name="CARET_COLOR" value="4FF7E3" />
-        <option name="CARET_ROW_COLOR" value="282828" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="1b1b1b" />
-        <option name="DELETED_LINES_COLOR" value="392120" />
-        <option name="DIFF_SEPARATORS_BACKGROUND" value="3b3b3b" />
-        <option name="DOCUMENTATION_COLOR" value="282828" />
-        <option name="ERROR_HINT" value="E68680" />
-        <option name="FILESTATUS_ADDED" value="0DB79F" />
-        <option name="FILESTATUS_COPIED" value="0DB79F" />
-        <option name="FILESTATUS_DELETED" value="E1AB89" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="E1AB89" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="5f5f5f" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E68680" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E68680" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="E68680" />
-        <option name="FILESTATUS_MERGED" value="0DB79F" />
-        <option name="FILESTATUS_MODIFIED" value="25A1D8" />
-        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="bebebe" />
-        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="bebebe" />
-        <option name="FILESTATUS_RENAMED" value="25A1D8" />
-        <option name="FILESTATUS_UNKNOWN" value="E1AB89" />
-        <option name="FILESTATUS_addedOutside" value="0DB79F" />
-        <option name="FILESTATUS_changelistConflict" value="E68680" />
-        <option name="FILESTATUS_modifiedOutside" value="25A1D8" />
-        <option name="FOLDED_TEXT_BORDER_COLOR" value="757575" />
-        <option name="GUTTER_BACKGROUND" value="1b1b1b" />
-        <option name="HTML_TAG_TREE_LEVEL0" value="917CCD" />
-        <option name="HTML_TAG_TREE_LEVEL1" value="DA83C1" />
-        <option name="HTML_TAG_TREE_LEVEL2" value="E1AB89" />
-        <option name="HTML_TAG_TREE_LEVEL3" value="D8EBA1" />
-        <option name="HTML_TAG_TREE_LEVEL4" value="0DB79F" />
-        <option name="HTML_TAG_TREE_LEVEL5" value="25A1D8" />
-        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="0A8977" />
-        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="A98067" />
-        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="1C79A2" />
-        <option name="INDENT_GUIDE" value="3b3b3b" />
-        <option name="INFORMATION_HINT" value="25A1D8" />
-        <option name="LINE_NUMBERS_COLOR" value="3b3b3b" />
-        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="4FF7E3" />
-        <option name="LOOKUP_COLOR" value="282828" />
-        <option name="METHOD_SEPARATORS_COLOR" value="3b3b3b" />
-        <option name="MODIFIED_LINES_COLOR" value="092836" />
-        <option name="MODIFIED_TAB_ICON" value="25A1D8" />
-        <option name="NOTIFICATION_BACKGROUND" value="282828" />
-        <option name="PROMOTION_PANE" value="282828" />
-        <option name="QUESTION_HINT" value="282828" />
-        <option name="READONLY_BACKGROUND" value="282828" />
-        <option name="READONLY_FRAGMENT_BACKGROUND" value="3b3b3b" />
-        <option name="RECENT_LOCATIONS_SELECTION" value="282828" />
-        <option name="RIGHT_MARGIN_COLOR" value="3b3b3b" />
-        <option name="SELECTED_INDENT_GUIDE" value="5f5f5f" />
-        <option name="SELECTED_TEARLINE_COLOR" value="5f5f5f" />
-        <option name="SELECTION_BACKGROUND" value="287C72" />
-        <option name="SELECTION_FOREGROUND" value="d4d4d4" />
-        <option name="SEPARATOR_BELOW_COLOR" value="3b3b3b" />
-        <option name="SOFT_WRAP_SIGN_COLOR" value="3b3b3b" />
-        <option name="ScrollBar.Mac.hoverThumbColor" value="3b3b3b" />
-        <option name="ScrollBar.Mac.thumbColor" value="3b3b3b" />
-        <option name="TAB_UNDERLINE" value="4FF7E3" />
-        <option name="TAB_UNDERLINE_INACTIVE" value="287C72" />
-        <option name="TEARLINE_COLOR" value="3b3b3b" />
-        <option name="TOOLTIP" value="282828" />
-        <option name="VISUAL_INDENT_GUIDE" value="3b3b3b" />
-        <option name="WHITESPACES" value="3b3b3b" />
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="032E28" />
-        <option name="ActionButton.iconTextForeground" value="282828"/>
+        <option name="ADDED_LINES_COLOR" value="{{ theme.green_mod3 }}" />
+        <option name="BORDER_LINES_COLOR" value="{{ theme.base3 }}" />
+        <option name="CARET_COLOR" value="{{ theme.accent }}" />
+        <option name="CARET_ROW_COLOR" value="{{ theme.base2 }}" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="{{ theme.base1 }}" />
+        <option name="DELETED_LINES_COLOR" value="{{ theme.red_mod3 }}" />
+        <option name="DIFF_SEPARATORS_BACKGROUND" value="{{ theme.base3 }}" />
+        <option name="DOCUMENTATION_COLOR" value="{{ theme.base2 }}" />
+        <option name="ERROR_HINT" value="{{ theme.red }}" />
+        <option name="FILESTATUS_ADDED" value="{{ theme.green }}" />
+        <option name="FILESTATUS_COPIED" value="{{ theme.green }}" />
+        <option name="FILESTATUS_DELETED" value="{{ theme.orange }}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{{ theme.orange }}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{{ theme.base4 }}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{{ theme.red }}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{{ theme.red }}" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{{ theme.red }}" />
+        <option name="FILESTATUS_MERGED" value="{{ theme.green }}" />
+        <option name="FILESTATUS_MODIFIED" value="{{ theme.blue }}" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{{ theme.base6 }}" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{{ theme.base6 }}" />
+        <option name="FILESTATUS_RENAMED" value="{{ theme.blue }}" />
+        <option name="FILESTATUS_UNKNOWN" value="{{ theme.orange }}" />
+        <option name="FILESTATUS_addedOutside" value="{{ theme.green }}" />
+        <option name="FILESTATUS_changelistConflict" value="{{ theme.red }}" />
+        <option name="FILESTATUS_modifiedOutside" value="{{ theme.blue }}" />
+        <option name="FOLDED_TEXT_BORDER_COLOR" value="{{ theme.base5 }}" />
+        <option name="GUTTER_BACKGROUND" value="{{ theme.base1 }}" />
+        <option name="HTML_TAG_TREE_LEVEL0" value="{{ theme.purple }}" />
+        <option name="HTML_TAG_TREE_LEVEL1" value="{{ theme.pink }}" />
+        <option name="HTML_TAG_TREE_LEVEL2" value="{{ theme.orange }}" />
+        <option name="HTML_TAG_TREE_LEVEL3" value="{{ theme.yellow }}" />
+        <option name="HTML_TAG_TREE_LEVEL4" value="{{ theme.green }}" />
+        <option name="HTML_TAG_TREE_LEVEL5" value="{{ theme.blue }}" />
+        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="{{ theme.green_mod1 }}" />
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="{{ theme.orange_mod1 }}" />
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="{{ theme.blue_mod1 }}" />
+        <option name="INDENT_GUIDE" value="{{ theme.base3 }}" />
+        <option name="INFORMATION_HINT" value="{{ theme.blue }}" />
+        <option name="LINE_NUMBERS_COLOR" value="{{ theme.base3 }}" />
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="{{ theme.accent }}" />
+        <option name="LOOKUP_COLOR" value="{{ theme.base2 }}" />
+        <option name="METHOD_SEPARATORS_COLOR" value="{{ theme.base3 }}" />
+        <option name="MODIFIED_LINES_COLOR" value="{{ theme.blue_mod3 }}" />
+        <option name="MODIFIED_TAB_ICON" value="{{ theme.blue }}" />
+        <option name="NOTIFICATION_BACKGROUND" value="{{ theme.base2 }}" />
+        <option name="PROMOTION_PANE" value="{{ theme.base2 }}" />
+        <option name="QUESTION_HINT" value="{{ theme.base2 }}" />
+        <option name="READONLY_BACKGROUND" value="{{ theme.base2 }}" />
+        <option name="READONLY_FRAGMENT_BACKGROUND" value="{{ theme.base3 }}" />
+        <option name="RECENT_LOCATIONS_SELECTION" value="{{ theme.base2 }}" />
+        <option name="RIGHT_MARGIN_COLOR" value="{{ theme.base3 }}" />
+        <option name="SELECTED_INDENT_GUIDE" value="{{ theme.base4 }}" />
+        <option name="SELECTED_TEARLINE_COLOR" value="{{ theme.base4 }}" />
+        <option name="SELECTION_BACKGROUND" value="{{ theme.accent_mod2 }}" />
+        <option name="SELECTION_FOREGROUND" value="{{ theme.base7 }}" />
+        <option name="SEPARATOR_BELOW_COLOR" value="{{ theme.base3 }}" />
+        <option name="SOFT_WRAP_SIGN_COLOR" value="{{ theme.base3 }}" />
+        <option name="ScrollBar.Mac.hoverThumbColor" value="{{ theme.base3 }}" />
+        <option name="ScrollBar.Mac.thumbColor" value="{{ theme.base3 }}" />
+        <option name="TAB_UNDERLINE" value="{{ theme.accent }}" />
+        <option name="TAB_UNDERLINE_INACTIVE" value="{{ theme.accent_mod2 }}" />
+        <option name="TEARLINE_COLOR" value="{{ theme.base3 }}" />
+        <option name="TOOLTIP" value="{{ theme.base2 }}" />
+        <option name="VISUAL_INDENT_GUIDE" value="{{ theme.base3 }}" />
+        <option name="WHITESPACES" value="{{ theme.base3 }}" />
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{{ theme.green_mod3 }}" />
+        <option name="ActionButton.iconTextForeground" value="{{ theme.base2 }}"/>
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
@@ -75,7 +75,7 @@
 
         <option name="BAD_CHARACTER">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -86,195 +86,195 @@
 
         <option name="BOOKMARKS_ATTRIBUTES">
             <value>
-                <option name="ERROR_STRIPE_COLOR" value="E68680" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.red }}" />
             </value>
         </option>
 
         <option name="BREADCRUMBS_CURRENT">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
             </value>
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
-                <option name="FOREGROUND" value="4FF7E3" />
+                <option name="FOREGROUND" value="{{ theme.accent }}" />
             </value>
         </option>
         <option name="BREADCRUMBS_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
 
         <option name="CodeWithMe.USER_1_MARKER">
             <value>
-                <option name="FOREGROUND" value="526F51" />
+                <option name="FOREGROUND" value="{{ theme.lime_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_1_SELECTION">
             <value>
-                <option name="BACKGROUND" value="293828" />
+                <option name="BACKGROUND" value="{{ theme.lime_mod3 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_2_MARKER">
             <value>
-                <option name="BACKGROUND" value="13516C" />
+                <option name="BACKGROUND" value="{{ theme.blue_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_2_SELECTION">
             <value>
-                <option name="BACKGROUND" value="092836" />
+                <option name="BACKGROUND" value="{{ theme.blue_mod3 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_3_MARKER">
             <value>
-                <option name="BACKGROUND" value="6D4261" />
+                <option name="BACKGROUND" value="{{ theme.pink_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_3_SELECTION">
             <value>
-                <option name="BACKGROUND" value="372130" />
+                <option name="BACKGROUND" value="{{ theme.pink_mod3 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_4_MARKER">
             <value>
-                <option name="BACKGROUND" value="493E67" />
+                <option name="BACKGROUND" value="{{ theme.purple_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_4_SELECTION">
             <value>
-                <option name="BACKGROUND" value="241F33" />
+                <option name="BACKGROUND" value="{{ theme.purple_mod3 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_MARKER">
             <value>
-                <option name="BACKGROUND" value="715645" />
+                <option name="BACKGROUND" value="{{ theme.orange_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_SELECTION">
             <value>
-                <option name="BACKGROUND" value="382B22" />
+                <option name="BACKGROUND" value="{{ theme.orange_mod3 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_MARKER">
             <value>
-                <option name="FOREGROUND" value="075C50" />
+                <option name="FOREGROUND" value="{{ theme.green_mod2 }}" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_SELECTION">
             <value>
-                <option name="BACKGROUND" value="032E28" />
+                <option name="BACKGROUND" value="{{ theme.green_mod3 }}" />
             </value>
         </option>
 
         <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="1C79A2" />
+                <option name="FOREGROUND" value="{{ theme.blue_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_BLUE_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="2598A4" />
+                <option name="FOREGROUND" value="{{ theme.cyan_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_CYAN_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
             </value>
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="E68680" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
             </value>
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="3b3b3b" />
+                <option name="FOREGROUND" value="{{ theme.base3 }}" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="0A8977" />
+                <option name="FOREGROUND" value="{{ theme.green_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="0DB79F" />
+                <option name="FOREGROUND" value="{{ theme.green }}" />
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="A36291" />
+                <option name="FOREGROUND" value="{{ theme.pink_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="DA83C1" />
+                <option name="FOREGROUND" value="{{ theme.pink }}" />
             </value>
         </option>
         <option name="CONSOLE_NORMAL_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="AD6560" />
+                <option name="FOREGROUND" value="{{ theme.red_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="E68680" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
             </value>
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="A3DEA1" />
+                <option name="FOREGROUND" value="{{ theme.lime }}" />
             </value>
         </option>
         <option name="CONSOLE_USER_INPUT">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="CONSOLE_WHITE_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
-                <option name="BACKGROUND" value="282828" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
+                <option name="BACKGROUND" value="{{ theme.base2 }}" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="A2B079" />
+                <option name="FOREGROUND" value="{{ theme.yellow_mod1 }}" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="D8EBA1" />
+                <option name="FOREGROUND" value="{{ theme.yellow }}" />
             </value>
         </option>
 
         <option name="CTRL_CLICKABLE">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="31CBDB" />
+                <option name="EFFECT_COLOR" value="{{ theme.cyan }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -282,13 +282,13 @@
         <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="E1AB89" />
+                <option name="FOREGROUND" value="{{ theme.orange }}" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
         <option name="CSS.URL">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
             </value>
         </option>
 
@@ -296,17 +296,17 @@
         <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
         <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="917CCD" />
+                <option name="FOREGROUND" value="{{ theme.purple }}" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="0DB79F" />
+                <option name="FOREGROUND" value="{{ theme.green }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -318,38 +318,38 @@
 
         <option name="DEFAULT_ATTRIBUTE">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
             </value>
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_METHOD">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="DEFAULT_COMMA">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
         <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_DOC_COMMENT">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
         <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -370,201 +370,201 @@
         </option>
         <option name="DEFAULT_ENTITY">
             <value>
-                <option name="FOREGROUND" value="DA83C1" />
+                <option name="FOREGROUND" value="{{ theme.pink }}" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_CALL">
             <value>
-                <option name="FOREGROUND" value="E1AB89" />
+                <option name="FOREGROUND" value="{{ theme.orange }}" />
             </value>
         </option>
         <option name="DEFAULT_FUNCTION_DECLARATION">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="DEFAULT_GLOBAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_HIGHLIGHTED_REFERENCE">
             <value>
-                <option name="EFFECT_COLOR" value="4FF7E3" />
+                <option name="EFFECT_COLOR" value="{{ theme.accent }}" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
             <value>
-                <option name="FOREGROUND" value="A3DEA1" />
+                <option name="FOREGROUND" value="{{ theme.lime }}" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
             <value>
-                <option name="FOREGROUND" value="0DB79F" />
+                <option name="FOREGROUND" value="{{ theme.green }}" />
             </value>
         </option>
         <option name="DEFAULT_INTERFACE_NAME">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
             </value>
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="E68680" />
-                <option name="EFFECT_COLOR" value="E68680" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="917CCD" />
+                <option name="FOREGROUND" value="{{ theme.purple }}" />
             </value>
         </option>
         <option name="DEFAULT_OPERATOR">
             <value>
-                <option name="FOREGROUND" value="917CCD" />
+                <option name="FOREGROUND" value="{{ theme.purple }}" />
             </value>
         </option>
         <option name="DEFAULT_LINE_COMMENT">
             <value>
-                <option name="FOREGROUND" value="757575" />
+                <option name="FOREGROUND" value="{{ theme.base5 }}" />
             </value>
         </option>
         <option name="DEFAULT_LOCAL_VARIABLE" baseAttributes="DEFAULT_IDENTIFIER" />
         <option name="DEFAULT_METADATA">
             <value>
-                <option name="FOREGROUND" value="A3DEA1" />
+                <option name="FOREGROUND" value="{{ theme.lime }}" />
             </value>
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="DA83C1" />
+                <option name="FOREGROUND" value="{{ theme.pink }}" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER">
-            <option name="FOREGROUND" value="31CBDB" />
+            <option name="FOREGROUND" value="{{ theme.cyan }}" />
         </option>
         <option name="DEFAULT_PREDEFINED_SYMBOL">
             <value>
-                <option name="FOREGROUND" value="E1AB89" />
+                <option name="FOREGROUND" value="{{ theme.orange }}" />
             </value>
         </option>
         <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
         <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="DEFAULT_SEMICOLON">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_FIELD">
             <value>
-                <option name="FOREGROUND" value="0DB79F" />
+                <option name="FOREGROUND" value="{{ theme.green }}" />
             </value>
         </option>
         <option name="DEFAULT_STATIC_METHOD">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="DEFAULT_STRING">
             <value>
-                <option name="FOREGROUND" value="D8EBA1" />
+                <option name="FOREGROUND" value="{{ theme.yellow }}" />
             </value>
         </option>
         <option name="DEFAULT_TAG">
             <value>
-                <option name="FOREGROUND" value="917CCD" />
+                <option name="FOREGROUND" value="{{ theme.purple }}" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="DA83C1" />
+                <option name="FOREGROUND" value="{{ theme.pink }}" />
             </value>
         </option>
 
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1b1b1b" />
-                <option name="BACKGROUND" value="E68680" />
-                <option name="EFFECT_COLOR" value="1b1b1b" />
+                <option name="FOREGROUND" value="{{ theme.base1 }}" />
+                <option name="BACKGROUND" value="{{ theme.red }}" />
+                <option name="EFFECT_COLOR" value="{{ theme.base1 }}" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
 
         <option name="DEPRECATED_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="E1AB89" />
+                <option name="EFFECT_COLOR" value="{{ theme.orange }}" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
 
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="392120" />
-                <option name="ERROR_STRIPE_COLOR" value="392120" />
+                <option name="BACKGROUND" value="{{ theme.red_mod3 }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.red_mod3 }}" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="382B22" />
-                <option name="ERROR_STRIPE_COLOR" value="382B22" />
+                <option name="BACKGROUND" value="{{ theme.orange_mod3 }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.orange_mod3 }}" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
             <value>
-                <option name="BACKGROUND" value="032E28" />
-                <option name="ERROR_STRIPE_COLOR" value="032E28" />
+                <option name="BACKGROUND" value="{{ theme.green_mod3 }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.green_mod3 }}" />
             </value>
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="092836" />
-                <option name="ERROR_STRIPE_COLOR" value="092836" />
+                <option name="BACKGROUND" value="{{ theme.blue_mod3 }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.blue_mod3 }}" />
             </value>
         </option>
 
         <option name="DUPLICATE_FROM_SERVER">
             <value>
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
             </value>
         </option>
 
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
-                <option name="ERROR_STRIPE_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
 
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1b1b1b" />
-                <option name="BACKGROUND" value="5f5f5f" />
+                <option name="FOREGROUND" value="{{ theme.base1 }}" />
+                <option name="BACKGROUND" value="{{ theme.base4  }}" />
             </value>
         </option>
 
         <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
-                <option name="EFFECT_COLOR" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
+                <option name="EFFECT_COLOR" value="{{ theme.cyan }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
 
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
-                <option name="ERROR_STRIPE_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -582,15 +582,15 @@
 
         <option name="HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
-                <option name="EFFECT_COLOR" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
+                <option name="EFFECT_COLOR" value="{{ theme.cyan }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
 
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="282828" />
+                <option name="BACKGROUND" value="{{ theme.base2 }}" />
             </value>
         </option>
 
@@ -598,15 +598,15 @@
 
         <option name="INACTIVE_HYPERLINK_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="31CBDB" />
+                <option name="EFFECT_COLOR" value="{{ theme.cyan }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
 
         <option name="INFO_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="D8EBA1" />
-                <option name="ERROR_STRIPE_COLOR" value="D8EBA1" />
+                <option name="EFFECT_COLOR" value="{{ theme.yellow }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.yellow }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -615,17 +615,17 @@
 
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="5f5f5f" />
+                <option name="FOREGROUND" value="{{ theme.base4  }}" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="4FF7E3" />
+                <option name="FOREGROUND" value="{{ theme.accent }}" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="FOREGROUND" value="4FF7E3" />
+                <option name="FOREGROUND" value="{{ theme.accent }}" />
             </value>
         </option>
 
@@ -644,7 +644,7 @@
 
         <option name="KOTLIN_NAMED_ARGUMENT">
             <value>
-                <option name="FOREGROUND" value="31CBDB" />
+                <option name="FOREGROUND" value="{{ theme.cyan }}" />
             </value>
         </option>
 
@@ -652,77 +652,77 @@
 
         <option name="LINE_FULL_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="032E28" />
+                <option name="FOREGROUND" value="{{ theme.green_mod3 }}" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="LINE_NONE_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="392120" />
+                <option name="FOREGROUND" value="{{ theme.red_mod3 }}" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="LINE_PARTIAL_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="293828" />
+                <option name="FOREGROUND" value="{{ theme.lime_mod3 }}" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
 
         <option name="LIVE_TEMPLATE_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="DA83C1" />
+                <option name="EFFECT_COLOR" value="{{ theme.pink }}" />
             </value>
         </option>
 
         <option name="LOG_DEBUG_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="0DB79F" />
+                <option name="FOREGROUND" value="{{ theme.green }}" />
             </value>
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="E68680" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
             </value>
         </option>
         <option name="LOG_EXPIRED_ENTRY">
             <value>
-                <option name="FOREGROUND" value="5f5f5f" />
+                <option name="FOREGROUND" value="{{ theme.base4  }}" />
             </value>
         </option>
         <option name="LOG_INFO_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="LOG_VERBOSE_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="E1AB89" />
+                <option name="FOREGROUND" value="{{ theme.orange }}" />
             </value>
         </option>
 
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
 
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
-                <option name="BACKGROUND" value="143E39" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
+                <option name="BACKGROUND" value="{{ theme.accent_mod3 }}" />
             </value>
         </option>
 
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="5f5f5f" />
+                <option name="FOREGROUND" value="{{ theme.base4  }}" />
             </value>
         </option>
 
@@ -737,8 +737,8 @@
 
         <option name="RUNTIME_ERROR">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
-                <option name="ERROR_STRIPE_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.red }}" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -746,25 +746,25 @@
         <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
         <option name="SASS_MIXIN">
             <value>
-                <option name="FOREGROUND" value="917CCD" />
+                <option name="FOREGROUND" value="{{ theme.purple }}" />
             </value>
         </option>
         <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
 
         <option name="SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="0DB79F" />
+                <option name="EFFECT_COLOR" value="{{ theme.green }}" />
             </value>
         </option>
 
         <option name="SPY-JS.EXCEPTION">
             <value>
-                <option name="EFFECT_COLOR" value="E68680" />
+                <option name="EFFECT_COLOR" value="{{ theme.red }}" />
             </value>
         </option>
         <option name="SPY-JS.FUNCTION_SCOPE">
             <value>
-                <option name="EFFECT_COLOR" value="3b3b3b" />
+                <option name="EFFECT_COLOR" value="{{ theme.base3  }}" />
             </value>
         </option>
         <option name="SPY-JS.PATH_LEVEL_ONE">
@@ -780,46 +780,46 @@
 
         <option name="TAB_SELECTED">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
-                <option name="BACKGROUND" value="1b1b1b" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
+                <option name="BACKGROUND" value="{{ theme.base1 }}" />
             </value>
         </option>
 
         <option name="TAB_SELECTED_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
-                <option name="BACKGROUND" value="1b1b1b" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
+                <option name="BACKGROUND" value="{{ theme.base1 }}" />
             </value>
         </option>
 
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="25A1D8" />
+                <option name="FOREGROUND" value="{{ theme.blue }}" />
             </value>
         </option>
 
         <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
             <value>
-                <option name="BACKGROUND" value="293828" />
+                <option name="BACKGROUND" value="{{ theme.lime_mod3 }}" />
             </value>
         </option>
 
         <option name="TEXT">
             <value>
-                <option name="FOREGROUND" value="bebebe" />
-                <option name="BACKGROUND" value="1b1b1b" />
+                <option name="FOREGROUND" value="{{ theme.base6 }}" />
+                <option name="BACKGROUND" value="{{ theme.base1 }}" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="0DB79F" />
+                <option name="EFFECT_COLOR" value="{{ theme.green }}" />
             </value>
         </option>
 
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1b1b1b" />
-                <option name="BACKGROUND" value="E1AB89" />
+                <option name="FOREGROUND" value="{{ theme.base1 }}" />
+                <option name="BACKGROUND" value="{{ theme.orange  }}" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>
@@ -829,47 +829,47 @@
         </option>
         <option name="TS.TYPE_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="2598A4" />
+                <option name="FOREGROUND" value="{{ theme.cyan_mod1  }}" />
             </value>
         </option>
 
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="E1AB89" />
+                <option name="EFFECT_COLOR" value="{{ theme.orange }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
 
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="E68680" />
-                <option name="BACKGROUND" value="3b3b3b" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
+                <option name="BACKGROUND" value="{{ theme.base3  }}" />
             </value>
         </option>
 
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="E1AB89" />
-                <option name="ERROR_STRIPE_COLOR" value="E1AB89" />
+                <option name="EFFECT_COLOR" value="{{ theme.orange }}" />
+                <option name="ERROR_STRIPE_COLOR" value="{{ theme.orange }}" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
 
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="6C7651" />
+                <option name="EFFECT_COLOR" value="{{ theme.yellow_mod2  }}" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="0DB79F" />
+                <option name="EFFECT_COLOR" value="{{ theme.green }}" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
 
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="E68680" />
+                <option name="FOREGROUND" value="{{ theme.red }}" />
             </value>
         </option>
 
@@ -884,8 +884,8 @@
         <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
         <option name="XPATH.XPATH_NAME">
             <value>
-                <option name="FOREGROUND" value="d4d4d4" />
-                <option name="BACKGROUND" value="1b1b1b" />
+                <option name="FOREGROUND" value="{{ theme.base7 }}" />
+                <option name="BACKGROUND" value="{{ theme.base1 }}" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
