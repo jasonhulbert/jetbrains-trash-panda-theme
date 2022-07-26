@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.villains.intellij.plugin.trashpandatheme</id>
+    <id>com.villains.intelij.plugin.trashpandatheme</id>
     <name>Trash Panda Theme</name>
     <version>2.0.0</version>
     <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
@@ -16,6 +16,7 @@
         <!-- Add your extensions here -->
         <themeProvider id="d6b0e072-3367-4550-802c-0efcc27e40ba" path="/trash-panda-theme.theme.json"/>
         <themeProvider id="107ba859-1e1a-45c1-b91c-debff5ea4082" path="/trash-panda-theme-light.theme.json"/>
+        <themeProvider id="c04a27f6-cb40-4682-8327-e2497c5e5f41" path="/trash-panda-theme-moonlight.theme.json"/>
     </extensions>
 
     <actions>

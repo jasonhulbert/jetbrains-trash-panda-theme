@@ -3,7 +3,8 @@ import yaml
 
 themes = {
     'default': 'default.yaml',
-    'light': 'light.yaml'
+    'light': 'light.yaml',
+    'moonlight': 'moonlight.yaml'
 }
 
 for name in themes:
