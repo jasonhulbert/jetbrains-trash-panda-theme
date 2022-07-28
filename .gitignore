@@ -1,6 +1,7 @@
 # Dist / Artifacts
 build/
 .gradle/
+__pycache__
 
 # IDEs and Editors
 .idea/
