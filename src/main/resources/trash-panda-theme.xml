@@ -1,13 +1,13 @@
 <scheme name="Trash Panda Theme" version="142" parent_scheme="Darcula">
     <colors>
         <option name="ADDED_LINES_COLOR" value="0a2d23" />
-        <option name="BORDER_LINES_COLOR" value="3a4146" />
+        <option name="BORDER_LINES_COLOR" value="2C3135" />
         <option name="CARET_COLOR" value="406bf4" />
-        <option name="CARET_ROW_COLOR" value="272c2f" />
-        <option name="CONSOLE_BACKGROUND_KEY" value="1d2124" />
+        <option name="CARET_ROW_COLOR" value="1D2123" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="141618" />
         <option name="DELETED_LINES_COLOR" value="3C1515" />
-        <option name="DIFF_SEPARATORS_BACKGROUND" value="3a4146" />
-        <option name="DOCUMENTATION_COLOR" value="272c2f" />
+        <option name="DIFF_SEPARATORS_BACKGROUND" value="2C3135" />
+        <option name="DOCUMENTATION_COLOR" value="1D2123" />
         <option name="ERROR_HINT" value="F05553" />
         <option name="FILESTATUS_ADDED" value="26b48b" />
         <option name="FILESTATUS_COPIED" value="26b48b" />
@@ -27,7 +27,7 @@
         <option name="FILESTATUS_changelistConflict" value="F05553" />
         <option name="FILESTATUS_modifiedOutside" value="2c99db" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="727a7f" />
-        <option name="GUTTER_BACKGROUND" value="1d2124" />
+        <option name="GUTTER_BACKGROUND" value="141618" />
         <option name="HTML_TAG_TREE_LEVEL0" value="A07CF1" />
         <option name="HTML_TAG_TREE_LEVEL1" value="DC6096" />
         <option name="HTML_TAG_TREE_LEVEL2" value="F07F5B" />
@@ -37,37 +37,37 @@
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="1c8768" />
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="B45F44" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2173a4" />
-        <option name="INDENT_GUIDE" value="3a4146" />
+        <option name="INDENT_GUIDE" value="2C3135" />
         <option name="INFORMATION_HINT" value="2c99db" />
-        <option name="LINE_NUMBERS_COLOR" value="3a4146" />
+        <option name="LINE_NUMBERS_COLOR" value="2C3135" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="406bf4" />
-        <option name="LOOKUP_COLOR" value="272c2f" />
-        <option name="METHOD_SEPARATORS_COLOR" value="3a4146" />
-        <option name="MODIFIED_LINES_COLOR" value="0b2637" />
+        <option name="LOOKUP_COLOR" value="1D2123" />
+        <option name="METHOD_SEPARATORS_COLOR" value="2C3135" />
+        <option name="MODIFIED_LINES_COLOR" value="0B2637" />
         <option name="MODIFIED_TAB_ICON" value="2c99db" />
-        <option name="NOTIFICATION_BACKGROUND" value="272c2f" />
-        <option name="PROMOTION_PANE" value="272c2f" />
-        <option name="QUESTION_HINT" value="272c2f" />
-        <option name="READONLY_BACKGROUND" value="272c2f" />
-        <option name="READONLY_FRAGMENT_BACKGROUND" value="3a4146" />
-        <option name="RECENT_LOCATIONS_SELECTION" value="272c2f" />
-        <option name="RIGHT_MARGIN_COLOR" value="3a4146" />
+        <option name="NOTIFICATION_BACKGROUND" value="1D2123" />
+        <option name="PROMOTION_PANE" value="1D2123" />
+        <option name="QUESTION_HINT" value="1D2123" />
+        <option name="READONLY_BACKGROUND" value="1D2123" />
+        <option name="READONLY_FRAGMENT_BACKGROUND" value="2C3135" />
+        <option name="RECENT_LOCATIONS_SELECTION" value="1D2123" />
+        <option name="RIGHT_MARGIN_COLOR" value="2C3135" />
         <option name="SELECTED_INDENT_GUIDE" value="5f656a" />
         <option name="SELECTED_TEARLINE_COLOR" value="5f656a" />
-        <option name="SELECTION_BACKGROUND" value="101b3d" />
+        <option name="SELECTION_BACKGROUND" value="101B3D" />
         <option name="SELECTION_FOREGROUND" value="e2e2e2" />
-        <option name="SEPARATOR_BELOW_COLOR" value="3a4146" />
-        <option name="SOFT_WRAP_SIGN_COLOR" value="3a4146" />
-        <option name="ScrollBar.Mac.hoverThumbColor" value="3a4146" />
-        <option name="ScrollBar.Mac.thumbColor" value="3a4146" />
+        <option name="SEPARATOR_BELOW_COLOR" value="2C3135" />
+        <option name="SOFT_WRAP_SIGN_COLOR" value="2C3135" />
+        <option name="ScrollBar.Mac.hoverThumbColor" value="2C3135" />
+        <option name="ScrollBar.Mac.thumbColor" value="2C3135" />
         <option name="TAB_UNDERLINE" value="406bf4" />
-        <option name="TAB_UNDERLINE_INACTIVE" value="20367a" />
-        <option name="TEARLINE_COLOR" value="3a4146" />
-        <option name="TOOLTIP" value="272c2f" />
-        <option name="VISUAL_INDENT_GUIDE" value="3a4146" />
-        <option name="WHITESPACES" value="3a4146" />
+        <option name="TAB_UNDERLINE_INACTIVE" value="18285C" />
+        <option name="TEARLINE_COLOR" value="2C3135" />
+        <option name="TOOLTIP" value="1D2123" />
+        <option name="VISUAL_INDENT_GUIDE" value="2C3135" />
+        <option name="WHITESPACES" value="2C3135" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="0a2d23" />
-        <option name="ActionButton.iconTextForeground" value="272c2f"/>
+        <option name="ActionButton.iconTextForeground" value="1D2123"/>
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
@@ -113,7 +113,7 @@
 
         <option name="CodeWithMe.USER_1_MARKER">
             <value>
-                <option name="FOREGROUND" value="486945" />
+                <option name="FOREGROUND" value="364F34" />
             </value>
         </option>
         <option name="CodeWithMe.USER_1_SELECTION">
@@ -123,17 +123,17 @@
         </option>
         <option name="CodeWithMe.USER_2_MARKER">
             <value>
-                <option name="BACKGROUND" value="164d6e" />
+                <option name="BACKGROUND" value="113A52" />
             </value>
         </option>
         <option name="CodeWithMe.USER_2_SELECTION">
             <value>
-                <option name="BACKGROUND" value="0b2637" />
+                <option name="BACKGROUND" value="0B2637" />
             </value>
         </option>
         <option name="CodeWithMe.USER_3_MARKER">
             <value>
-                <option name="BACKGROUND" value="6E304B" />
+                <option name="BACKGROUND" value="532439" />
             </value>
         </option>
         <option name="CodeWithMe.USER_3_SELECTION">
@@ -143,7 +143,7 @@
         </option>
         <option name="CodeWithMe.USER_4_MARKER">
             <value>
-                <option name="BACKGROUND" value="503E79" />
+                <option name="BACKGROUND" value="3C2F5B" />
             </value>
         </option>
         <option name="CodeWithMe.USER_4_SELECTION">
@@ -153,7 +153,7 @@
         </option>
         <option name="CodeWithMe.USER_5_MARKER">
             <value>
-                <option name="BACKGROUND" value="78402E" />
+                <option name="BACKGROUND" value="5A3022" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_SELECTION">
@@ -163,7 +163,7 @@
         </option>
         <option name="CodeWithMe.USER_6_MARKER">
             <value>
-                <option name="FOREGROUND" value="135a46" />
+                <option name="FOREGROUND" value="0E4434" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_SELECTION">
@@ -204,7 +204,7 @@
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="3a4146" />
+                <option name="FOREGROUND" value="2C3135" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -256,7 +256,7 @@
         <option name="CONSOLE_WHITE_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="e2e2e2" />
-                <option name="BACKGROUND" value="272c2f" />
+                <option name="BACKGROUND" value="1D2123" />
             </value>
         </option>
         <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -497,9 +497,9 @@
 
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1d2124" />
+                <option name="FOREGROUND" value="141618" />
                 <option name="BACKGROUND" value="F05553" />
-                <option name="EFFECT_COLOR" value="1d2124" />
+                <option name="EFFECT_COLOR" value="141618" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -531,8 +531,8 @@
         </option>
         <option name="DIFF_MODIFIED">
             <value>
-                <option name="BACKGROUND" value="0b2637" />
-                <option name="ERROR_STRIPE_COLOR" value="0b2637" />
+                <option name="BACKGROUND" value="0B2637" />
+                <option name="ERROR_STRIPE_COLOR" value="0B2637" />
             </value>
         </option>
 
@@ -553,7 +553,7 @@
 
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1d2124" />
+                <option name="FOREGROUND" value="141618" />
                 <option name="BACKGROUND" value="5f656a" />
             </value>
         </option>
@@ -725,7 +725,7 @@
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="e2e2e2" />
-                <option name="BACKGROUND" value="20367a" />
+                <option name="BACKGROUND" value="18285C" />
             </value>
         </option>
 
@@ -781,7 +781,7 @@
         </option>
         <option name="SPY-JS.FUNCTION_SCOPE">
             <value>
-                <option name="EFFECT_COLOR" value="3a4146" />
+                <option name="EFFECT_COLOR" value="2C3135" />
             </value>
         </option>
         <option name="SPY-JS.PATH_LEVEL_ONE">
@@ -798,14 +798,14 @@
         <option name="TAB_SELECTED">
             <value>
                 <option name="FOREGROUND" value="e2e2e2" />
-                <option name="BACKGROUND" value="1d2124" />
+                <option name="BACKGROUND" value="141618" />
             </value>
         </option>
 
         <option name="TAB_SELECTED_INACTIVE">
             <value>
                 <option name="FOREGROUND" value="b8babd" />
-                <option name="BACKGROUND" value="1d2124" />
+                <option name="BACKGROUND" value="141618" />
             </value>
         </option>
 
@@ -824,7 +824,7 @@
         <option name="TEXT">
             <value>
                 <option name="FOREGROUND" value="b8babd" />
-                <option name="BACKGROUND" value="1d2124" />
+                <option name="BACKGROUND" value="141618" />
             </value>
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -835,7 +835,7 @@
 
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="1d2124" />
+                <option name="FOREGROUND" value="141618" />
                 <option name="BACKGROUND" value="F07F5B" />
                 <option name="FONT_TYPE" value="2" />
             </value>
@@ -860,7 +860,7 @@
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="F05553" />
-                <option name="BACKGROUND" value="3a4146" />
+                <option name="BACKGROUND" value="2C3135" />
             </value>
         </option>
 
@@ -874,7 +874,7 @@
 
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="6e5f33" />
+                <option name="EFFECT_COLOR" value="524826" />
                 <option name="BACKGROUND" value="373019" />
             </value>
         </option>
@@ -903,7 +903,7 @@
         <option name="XPATH.XPATH_NAME">
             <value>
                 <option name="FOREGROUND" value="e2e2e2" />
-                <option name="BACKGROUND" value="1d2124" />
+                <option name="BACKGROUND" value="141618" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>

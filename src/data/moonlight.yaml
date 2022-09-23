@@ -7,7 +7,6 @@ parent_scheme: "Darcula"
 theme:
   transparent: "00000000"
   translucent: "00000050"
-  base0: "000000" # Bright Background
   base1: "1d262c" # Editable / Interactive Background
   base2: "253037" # Background
   base3: "34434e" # Border
