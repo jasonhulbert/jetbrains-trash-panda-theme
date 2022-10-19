@@ -1,10 +1,10 @@
 plugins {
-    id 'org.jetbrains.intellij' version '1.5.2'
     id 'java'
+    id 'org.jetbrains.intellij' version '1.9.0'
 }
 
 group 'com.villains'
-version '2.0.0'
+version '2.0.1'
 
 repositories {
     mavenCentral()
@@ -18,6 +18,12 @@ dependencies {
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version = '2022.1'
+}
+
+tasks {
+    buildSearchableOptions {
+        enabled=false
+    }
 }
 
 patchPluginXml {

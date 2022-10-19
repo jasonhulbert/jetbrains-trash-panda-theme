@@ -1,5 +1,7 @@
 from jinja2 import Environment, PackageLoader, select_autoescape
-import yaml
+from ruamel.yaml import YAML
+
+yaml=YAML(typ='safe')   # default, if not specfied, is 'rt' (round-trip)
 
 themes = {
     'default': 'default.yaml',
@@ -9,7 +11,7 @@ themes = {
 
 for name in themes:
     with open(f'src/data/{themes[name]}') as theme_data_file:
-        theme_data = yaml.safe_load(theme_data_file)
+        theme_data = yaml.load(theme_data_file)
 
     env = Environment(
         loader=PackageLoader('theme', 'src/templates'),
