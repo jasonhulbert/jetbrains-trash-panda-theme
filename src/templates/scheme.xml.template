@@ -835,8 +835,8 @@
 
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{ theme.base1 }}" />
-                <option name="BACKGROUND" value="{{ theme.orange  }}" />
+                <option name="FOREGROUND" value="{{ theme.accent }}" />
+                <option name="BACKGROUND" value="{{ theme.accent_mod3  }}" />
                 <option name="FONT_TYPE" value="2" />
             </value>
         </option>

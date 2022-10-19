@@ -7,18 +7,18 @@ parent_scheme: "Default"
 theme:
   transparent: "FFFFFF00"
   translucent: "FFFFFF50"
-  base1: "FFFFFF" # Editable / Interactive Background
-  base2: "F5F6FB" # Background
-  base3: "D4D7D8" # Border
-  base4: "B3B6B6" # Ignored / Disabled
-  base5: "919393" # Submodule / Comment / Label / UI "Grey" Elements
-  base6: "717272" # Foreground
-  base7: "535454" # Editable / Interactive Foreground
+  base1: "ffffff" # Editable / Interactive Background
+  base2: "f5f6fb" # Background
+  base3: "E0E3E4" # Border
+  base4: "C2C5C5" # Ignored / Disabled
+  base5: "A2A4A4" # Submodule / Comment / Label / UI "Grey" Elements
+  base6: "515252" # Foreground
+  base7: "262727" # Editable / Interactive Foreground
   base8: "000000" # Bright Foreground
-  accent: "081fa5"
-  accent_mod1: "2B44DC"
-  accent_mod2: "AAB4F1"
-  accent_mod3: "D5DAF8"
+  accent: "406bf4"
+  accent_mod1: "6689f6"
+  accent_mod2: "b3c4fb"
+  accent_mod3: "d9e1fd"
   lime: "19650b"
   lime_mod1: "21870f"
   lime_mod2: "a6cf9f"
@@ -37,21 +37,21 @@ theme:
   cyan_mod3: "d1e1ec"
   purple: "4716b5"
   purple_mod1: "8d60f1"
-  purple_mod2: "D1BFF9"
-  purple_mod3: "E8DFFC"
+  purple_mod2: "d1bff9"
+  purple_mod3: "e8dffc"
   pink: "a50d4f"
   pink_mod1: "dc4285"
-  pink_mod2: "F1B3CE"
-  pink_mod3: "F8D9E7"
+  pink_mod2: "f1b3ce"
+  pink_mod3: "f8d9e7"
   red: "b41412"
   red_mod1: "f0302d"
-  red_mod2: "F9ACAB"
-  red_mod3: "FCD6D5"
+  red_mod2: "f9aCab"
+  red_mod3: "fcd6d5"
   orange: "b4340b"
   orange_mod1: "f06437"
-  orange_mod2: "F9C1AF"
-  orange_mod3: "FCE0D7"
+  orange_mod2: "f9c1af"
+  orange_mod3: "fce0d7"
   yellow: "83731f"
-  yellow_mod1: "AEA159"
-  yellow_mod2: "DFD9BD"
-  yellow_mod3: "EFECDE"
+  yellow_mod1: "aea159"
+  yellow_mod2: "dfd9bd"
+  yellow_mod3: "efecde"

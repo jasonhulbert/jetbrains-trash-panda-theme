@@ -38,10 +38,16 @@
   "ui": {
     "*": {
         "windowBorder": "#2C3135",
+        "borderColor": "#2C3135",
         "background": "#1D2123",
         "foreground": "#b8babd",
-        "borderColor": "#2C3135",
+        "inactiveBackground": "#1D2123",
+        "inactiveForeground": "#b8babd",
         "selectionBackground": "#101B3D",
+        "selectionForeground": "#406bf4",
+        "selectionInactiveBackground": "#1D2123",
+        "selectionInactiveForeground": "#406bf4",
+        "acceleratorSelectionForeground": "#406bf4",
         "focusColor": "#18285C",
         "focusedBorderColor": "#18285C"
     },
@@ -80,21 +86,16 @@
     "CheckBox.select": "#406bf4",
 
     "CheckBoxMenuItem.acceleratorForeground": "#b8babd",
-    "CheckBoxMenuItem.acceleratorSelectionForeground": "#e2e2e2",
     "CheckBoxMenuItem.background": "#1D2123",
     "CheckBoxMenuItem.disabledBackground": "#1D2123",
     "CheckBoxMenuItem.disabledForeground": "#5f656a",
     "CheckBoxMenuItem.foreground": "#b8babd",
-    "CheckBoxMenuItem.selectionBackground": "#101B3D",
-    "CheckBoxMenuItem.selectionForeground": "#406bf4",
 
     "ComboBox.background": "#141618",
     "ComboBox.disabledForeground": "#5f656a",
     "ComboBox.foreground": "#e2e2e2",
     "ComboBox.modifiedItemForeground": "#e2e2e2",
     "ComboBox.nonEditableBackground": "#141618",
-    "ComboBox.selectionBackground": "#101B3D",
-    "ComboBox.selectionForeground": "#406bf4",
 
     "ComboBox.ArrowButton.background": "#141618",
     "ComboBox.ArrowButton.disabledIconColor": "#5f656a",
@@ -115,7 +116,6 @@
     "Component.warningFocusColor": "#5A3022",
     "Component.inactiveWarningFocusColor": "#3C2017",
 
-    "DefaultTabs.background": "#1D2123",
     "DefaultTabs.borderColor": "#2C3135",
     "DefaultTabs.hoverBackground": "#141618",
     "DefaultTabs.inactiveUnderlineColor": "#18285C",
@@ -135,12 +135,7 @@
     "EditorPane.background": "#141618",
     "EditorPane.caretForeground": "#406bf4",
     "EditorPane.foreground": "#b8babd",
-    "EditorPane.inactiveBackground": "#1D2123",
-    "EditorPane.inactiveForeground": "#b8babd",
-    "EditorPane.selectionBackground": "#101B3D",
-    "EditorPane.selectionForeground": "#406bf4",
 
-    "EditorTabs.background": "#1D2123",
     "EditorTabs.borderColor": "#2C3135",
     "EditorTabs.hoverBackground": "#1D2123",
     "EditorTabs.inactiveColoredFileBackground": "#1D2123",
@@ -159,25 +154,15 @@
     "FormattedTextField.background": "#141618",
     "FormattedTextField.caretForeground": "#406bf4",
     "FormattedTextField.foreground": "#e2e2e2",
-    "FormattedTextField.inactiveBackground": "#141618",
-    "FormattedTextField.inactiveForeground": "#b8babd",
-    "FormattedTextField.selectionBackground": "#101B3D",
-    "FormattedTextField.selectionForeground": "#406bf4",
 
-    "Label.background": "#1D2123",
     "Label.disabledForeground": "#5f656a",
     "Label.foreground": "#b8babd",
     "Label.selectedForeground": "#e2e2e2",
 
-    "List.background": "#1D2123",
     "List.dropLineColor": "#2C3135",
     "List.foreground": "#b8babd",
     "List.hoverBackground": "#141618",
     "List.hoverInactiveBackground": "#1D2123",
-    "List.selectionBackground": "#101B3D",
-    "List.selectionForeground": "#406bf4",
-    "List.selectionInactiveBackground": "#1D2123",
-    "List.selectionInactiveForeground": "#406bf4",
 
     "Link.activeForeground": "#406bf4",
     "Link.hoverForeground": "#406bf4",
@@ -189,35 +174,25 @@
     "MemoryIndicator.allocatedBackground": "#5f656a",
 
     "Menu.acceleratorForeground": "#b8babd",
-    "Menu.acceleratorSelectionForeground": "#406bf4",
-    "Menu.background": "#1D2123",
     "Menu.borderColor": "#2C3135",
     "Menu.disabledBackground": "#1D2123",
     "Menu.disabledForeground": "#5f656a",
     "Menu.foreground": "#b8babd",
-    "Menu.selectionBackground": "#101B3D",
-    "Menu.selectionForeground": "#406bf4",
 
     "MenuBar.borderColor": "#2C3135",
     "MenuBar.disabledBackground": "#1D2123",
     "MenuBar.disabledForeground": "#5f656a",
     "MenuBar.foreground": "#b8babd",
     "MenuBar.highlight": "#e2e2e2",
-    "MenuBar.selectionBackground": "#101B3D",
-    "MenuBar.selectionForeground": "#406bf4",
     "MenuBar.shadow": "#00000000",
 
     "MenuItem.acceleratorForeground": "#b8babd",
-    "MenuItem.background": "#1D2123",
     "MenuItem.disabledBackground": "#1D2123",
     "MenuItem.disabledForeground": "#5f656a",
     "MenuItem.foreground": "#b8babd",
-    "MenuItem.selectionBackground": "#101B3D",
-    "MenuItem.selectionForeground": "#406bf4",
 
     "NavBar.borderColor": "#2C3135",
 
-    "Notification.background": "#1D2123",
     "Notification.foreground": "#b8babd",
     "Notification.borderColor": "#2C3135",
     "Notification.errorBackground": "#3C1515",
@@ -238,27 +213,23 @@
     "Notification.ToolWindow.warningBorderColor": "#F07F5B",
     "Notification.ToolWindow.warningForeground": "#F07F5B",
 
-    "Panel.background": "#1D2123",
-    "Panel.foreground": "#b8babd",
-
-    "ParameterInfo.background": "#1D2123",
     "ParameterInfo.foreground": "#5f656a",
     "ParameterInfo.currentOverloadBackground": "#FFFFFF",
     "ParameterInfo.currentParameterForeground": "#e2e2e2",
 
-    "Plugins.Button.installForeground": "#406bf4",
-    "Plugins.Button.installBorderColor": "#141618",
-    "Plugins.Button.installFocusedBackground": "#141618",
-    "Plugins.Button.installFillForeground": "#406bf4",
-    "Plugins.Button.installFillBackground": "#141618",
-    "Plugins.Button.updateForeground": "#406bf4",
-    "Plugins.Button.updateBackground": "#141618",
+    "Plugins.Button.installForeground": "#141618",
+    "Plugins.Button.installBackground": "#26b48b",
+    "Plugins.Button.installBorderColor": "#26b48b",
+    "Plugins.Button.installFocusedBackground": "#26b48b",
+    "Plugins.Button.installFillForeground": "#141618",
+    "Plugins.Button.installFillBackground": "#26b48b",
+    "Plugins.Button.updateForeground": "#141618",
+    "Plugins.Button.updateBackground": "#406bf4",
 
     "Plugins.SearchField.background": "#141618",
-    "Plugins.SearchField.borderColor": "#2C3135",
 
     "Plugins.tagBackground": "#406bf4",
-    "Plugins.tagForeground": "#e2e2e2",
+    "Plugins.tagForeground": "#141618",
     "Plugins.lightSelectionBackground": "#101B3D",
     "Plugins.hoverBackground": "#101B3D",
 
@@ -272,15 +243,12 @@
     "Popup.Advertiser.borderInsets": "3,8,5,0",
 
     "Popup.Header.activeBackground": "#1D2123",
-    "Popup.Header.inactiveBackground": "#1D2123",
 
     "Popup.Toolbar.background": "#1D2123",
     "Popup.Toolbar.borderColor": "#2C3135",
 
     "PopupMenu.background": "#1D2123",
     "PopupMenu.foreground": "#b8babd",
-    "PopupMenu.selectionBackground": "#101B3D",
-    "PopupMenu.selectionForeground": "#406bf4",
     "PopupMenu.translucentBackground": "#00000050",
 
     "ProgressBar.trackColor": "#1D2123",
@@ -297,13 +265,10 @@
     "RadioButton.foreground": "#b8babd",
 
     "RadioButtonMenuItem.acceleratorForeground": "#b8babd",
-    "RadioButtonMenuItem.acceleratorSelectionForeground": "#406bf4",
     "RadioButtonMenuItem.background": "#1D2123",
     "RadioButtonMenuItem.disabledBackground": "#5f656a",
     "RadioButtonMenuItem.disabledForeground": "#b8babd",
     "RadioButtonMenuItem.foreground": "#b8babd",
-    "RadioButtonMenuItem.selectionBackground": "#101B3D",
-    "RadioButtonMenuItem.selectionForeground": "#406bf4",
 
     "ScrollBar.trackColor": "#1D2123",
     "ScrollBar.thumbColor": "#2C3135",
@@ -351,11 +316,14 @@
     "SearchField.errorBackground": "#3C1515",
     "SearchField.errorForeground": "#F05553",
 
+    
     "SearchMatch.endBackground": "#406bf4",
     "SearchMatch.startBackground": "#406bf4",
+    
 
     "SidePanel.background": "#1D2123",
 
+    "StatusBar.background": "#1D2123",
     "StatusBar.borderColor": "#2C3135",
 
     "TabbedPane.background": "#1D2123",
@@ -382,16 +350,11 @@
     "TextArea.background": "#141618",
     "TextArea.foreground": "#e2e2e2",
 
-    "TextComponent.selectionBackgroundInactive": "#1D2123",
-
     "TextField.background": "#141618",
     "TextField.caretForeground": "#406bf4",
     "TextField.darkShadow": "#00000000",
     "TextField.foreground": "#e2e2e2",
     "TextField.highlight": "#00000000",
-    "TextField.inactiveForeground": "#b8babd",
-    "TextField.selectionBackground": "#101B3D",
-    "TextField.selectionForeground": "#406bf4",
 
     "ToggleButton.background": "#141618",
     "ToggleButton.borderColor": "#2C3135",
@@ -413,7 +376,6 @@
 
     "ToolWindow.Header.background": "#1D2123",
     "ToolWindow.Header.borderColor": "#2C3135",
-    "ToolWindow.Header.inactiveBackground": "#1D2123",
     "ToolWindow.HeaderTab.hoverBackground": "#141618",
     "ToolWindow.HeaderTab.hoverInactiveBackground": "#1D2123",
     "ToolWindow.HeaderTab.selectedInactiveBackground": "#1D2123",
@@ -434,15 +396,13 @@
     "Tree.foreground": "#b8babd",
     "Tree.hoverBackground": "#141618",
     "Tree.hoverInactiveBackground": "#141618",
+    "Tree.selectionInactiveBackground": "#141618",
     "Tree.modifiedItemForeground": "#2c99db",
-    "Tree.selectionBackground": "#101B3D",
-    "Tree.selectionForeground": "#406bf4",
-    "Tree.selectionInactiveBackground": "#1D2123",
     "Tree.rowHeight": "26",
 
-    "ValidationTooltip.errorBackground": "#F05553",
+    "ValidationTooltip.errorBackground": "#3C1515",
     "ValidationTooltip.errorBorderColor": "#F05553",
-    "ValidationTooltip.warningBackground": "#F07F5B",
+    "ValidationTooltip.warningBackground": "#3C2017",
     "ValidationTooltip.warningBorderColor": "#F07F5B",
 
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "#fffee4",
@@ -468,7 +428,6 @@
     "VersionControl.RefLabel.backgroundBase": "#141618",
     "VersionControl.RefLabel.foreground": "#b8babd",
 
-    "WelcomeScreen.Projects.selectionInactiveBackground": "#1D2123",
     "WelcomeScreen.separatorColor": "#2C3135",
 
     "Window.border": "1,1,1,1,2C3135"

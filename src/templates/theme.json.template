@@ -44,10 +44,16 @@
   "ui": {
     "*": {
         "windowBorder": "#{{ theme.base3 }}",
+        "borderColor": "#{{ theme.base3 }}",
         "background": "#{{ theme.base2 }}",
         "foreground": "#{{ theme.base6 }}",
-        "borderColor": "#{{ theme.base3 }}",
+        "inactiveBackground": "#{{ theme.base2 }}",
+        "inactiveForeground": "#{{ theme.base6 }}",
         "selectionBackground": "#{{ theme.accent_mod3 }}",
+        "selectionForeground": "#{{ theme.accent }}",
+        "selectionInactiveBackground": "#{{ theme.base2 }}",
+        "selectionInactiveForeground": "#{{ theme.accent }}",
+        "acceleratorSelectionForeground": "#{{ theme.accent }}",
         "focusColor": "#{{ theme.accent_mod2 }}",
         "focusedBorderColor": "#{{ theme.accent_mod2 }}"
     },
@@ -86,21 +92,16 @@
     "CheckBox.select": "#{{ theme.accent }}",
 
     "CheckBoxMenuItem.acceleratorForeground": "#{{ theme.base6 }}",
-    "CheckBoxMenuItem.acceleratorSelectionForeground": "#{{ theme.base7 }}",
     "CheckBoxMenuItem.background": "#{{ theme.base2 }}",
     "CheckBoxMenuItem.disabledBackground": "#{{ theme.base2 }}",
     "CheckBoxMenuItem.disabledForeground": "#{{ theme.base4 }}",
     "CheckBoxMenuItem.foreground": "#{{ theme.base6 }}",
-    "CheckBoxMenuItem.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "CheckBoxMenuItem.selectionForeground": "#{{ theme.accent }}",
 
     "ComboBox.background": "#{{ theme.base1  }}",
     "ComboBox.disabledForeground": "#{{ theme.base4 }}",
     "ComboBox.foreground": "#{{ theme.base7 }}",
     "ComboBox.modifiedItemForeground": "#{{ theme.base7 }}",
     "ComboBox.nonEditableBackground": "#{{ theme.base1 }}",
-    "ComboBox.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "ComboBox.selectionForeground": "#{{ theme.accent }}",
 
     "ComboBox.ArrowButton.background": "#{{ theme.base1 }}",
     "ComboBox.ArrowButton.disabledIconColor": "#{{ theme.base4 }}",
@@ -121,7 +122,6 @@
     "Component.warningFocusColor": "#{{ theme.orange_mod2 }}",
     "Component.inactiveWarningFocusColor": "#{{ theme.orange_mod3 }}",
 
-    "DefaultTabs.background": "#{{ theme.base2 }}",
     "DefaultTabs.borderColor": "#{{ theme.base3 }}",
     "DefaultTabs.hoverBackground": "#{{ theme.base1 }}",
     "DefaultTabs.inactiveUnderlineColor": "#{{ theme.accent_mod2 }}",
@@ -141,12 +141,7 @@
     "EditorPane.background": "#{{ theme.base1 }}",
     "EditorPane.caretForeground": "#{{ theme.accent }}",
     "EditorPane.foreground": "#{{ theme.base6 }}",
-    "EditorPane.inactiveBackground": "#{{ theme.base2 }}",
-    "EditorPane.inactiveForeground": "#{{ theme.base6 }}",
-    "EditorPane.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "EditorPane.selectionForeground": "#{{ theme.accent }}",
 
-    "EditorTabs.background": "#{{ theme.base2 }}",
     "EditorTabs.borderColor": "#{{ theme.base3 }}",
     "EditorTabs.hoverBackground": "#{{ theme.base2 }}",
     "EditorTabs.inactiveColoredFileBackground": "#{{ theme.base2 }}",
@@ -165,25 +160,15 @@
     "FormattedTextField.background": "#{{ theme.base1 }}",
     "FormattedTextField.caretForeground": "#{{ theme.accent }}",
     "FormattedTextField.foreground": "#{{ theme.base7 }}",
-    "FormattedTextField.inactiveBackground": "#{{ theme.base1 }}",
-    "FormattedTextField.inactiveForeground": "#{{ theme.base6 }}",
-    "FormattedTextField.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "FormattedTextField.selectionForeground": "#{{ theme.accent }}",
 
-    "Label.background": "#{{ theme.base2 }}",
     "Label.disabledForeground": "#{{ theme.base4 }}",
     "Label.foreground": "#{{ theme.base6 }}",
     "Label.selectedForeground": "#{{ theme.base7 }}",
 
-    "List.background": "#{{ theme.base2 }}",
     "List.dropLineColor": "#{{ theme.base3 }}",
     "List.foreground": "#{{ theme.base6 }}",
     "List.hoverBackground": "#{{ theme.base1 }}",
     "List.hoverInactiveBackground": "#{{ theme.base2 }}",
-    "List.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "List.selectionForeground": "#{{ theme.accent }}",
-    "List.selectionInactiveBackground": "#{{ theme.base2 }}",
-    "List.selectionInactiveForeground": "#{{ theme.accent }}",
 
     "Link.activeForeground": "#{{ theme.accent }}",
     "Link.hoverForeground": "#{{ theme.accent }}",
@@ -195,35 +180,25 @@
     "MemoryIndicator.allocatedBackground": "#{{ theme.base4 }}",
 
     "Menu.acceleratorForeground": "#{{ theme.base6 }}",
-    "Menu.acceleratorSelectionForeground": "#{{ theme.accent }}",
-    "Menu.background": "#{{ theme.base2 }}",
     "Menu.borderColor": "#{{ theme.base3 }}",
     "Menu.disabledBackground": "#{{ theme.base2 }}",
     "Menu.disabledForeground": "#{{ theme.base4 }}",
     "Menu.foreground": "#{{ theme.base6 }}",
-    "Menu.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "Menu.selectionForeground": "#{{ theme.accent }}",
 
     "MenuBar.borderColor": "#{{ theme.base3 }}",
     "MenuBar.disabledBackground": "#{{ theme.base2 }}",
     "MenuBar.disabledForeground": "#{{ theme.base4 }}",
     "MenuBar.foreground": "#{{ theme.base6 }}",
     "MenuBar.highlight": "#{{ theme.base7 }}",
-    "MenuBar.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "MenuBar.selectionForeground": "#{{ theme.accent }}",
     "MenuBar.shadow": "#{{ theme.transparent }}",
 
     "MenuItem.acceleratorForeground": "#{{ theme.base6 }}",
-    "MenuItem.background": "#{{ theme.base2 }}",
     "MenuItem.disabledBackground": "#{{ theme.base2 }}",
     "MenuItem.disabledForeground": "#{{ theme.base4 }}",
     "MenuItem.foreground": "#{{ theme.base6 }}",
-    "MenuItem.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "MenuItem.selectionForeground": "#{{ theme.accent }}",
 
     "NavBar.borderColor": "#{{ theme.base3 }}",
 
-    "Notification.background": "#{{ theme.base2 }}",
     "Notification.foreground": "#{{ theme.base6 }}",
     "Notification.borderColor": "#{{ theme.base3 }}",
     "Notification.errorBackground": "#{{ theme.red_mod3 }}",
@@ -244,27 +219,23 @@
     "Notification.ToolWindow.warningBorderColor": "#{{ theme.orange }}",
     "Notification.ToolWindow.warningForeground": "#{{ theme.orange }}",
 
-    "Panel.background": "#{{ theme.base2 }}",
-    "Panel.foreground": "#{{ theme.base6 }}",
-
-    "ParameterInfo.background": "#{{ theme.base2 }}",
     "ParameterInfo.foreground": "#{{ theme.base4 }}",
     "ParameterInfo.currentOverloadBackground": "#{{ theme.base8 }}",
     "ParameterInfo.currentParameterForeground": "#{{ theme.base7 }}",
 
-    "Plugins.Button.installForeground": "#{{ theme.accent }}",
-    "Plugins.Button.installBorderColor": "#{{ theme.base1 }}",
-    "Plugins.Button.installFocusedBackground": "#{{ theme.base1 }}",
-    "Plugins.Button.installFillForeground": "#{{ theme.accent }}",
-    "Plugins.Button.installFillBackground": "#{{ theme.base1 }}",
-    "Plugins.Button.updateForeground": "#{{ theme.accent }}",
-    "Plugins.Button.updateBackground": "#{{ theme.base1 }}",
+    "Plugins.Button.installForeground": "#{{ theme.base1 }}",
+    "Plugins.Button.installBackground": "#{{ theme.green }}",
+    "Plugins.Button.installBorderColor": "#{{ theme.green }}",
+    "Plugins.Button.installFocusedBackground": "#{{ theme.green }}",
+    "Plugins.Button.installFillForeground": "#{{ theme.base1 }}",
+    "Plugins.Button.installFillBackground": "#{{ theme.green }}",
+    "Plugins.Button.updateForeground": "#{{ theme.base1 }}",
+    "Plugins.Button.updateBackground": "#{{ theme.accent }}",
 
     "Plugins.SearchField.background": "#{{ theme.base1 }}",
-    "Plugins.SearchField.borderColor": "#{{ theme.base3 }}",
 
     "Plugins.tagBackground": "#{{ theme.accent }}",
-    "Plugins.tagForeground": "#{{ theme.base7 }}",
+    "Plugins.tagForeground": "#{{ theme.base1 }}",
     "Plugins.lightSelectionBackground": "#{{ theme.accent_mod3 }}",
     "Plugins.hoverBackground": "#{{ theme.accent_mod3 }}",
 
@@ -278,15 +249,12 @@
     "Popup.Advertiser.borderInsets": "3,8,5,0",
 
     "Popup.Header.activeBackground": "#{{ theme.base2 }}",
-    "Popup.Header.inactiveBackground": "#{{ theme.base2 }}",
 
     "Popup.Toolbar.background": "#{{ theme.base2 }}",
     "Popup.Toolbar.borderColor": "#{{ theme.base3 }}",
 
     "PopupMenu.background": "#{{ theme.base2 }}",
     "PopupMenu.foreground": "#{{ theme.base6 }}",
-    "PopupMenu.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "PopupMenu.selectionForeground": "#{{ theme.accent }}",
     "PopupMenu.translucentBackground": "#{{ theme.translucent }}",
 
     "ProgressBar.trackColor": "#{{ theme.base2 }}",
@@ -303,13 +271,10 @@
     "RadioButton.foreground": "#{{ theme.base6 }}",
 
     "RadioButtonMenuItem.acceleratorForeground": "#{{ theme.base6 }}",
-    "RadioButtonMenuItem.acceleratorSelectionForeground": "#{{ theme.accent }}",
     "RadioButtonMenuItem.background": "#{{ theme.base2 }}",
     "RadioButtonMenuItem.disabledBackground": "#{{ theme.base4 }}",
     "RadioButtonMenuItem.disabledForeground": "#{{ theme.base6 }}",
     "RadioButtonMenuItem.foreground": "#{{ theme.base6 }}",
-    "RadioButtonMenuItem.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "RadioButtonMenuItem.selectionForeground": "#{{ theme.accent }}",
 
     "ScrollBar.trackColor": "#{{ theme.base2 }}",
     "ScrollBar.thumbColor": "#{{ theme.base3 }}",
@@ -357,11 +322,17 @@
     "SearchField.errorBackground": "#{{ theme.red_mod3 }}",
     "SearchField.errorForeground": "#{{ theme.red }}",
 
+    {% if dark %}
     "SearchMatch.endBackground": "#{{ theme.accent }}",
     "SearchMatch.startBackground": "#{{ theme.accent }}",
+    {% else %}
+    "SearchMatch.endBackground": "#{{ theme.accent_mod2 }}",
+    "SearchMatch.startBackground": "#{{ theme.accent_mod2 }}",
+    {% endif %}
 
     "SidePanel.background": "#{{ theme.base2 }}",
 
+    "StatusBar.background": "#{{ theme.base2 }}",
     "StatusBar.borderColor": "#{{ theme.base3 }}",
 
     "TabbedPane.background": "#{{ theme.base2 }}",
@@ -388,16 +359,11 @@
     "TextArea.background": "#{{ theme.base1 }}",
     "TextArea.foreground": "#{{ theme.base7 }}",
 
-    "TextComponent.selectionBackgroundInactive": "#{{ theme.base2 }}",
-
     "TextField.background": "#{{ theme.base1 }}",
     "TextField.caretForeground": "#{{ theme.accent }}",
     "TextField.darkShadow": "#{{ theme.transparent }}",
     "TextField.foreground": "#{{ theme.base7 }}",
     "TextField.highlight": "#{{ theme.transparent }}",
-    "TextField.inactiveForeground": "#{{ theme.base6 }}",
-    "TextField.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "TextField.selectionForeground": "#{{ theme.accent }}",
 
     "ToggleButton.background": "#{{ theme.base1 }}",
     "ToggleButton.borderColor": "#{{ theme.base3 }}",
@@ -419,7 +385,6 @@
 
     "ToolWindow.Header.background": "#{{ theme.base2 }}",
     "ToolWindow.Header.borderColor": "#{{ theme.base3 }}",
-    "ToolWindow.Header.inactiveBackground": "#{{ theme.base2 }}",
     "ToolWindow.HeaderTab.hoverBackground": "#{{ theme.base1 }}",
     "ToolWindow.HeaderTab.hoverInactiveBackground": "#{{ theme.base2 }}",
     "ToolWindow.HeaderTab.selectedInactiveBackground": "#{{ theme.base2 }}",
@@ -440,15 +405,13 @@
     "Tree.foreground": "#{{ theme.base6 }}",
     "Tree.hoverBackground": "#{{ theme.base1 }}",
     "Tree.hoverInactiveBackground": "#{{ theme.base1 }}",
+    "Tree.selectionInactiveBackground": "#{{ theme.base1 }}",
     "Tree.modifiedItemForeground": "#{{ theme.blue }}",
-    "Tree.selectionBackground": "#{{ theme.accent_mod3 }}",
-    "Tree.selectionForeground": "#{{ theme.accent }}",
-    "Tree.selectionInactiveBackground": "#{{ theme.base2 }}",
     "Tree.rowHeight": "26",
 
-    "ValidationTooltip.errorBackground": "#{{ theme.red }}",
+    "ValidationTooltip.errorBackground": "#{{ theme.red_mod3 }}",
     "ValidationTooltip.errorBorderColor": "#{{ theme.red }}",
-    "ValidationTooltip.warningBackground": "#{{ theme.orange }}",
+    "ValidationTooltip.warningBackground": "#{{ theme.orange_mod3 }}",
     "ValidationTooltip.warningBorderColor": "#{{ theme.orange }}",
 
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "#fffee4",
@@ -474,7 +437,6 @@
     "VersionControl.RefLabel.backgroundBase": "#{{ theme.base1 }}",
     "VersionControl.RefLabel.foreground": "#{{ theme.base6 }}",
 
-    "WelcomeScreen.Projects.selectionInactiveBackground": "#{{ theme.base2 }}",
     "WelcomeScreen.separatorColor": "#{{ theme.base3 }}",
 
     "Window.border": "1,1,1,1,{{ theme.base3 }}"
