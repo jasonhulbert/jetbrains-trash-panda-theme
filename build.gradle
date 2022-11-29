@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.1'
+version '2.0.2'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2022.1'
+    version = '2022.2'
 }
 
 tasks {
@@ -27,9 +27,16 @@ tasks {
 }
 
 patchPluginXml {
-    sinceBuild.set('203.7148')
-    untilBuild.set('222.*')
+    sinceBuild.set('213.*')
+    untilBuild.set('223.*')
     changeNotes = """
+    <h2>2.0.1 (2022.10.19)</h2>
+    <ul>
+    <li>Darkens background and border colors in default dark theme</li>
+    <li>Improves overall contrast of "Light" theme. Theme colors have been darkened and background/border colors are now brighter</li>
+    <li>Fixes issue where the currently opened/active file in the project view was not highlighted</li>
+    <li>Chore: theme file cleanup, removing some unneeded theme properties</li>
+    </ul>
     <h2>2.0.0 (2022.07.26)</h2>
     <ul>
     <li>New "Light" and "Moonlight" themes</li>

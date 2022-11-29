@@ -1,7 +1,7 @@
 from jinja2 import Environment, PackageLoader, select_autoescape
 from ruamel.yaml import YAML
 
-yaml=YAML(typ='safe')   # default, if not specfied, is 'rt' (round-trip)
+yaml = YAML(typ='safe')   # default, if not specified, is 'rt' (round-trip)
 
 themes = {
     'default': 'default.yaml',
@@ -20,8 +20,8 @@ for name in themes:
 
     env.filters['bool'] = bool
 
-    theme_template = env.get_template('theme.json.template')
-    theme_scheme_template = env.get_template('scheme.xml.template')
+    theme_template = env.get_template('theme.tmpl')
+    theme_scheme_template = env.get_template('scheme.tmpl')
 
     with open(f'src/main/resources/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
         theme_out_file.write(theme_template.render(theme_data))
