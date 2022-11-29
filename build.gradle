@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.2-beta.1'
+version '2.0.2'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2022.1'
+    version = '2022.2'
 }
 
 tasks {
@@ -27,8 +27,8 @@ tasks {
 }
 
 patchPluginXml {
-    sinceBuild.set('203.7148')
-    untilBuild.set('222.*')
+    sinceBuild.set('213.*')
+    untilBuild.set('223.*')
     changeNotes = """
     <h2>2.0.1 (2022.10.19)</h2>
     <ul>
