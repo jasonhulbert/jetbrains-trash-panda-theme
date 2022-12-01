@@ -30,6 +30,10 @@ patchPluginXml {
     sinceBuild.set('213.*')
     untilBuild.set('223.*')
     changeNotes = """
+    <h2>2.0.2 (2022.11.30)</h2>
+    <ul>
+    <li>Updates build compatability to 223.*</li>
+    </ul>
     <h2>2.0.1 (2022.10.19)</h2>
     <ul>
     <li>Darkens background and border colors in default dark theme</li>
