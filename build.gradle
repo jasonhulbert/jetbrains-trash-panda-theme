@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.2'
+version '2.0.3'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2022.2'
+    version = '2022.3'
 }
 
 tasks {
@@ -30,6 +30,10 @@ patchPluginXml {
     sinceBuild.set('213.*')
     untilBuild.set('223.*')
     changeNotes = """
+    <h2>2.0.2 (2022.12.01)</h2>
+    <ul>
+    <li>Adds theme properties for New UI `RunWidget`</li>
+    </ul>
     <h2>2.0.2 (2022.11.30)</h2>
     <ul>
     <li>Updates build compatability to 223.*</li>
