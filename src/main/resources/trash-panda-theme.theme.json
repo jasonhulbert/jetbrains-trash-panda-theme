@@ -270,6 +270,17 @@
     "RadioButtonMenuItem.disabledForeground": "#b8babd",
     "RadioButtonMenuItem.foreground": "#b8babd",
 
+    "RunToolbar.Debug.activeBackground": "#3C1515",
+    "RunToolbar.Profile.activeBackground": "#101B3D",
+    "RunToolbar.Run.activeBackground": "#0a2d23",
+
+    "RunWidget.background": "#406bf4",
+    "RunWidget.foreground": "#1D2123",
+    "RunWidget.hoverBackground": "",
+    "RunWidget.pressedBackground": "",
+    "RunWidget.runningBackground": "#26b48b",
+    "RunWidget.separatorColor": "#2C3135",
+
     "ScrollBar.trackColor": "#1D2123",
     "ScrollBar.thumbColor": "#2C3135",
     "ScrollBar.thumbBorderColor": "#2C3135",

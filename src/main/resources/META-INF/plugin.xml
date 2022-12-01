@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.trashpandatheme</id>
     <name>Trash Panda Theme</name>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
     <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
 
     <description><![CDATA[
