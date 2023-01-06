@@ -7,7 +7,7 @@
     "ColorPalette": {
         "Actions.Grey": "#727a7f",
         "Actions.Red": "#F05553",
-        "Actions.Yellow": "#dbbe65",
+        "Actions.Yellow": "#dcc37c",
         "Actions.Green": "#26b48b",
         "Actions.Blue": "#2c99db",
         "Actions.GreyInline.Dark": "#727a7f",
@@ -16,12 +16,12 @@
         "Objects.RedStatus": "#F05553",
         "Objects.Red": "#F05553",
         "Objects.Pink": "#DC6096",
-        "Objects.Yellow": "#dbbe65",
+        "Objects.Yellow": "#dcc37c",
         "Objects.Green": "#26b48b",
         "Objects.Blue": "#2c99db",
         "Objects.Purple": "#A07CF1",
         "Objects.BlackText": "#b8babd",
-        "Objects.YellowDark": "#a48f4c",
+        "Objects.YellowDark": "#a5925d",
         "Objects.GreenAndroid": "#90d28a",
 
         
@@ -149,7 +149,7 @@
     "FileColor.Orange": "#3C2017",
     "FileColor.Rose": "#371826",
     "FileColor.Violet": "#281F3C",
-    "FileColor.Yellow": "#373019",
+    "FileColor.Yellow": "#37311f",
 
     "FormattedTextField.background": "#141618",
     "FormattedTextField.caretForeground": "#406bf4",
@@ -418,7 +418,7 @@
 
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "#fffee4",
 
-    "VersionControl.GitLog.headIconColor": "#dbbe65",
+    "VersionControl.GitLog.headIconColor": "#dcc37c",
     "VersionControl.GitLog.localBranchIconColor": "#26b48b",
     "VersionControl.GitLog.otherIconColor": "#5f656a",
     "VersionControl.GitLog.remoteBranchIconColor": "#A07CF1",
@@ -431,7 +431,7 @@
     "VersionControl.HgLog.localTagIconColor": "#2c99db",
     "VersionControl.HgLog.mqTagIconColor": "#5f656a",
     "VersionControl.HgLog.tagIconColor": "#5f656a",
-    "VersionControl.HgLog.tipIconColor": "#dbbe65",
+    "VersionControl.HgLog.tipIconColor": "#dcc37c",
 
     "VersionControl.Log.Commit.currentBranchBackground": "#2C3135",
     "VersionControl.Log.Commit.hoveredBackground": "#1D2123",
