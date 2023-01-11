@@ -583,6 +583,7 @@
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
         <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+        <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
         <option name="HTTP_REQUEST_PARAMETER_NAME" baseAttributes="DEFAULT_PARAMETER" />
 
         <option name="HYPERLINK_ATTRIBUTES">
