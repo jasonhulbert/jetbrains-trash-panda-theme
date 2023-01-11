@@ -7,8 +7,8 @@
     "ColorPalette": {
         "Actions.Grey": "#657a87",
         "Actions.Red": "#F05553",
-        "Actions.Yellow": "#dbbe65",
-        "Actions.Green": "#26b48b",
+        "Actions.Yellow": "#dcc37c",
+        "Actions.Green": "#42ba90",
         "Actions.Blue": "#2c99db",
         "Actions.GreyInline.Dark": "#657a87",
 
@@ -16,13 +16,13 @@
         "Objects.RedStatus": "#F05553",
         "Objects.Red": "#F05553",
         "Objects.Pink": "#DC6096",
-        "Objects.Yellow": "#dbbe65",
-        "Objects.Green": "#26b48b",
+        "Objects.Yellow": "#dcc37c",
+        "Objects.Green": "#42ba90",
         "Objects.Blue": "#2c99db",
         "Objects.Purple": "#A07CF1",
         "Objects.BlackText": "#b8bfc5",
-        "Objects.YellowDark": "#a48f4c",
-        "Objects.GreenAndroid": "#90d28a",
+        "Objects.YellowDark": "#a5925d",
+        "Objects.GreenAndroid": "#8ec475",
 
         
         "Checkbox.Border.Default.Dark": "#34434e",
@@ -145,11 +145,11 @@
     "EditorTabs.underlinedTabForeground": "#eaeaea",
 
     "FileColor.Blue": "#0b2637",
-    "FileColor.Green": "#0a2d23",
+    "FileColor.Green": "#102f24",
     "FileColor.Orange": "#3C2017",
     "FileColor.Rose": "#371826",
     "FileColor.Violet": "#281F3C",
-    "FileColor.Yellow": "#373019",
+    "FileColor.Yellow": "#37311f",
 
     "FormattedTextField.background": "#1d262c",
     "FormattedTextField.caretForeground": "#406bf4",
@@ -170,7 +170,7 @@
     "Link.secondaryForeground": "#3050b7",
     "Link.visitedForeground": "#406bf4",
 
-    "MemoryIndicator.usedBackground": "#26b48b",
+    "MemoryIndicator.usedBackground": "#42ba90",
     "MemoryIndicator.allocatedBackground": "#556672",
 
     "Menu.acceleratorForeground": "#b8bfc5",
@@ -218,11 +218,11 @@
     "ParameterInfo.currentParameterForeground": "#eaeaea",
 
     "Plugins.Button.installForeground": "#1d262c",
-    "Plugins.Button.installBackground": "#26b48b",
-    "Plugins.Button.installBorderColor": "#26b48b",
-    "Plugins.Button.installFocusedBackground": "#26b48b",
+    "Plugins.Button.installBackground": "#42ba90",
+    "Plugins.Button.installBorderColor": "#42ba90",
+    "Plugins.Button.installFocusedBackground": "#42ba90",
     "Plugins.Button.installFillForeground": "#1d262c",
-    "Plugins.Button.installFillBackground": "#26b48b",
+    "Plugins.Button.installFillBackground": "#42ba90",
     "Plugins.Button.updateForeground": "#1d262c",
     "Plugins.Button.updateBackground": "#406bf4",
 
@@ -257,8 +257,8 @@
     "ProgressBar.indeterminateEndColor": "#101b3d",
     "ProgressBar.failedColor": "#F05553",
     "ProgressBar.failedEndColor": "#3C1515",
-    "ProgressBar.passedColor": "#26b48b",
-    "ProgressBar.passedEndColor": "#0a2d23",
+    "ProgressBar.passedColor": "#42ba90",
+    "ProgressBar.passedEndColor": "#102f24",
 
     "RadioButton.background": "#00000000",
     "RadioButton.disabledText": "#556672",
@@ -272,13 +272,13 @@
 
     "RunToolbar.Debug.activeBackground": "#3C1515",
     "RunToolbar.Profile.activeBackground": "#101b3d",
-    "RunToolbar.Run.activeBackground": "#0a2d23",
+    "RunToolbar.Run.activeBackground": "#102f24",
 
     "RunWidget.background": "#406bf4",
     "RunWidget.foreground": "#253037",
     "RunWidget.hoverBackground": "",
     "RunWidget.pressedBackground": "",
-    "RunWidget.runningBackground": "#26b48b",
+    "RunWidget.runningBackground": "#42ba90",
     "RunWidget.separatorColor": "#34434e",
 
     "ScrollBar.trackColor": "#253037",
@@ -334,7 +334,6 @@
 
     "SidePanel.background": "#253037",
 
-    "StatusBar.background": "#253037",
     "StatusBar.borderColor": "#34434e",
 
     "TabbedPane.background": "#253037",
@@ -418,8 +417,8 @@
 
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "#fffee4",
 
-    "VersionControl.GitLog.headIconColor": "#dbbe65",
-    "VersionControl.GitLog.localBranchIconColor": "#26b48b",
+    "VersionControl.GitLog.headIconColor": "#dcc37c",
+    "VersionControl.GitLog.localBranchIconColor": "#42ba90",
     "VersionControl.GitLog.otherIconColor": "#556672",
     "VersionControl.GitLog.remoteBranchIconColor": "#A07CF1",
     "VersionControl.GitLog.tagIconColor": "#556672",
@@ -431,7 +430,7 @@
     "VersionControl.HgLog.localTagIconColor": "#2c99db",
     "VersionControl.HgLog.mqTagIconColor": "#556672",
     "VersionControl.HgLog.tagIconColor": "#556672",
-    "VersionControl.HgLog.tipIconColor": "#dbbe65",
+    "VersionControl.HgLog.tipIconColor": "#dcc37c",
 
     "VersionControl.Log.Commit.currentBranchBackground": "#34434e",
     "VersionControl.Log.Commit.hoveredBackground": "#253037",

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.3'
+version '2.0.4'
 
 repositories {
     mavenCentral()
@@ -30,7 +30,13 @@ patchPluginXml {
     sinceBuild.set('213.*')
     untilBuild.set('223.*')
     changeNotes = """
-    <h2>2.0.2 (2022.12.01)</h2>
+    <h2>2.0.4 (2023.01.11)</h2>
+    <ul>
+    <li>Reduces saturation/intensity of yellows and greens</li>
+    <li>Adds "High Contrast" theme variation</li>
+    <li>Adds syntax rule for `HTML_CUSTOM_TAG_NAME`</li>
+    </ul>
+    <h2>2.0.3 (2022.12.01)</h2>
     <ul>
     <li>Adds theme properties for New UI `RunWidget`</li>
     </ul>

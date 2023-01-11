@@ -8,7 +8,7 @@
         <option name="DELETED_LINES_COLOR" value="fcd6d5" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="E0E3E4" />
         <option name="DOCUMENTATION_COLOR" value="f5f6fb" />
-        <option name="ERROR_HINT" value="b41412" />
+        <option name="ERROR_HINT" value="fcd6d5" />
         <option name="FILESTATUS_ADDED" value="08676d" />
         <option name="FILESTATUS_COPIED" value="08676d" />
         <option name="FILESTATUS_DELETED" value="b4340b" />
@@ -38,7 +38,7 @@
         <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="f06437" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="423c9f" />
         <option name="INDENT_GUIDE" value="E0E3E4" />
-        <option name="INFORMATION_HINT" value="322d77" />
+        <option name="INFORMATION_HINT" value="f5f6fb" />
         <option name="LINE_NUMBERS_COLOR" value="E0E3E4" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="406bf4" />
         <option name="LOOKUP_COLOR" value="f5f6fb" />
@@ -583,6 +583,7 @@
         <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
         <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
         <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
+        <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME" />
         <option name="HTTP_REQUEST_PARAMETER_NAME" baseAttributes="DEFAULT_PARAMETER" />
 
         <option name="HYPERLINK_ATTRIBUTES">

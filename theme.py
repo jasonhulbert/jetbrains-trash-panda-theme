@@ -6,7 +6,8 @@ yaml = YAML(typ='safe')   # default, if not specified, is 'rt' (round-trip)
 themes = {
     'default': 'default.yaml',
     'light': 'light.yaml',
-    'moonlight': 'moonlight.yaml'
+    'moonlight': 'moonlight.yaml',
+    'high-contrast': 'high-contrast.yaml'
 }
 
 for name in themes:

@@ -1,0 +1,57 @@
+name: "Trash Panda Theme (High Contrast)"
+author: "Jason Hulbert"
+dark: true
+theme_out_file: "trash-panda-theme-high-contrast.theme.json"
+scheme_out_file: "trash-panda-theme-high-contrast.xml"
+parent_scheme: "Darcula"
+theme:
+  transparent: "00000000"
+  translucent: "00000050"
+  base1: "080a0a" # Editable / Interactive Background
+  base2: "080a0a" # Background
+  base3: "3e4d58" # Border
+  base4: "5f707c" # Ignored / Disabled
+  base5: "6f8491" # Submodule / Comment / Label / UI "Grey" Elements
+  base6: "c2c9cf" # Foreground
+  base7: "f0f0f0" # Editable / Interactive Foreground
+  base8: "FFFFFF" # Bright Foreground
+  accent: "149df8"
+  accent_mod1: "0f76ba"
+  accent_mod2: "0a4f7c"
+  accent_mod3: "05273e"
+  lime: "96ff7d"
+  lime_mod1: "71bf5e"
+  lime_mod2: "4b803f"
+  lime_mod3: "26401f"
+  green: "05c895"
+  green_mod1: "049670"
+  green_mod2: "03644b"
+  green_mod3: "013225"
+  blue: "1968f7"
+  blue_mod1: "134eb9"
+  blue_mod2: "0d347c"
+  blue_mod3: "061a3e"
+  cyan: "34e7f4"
+  cyan_mod1: "27adb7"
+  cyan_mod2: "1a747a"
+  cyan_mod3: "0d3a3d"
+  purple: "9f67f8"
+  purple_mod1: "774dba"
+  purple_mod2: "50347c"
+  purple_mod3: "281a3e"
+  pink: "f482ec"
+  pink_mod1: "b762b1"
+  pink_mod2: "7a4176"
+  pink_mod3: "3d213b"
+  red: "f44034"
+  red_mod1: "b73027"
+  red_mod2: "7a201a"
+  red_mod3: "3d100d"
+  orange: "f8a54c"
+  orange_mod1: "ba7c39"
+  orange_mod2: "7c5326"
+  orange_mod3: "3e2913"
+  yellow: "ece385"
+  yellow_mod1: "b1aa64"
+  yellow_mod2: "767243"
+  yellow_mod3: "3b3921"
