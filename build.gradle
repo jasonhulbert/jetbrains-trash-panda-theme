@@ -28,7 +28,7 @@ tasks {
 
 patchPluginXml {
     sinceBuild.set('213.*')
-    untilBuild.set('223.*')
+    untilBuild.set('231.*')
     changeNotes = """
     <h2>2.0.5 (TBD)</h2>
     <ul>
