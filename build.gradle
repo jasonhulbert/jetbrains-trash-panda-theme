@@ -32,7 +32,9 @@ patchPluginXml {
     changeNotes = """
     <h2>2.0.5 (TBD)</h2>
     <ul>
-    <li>Brightens `accent` and `blue` colors in high contrast variant</li>
+        <li>Updates intelij compatability to 2023.1</li>
+        <li>Adjustments to a few high-contrast theme colors for greater range of contrast in for various color perception disabilities</li>
+        <li>Removes deprecated RunWidget theme properties</li>
     </ul>
     <h2>2.0.4 (2023.01.11)</h2>
     <ul>
