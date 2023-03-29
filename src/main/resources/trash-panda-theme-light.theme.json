@@ -274,12 +274,10 @@
     "RunToolbar.Profile.activeBackground": "#d9e1fd",
     "RunToolbar.Run.activeBackground": "#cee7e9",
 
-    "RunWidget.background": "#406bf4",
-    "RunWidget.foreground": "#f5f6fb",
+    "RunWidget.foreground": "#262727",
     "RunWidget.hoverBackground": "",
     "RunWidget.pressedBackground": "",
     "RunWidget.runningBackground": "#08676d",
-    "RunWidget.separatorColor": "#E0E3E4",
 
     "ScrollBar.trackColor": "#f5f6fb",
     "ScrollBar.thumbColor": "#E0E3E4",

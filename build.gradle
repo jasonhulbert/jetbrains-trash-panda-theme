@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.4'
+version '2.0.5'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2022.3'
+    version = '2023.1'
 }
 
 tasks {
@@ -30,6 +30,10 @@ patchPluginXml {
     sinceBuild.set('213.*')
     untilBuild.set('223.*')
     changeNotes = """
+    <h2>2.0.5 (TBD)</h2>
+    <ul>
+    <li>Brightens `accent` and `blue` colors in high contrast variant</li>
+    </ul>
     <h2>2.0.4 (2023.01.11)</h2>
     <ul>
     <li>Reduces saturation/intensity of yellows and greens</li>
