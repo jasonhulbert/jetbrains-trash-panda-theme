@@ -260,7 +260,6 @@
     "ProgressBar.passedColor": "#42ba90",
     "ProgressBar.passedEndColor": "#102f24",
 
-    "RadioButton.background": "#00000000",
     "RadioButton.disabledText": "#5f656a",
     "RadioButton.foreground": "#b8babd",
 
