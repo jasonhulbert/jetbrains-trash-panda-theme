@@ -1,6 +1,7 @@
 name: "Trash Panda Theme (Light)"
 author: "Jason Hulbert"
 dark: false
+high_contrast: false
 theme_out_file: "trash-panda-theme-light.theme.json"
 scheme_out_file: "trash-panda-theme-light.xml"
 parent_scheme: "Default"

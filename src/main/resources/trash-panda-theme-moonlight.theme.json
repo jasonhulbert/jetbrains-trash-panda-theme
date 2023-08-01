@@ -37,7 +37,7 @@
   },
   "ui": {
     "*": {
-        "windowBorder": "#34434e",
+        "windowBorder": "#253037",
         "borderColor": "#34434e",
         "background": "#253037",
         "foreground": "#b8bfc5",
@@ -46,7 +46,7 @@
         "selectionBackground": "#101b3d",
         "selectionForeground": "#406bf4",
         "selectionInactiveBackground": "#253037",
-        "selectionInactiveForeground": "#406bf4",
+        "selectionInactiveForeground": "#b8bfc5",
         "acceleratorSelectionForeground": "#406bf4",
         "focusColor": "#20367a",
         "focusedBorderColor": "#20367a"
@@ -402,9 +402,11 @@
     "Tree.background": "#253037",
     "Tree.errorForeground": "#F05553",
     "Tree.foreground": "#b8bfc5",
-    "Tree.hoverBackground": "#1d262c",
-    "Tree.hoverInactiveBackground": "#1d262c",
-    "Tree.selectionInactiveBackground": "#1d262c",
+    "Tree.hoverBackground": "#253037",
+    "Tree.hoverInactiveBackground": "#253037",
+    "Tree.selectionForeground": "#FFFFFF",
+    "Tree.selectionBackground": "#101b3d",
+    "Tree.selectionInactiveBackground": "#101b3d",
     "Tree.modifiedItemForeground": "#2c99db",
     "Tree.rowHeight": "26",
 
@@ -413,7 +415,7 @@
     "ValidationTooltip.warningBackground": "#3C2017",
     "ValidationTooltip.warningBorderColor": "#F07F5B",
 
-    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#fffee4",
+    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#101b3d",
 
     "VersionControl.GitLog.headIconColor": "#dcc37c",
     "VersionControl.GitLog.localBranchIconColor": "#42ba90",
