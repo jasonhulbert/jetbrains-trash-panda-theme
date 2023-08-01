@@ -1,6 +1,7 @@
 name: "Trash Panda Theme"
 author: "Jason Hulbert"
 dark: true
+high_contrast: false
 theme_out_file: "trash-panda-theme.theme.json"
 scheme_out_file: "trash-panda-theme.xml"
 parent_scheme: "Darcula"

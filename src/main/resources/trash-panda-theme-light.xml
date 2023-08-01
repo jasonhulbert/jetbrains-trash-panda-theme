@@ -17,12 +17,14 @@
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="b41412" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="b41412" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="b41412" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="83731f" />
+        <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="aea159" />
         <option name="FILESTATUS_MERGED" value="08676d" />
         <option name="FILESTATUS_MODIFIED" value="322d77" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="515252" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="515252" />
         <option name="FILESTATUS_RENAMED" value="322d77" />
-        <option name="FILESTATUS_UNKNOWN" value="b4340b" />
+        <option name="FILESTATUS_UNKNOWN" value="4716b5" />
         <option name="FILESTATUS_addedOutside" value="08676d" />
         <option name="FILESTATUS_changelistConflict" value="b41412" />
         <option name="FILESTATUS_modifiedOutside" value="322d77" />
