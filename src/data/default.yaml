@@ -1,9 +1,9 @@
 name: "Trash Panda Theme"
 author: "Jason Hulbert"
 dark: true
-high_contrast: false
 theme_out_file: "trash-panda-theme.theme.json"
 scheme_out_file: "trash-panda-theme.xml"
+vim_out_file: "trash-panda-theme.vim"
 parent_scheme: "Darcula"
 theme:
   transparent: "00000000"
@@ -56,3 +56,77 @@ theme:
   yellow_mod1: "a5925d"
   yellow_mod2: "6e623e"
   yellow_mod3: "37311f"
+  
+vim:
+  folded: "B5B6E3"
+  ignore: "686A4E"
+
+vim_256:
+  base1: "233" # Editable / Interactive Background
+  base2: "234" # Background
+  base3: "235" # Border
+  base4: "240" # Ignored / Disabled
+  base5: "243" # Submodule / Comment / Label / UI "Grey" Elements
+  base6: "250" # Foreground
+  base7: "254" # Editable / Interactive Foreground
+  base8: "015" # Bright Foreground
+  accent: "027"
+  accent_mod1: "025"
+  accent_mod2: "019"
+  accent_mod3: "017"
+  lime: "114"
+  lime_mod1: "107"
+  lime_mod2: "065"
+  lime_mod3: "234"
+  green: "079"
+  green_mod1: "029"
+  green_mod2: "023"
+  green_mod3: "022"
+  blue: "039"
+  blue_mod1: "031"
+  blue_mod2: "006"
+  blue_mod3: "004"
+  cyan: "081"
+  cyan_mod1: "037"
+  cyan_mod2: "024"
+  cyan_mod3: "235"
+  purple: "141"
+  purple_mod1: "097"
+  purple_mod2: "054"
+  purple_mod3: "053"
+  pink: "168"
+  pink_mod1: "132"
+  pink_mod2: "089"
+  pink_mod3: "088"
+  red: "203"
+  red_mod1: "131"
+  red_mod2: "001"
+  red_mod3: "052"
+  orange: "209"
+  orange_mod1: "130"
+  orange_mod2: "094"
+  orange_mod3: "235"
+  yellow: "186"
+  yellow_mod1: "143"
+  yellow_mod2: "058"
+  yellow_mod3: "058" # // Not used currently
+
+vim_16:
+  black: "000"
+  grey: "008"
+  red: "001"
+  bright_red: "009"
+  green: "002"
+  bright_green: "010"
+  yellow: "003"
+  bright_yellow: "011"
+  blue: "004"
+  bright_blue: "012"
+  purple: "005"
+  bright_purple: "013"
+  cyan: "006"
+  bright_cyan: "014"
+  bright_grey: "007"
+  white: "015"
+
+

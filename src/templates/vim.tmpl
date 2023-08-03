@@ -1,0 +1,378 @@
+" Name:			{{ name }}
+" Author: 		{{ author }}
+" Dark: 		{{ dark }}
+" Parent Scheme:	{{ parent_scheme }}
+
+set background=dark
+
+hi clear
+
+let g:colors_name= 'trashpanda'
+
+let s:t_Co = exists('&t_Co') && !has('gui_running') ? (&t_Co ?? 0) : -1
+
+hi! link Terminal Normal
+hi! link Boolean Constant
+hi! link Character Constant
+hi! link Conditional Statement
+hi! link Debug Special
+hi! link Define PreProc
+hi! link Delimiter Special
+hi! link Exception Statement
+hi! link Float Number
+hi! link Function Identifier
+hi! link Include PreProc
+hi! link IncSearch Visual
+hi! link Keyword Statement
+hi! link Label Statement
+hi! link LineNrAbove LineNr
+hi! link LineNrBelow LineNr
+hi! link Macro PreProc
+hi! link Number Constant
+hi! link Operator Statement
+hi! link PopupSelected PmenuSel
+hi! link PreCondit PreProc
+hi! link Repeat Statement
+hi! link SpecialChar Special
+hi! link SpecialComment Special
+hi! link StatusLineTerm StatusLine
+hi! link StatusLineTermNC StatusLineNC
+hi! link StorageClass Type
+hi! link String Constant
+hi! link Structure Type
+hi! link Tag Special
+hi! link Typedef Type
+hi! link lCursor Cursor
+hi! link CurSearch Search
+hi! link CursorLineFold CursorLine
+hi! link CursorLineSign CursorLine
+hi! link MessageWindow Pmenu
+hi! link PopupNotification Todo
+" Format
+" hi [element] guifg=[color] guibg=[color]
+" gui=[bold,undercurl,italic], cterm=[], ctermfg=[], ctermbg=[]
+hi Normal guifg=#{{ theme.base6 }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi ColorColumn guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE guibg=#{{ theme.blue }} gui=NONE cterm=NONE
+hi CursorLine guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi CursorLineNr guifg=#{{ theme.green }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi Folded guifg=#{{ vim.folded }} guibg=#{{ theme.base3 }} gui=NONE cterm=NONE
+hi QuickFixLine guifg=#{{ theme.blue_mod2 }} guibg=NONE gui=NONE cterm=NONE
+hi Conceal guifg=NONE guibg=#{{ theme.base3 }} gui=NONE cterm=NONE
+hi Cursor guifg=#{{ theme.base1 }} guibg=#{{ theme.accent }} gui=NONE cterm=NONE
+hi Directory guifg=#{{ theme.blue }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#{{ theme.base6 }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi ErrorMsg guifg=#{{ theme.red }} guibg=NONE gui=NONE cterm=NONE
+hi FoldColumn guifg=NONE guibg=#{{ theme.base4 }} gui=NONE cterm=NONE
+hi LineNr guifg=#{{ theme.base3 }} guibg=NONE gui=NONE cterm=NONE
+hi MatchParen guifg=#{{ theme.base8 }} guibg=#{{ theme.accent }} gui=NONE cterm=NONE
+hi ModeMsg guifg=#{{ theme.base2 }} guibg=#{{ theme.green }} gui=NONE cterm=NONE
+hi MoreMsg guifg=#{{ theme.green_mod2 }} guibg=NONE gui=NONE cterm=NONE
+hi NonText guifg=#{{ theme.base6 }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi PMenu guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi PMenuSbar guifg=NONE guibg=#{{ theme.base3 }} gui=NONE cterm=NONE
+hi PMenuSel guifg=#{{ theme.base2 }} guibg=#{{ theme.green }} gui=NONE cterm=NONE
+hi PMenuThumb guifg=NONE guibg=#{{ theme.green }} gui=NONE cterm=NONE
+hi Question guifg=#{{ theme.red }} guibg=#{{ theme.base4 }} gui=NONE cterm=NONE
+hi Search guifg=#{{ theme.base6 }} guibg=#{{ theme.blue_mod2 }} gui=NONE cterm=NONE
+hi SignColumn guifg=#{{ theme.base3 }} guibg=#{{ theme.base8 }} gui=NONE cterm=NONE
+hi SpecialKey guifg=#{{ theme.yellow_mod2 }} guibg=NONE gui=NONE cterm=NONE
+hi SpellBad guifg=NONE guibg=NONE gui=undercurl cterm=underline
+hi SpellCap guifg=NONE guibg=NONE gui=undercurl cterm=underline
+hi SpellLocal guifg=NONE guibg=NONE gui=undercurl cterm=underline
+hi SpellRare guifg=NONE guibg=NONE gui=undercurl cterm=underline
+hi StatusLine guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi StatusLineNC guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi TabLine guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi TabLineFill guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi TabLineSel guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi Title guifg=#{{ theme.green_mod2 }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi VertSplit guifg=#{{ theme.base3 }} guibg=#{{ theme.base1 }} gui=NONE cterm=NONE
+hi Visual guifg=#{{ theme.accent }} guibg=#{{ theme.accent_mod3 }} gui=NONE cterm=NONE
+hi VisualNOS guifg=#{{ theme.accent }} guibg=#{{ theme.accent_mod3 }} gui=NONE cterm=NONE
+hi WarningMsg guifg=#{{ theme.red }} guibg=#{{ theme.red_mod3 }} gui=NONE cterm=NONE
+hi WildMenu guifg=#{{ theme.green }} guibg=#{{ theme.base2 }} gui=NONE cterm=NONE
+hi Comment guifg=#{{ theme.base5 }} guibg=NONE gui=NONE cterm=NONE
+hi Constant guifg=#{{ theme.base6 }} guibg=NONE gui=NONE cterm=NONE
+hi Error guifg=#{{ theme.red_mod3 }} guibg=#{{ theme.red }} gui=NONE cterm=NONE
+hi Identifier guifg=#{{ theme.base6 }} guibg=NONE gui=NONE cterm=NONE
+hi Ignore guifg=#{{ vim.ignore }} guibg=NONE gui=NONE cterm=NONE
+hi PreProc guifg=#{{ theme.yellow }} guibg=NONE gui=NONE cterm=NONE
+hi Special guifg=#{{ theme.green_mod2 }} guibg=NONE gui=NONE cterm=NONE
+hi Statement guifg=#{{ theme.purple }} guibg=NONE gui=NONE cterm=NONE
+hi Todo guifg=#{{ theme.accent }} guibg=#{{ theme.accent_mod3 }} gui=NONE cterm=NONE
+hi Type guifg=#{{ theme.lime }} guibg=NONE gui=NONE cterm=NONE
+hi Underline guifg=#{{ theme.red }} guibg=NONE gui=bold,underline cterm=underline
+hi CursorIM guifg=NONE guibg=NONE gui=NONE cterm=NONE
+hi ToolbarLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
+hi ToolbarButton guifg=NONE guibg=NONE gui=NONE cterm=NONE
+hi DiffAdd guifg=#{{ theme.green }} guibg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#{{ theme.orange }} guibg=NONE gui=NONE cterm=NONE
+hi DiffText guifg=#{{ theme.base6 }} guibg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#{{ theme.red }} guibg=NONE gui=NONE cterm=NONE
+
+if s:t_Co >= 256
+	" For colors possible see 256colors
+
+	hi Normal ctermfg={{ vim_256.base6 }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi ColorColumn ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi CursorColumn ctermfg=NONE ctermbg={{ vim_256.blue }} cterm=NONE
+	hi CursorLine ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi CursorLineNr ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi Folded ctermfg={{ vim_256.purple_mod1 }} ctermbg={{ vim_256.base3 }} cterm=NONE
+	hi QuickFixLine ctermfg={{ vim_256.blue_mod2 }} ctermbg=NONE cterm=NONE
+	hi Conceal ctermfg=NONE ctermbg={{ vim_256.base3 }} cterm=NONE
+	hi Cursor ctermfg={{ vim_256.green }} ctermbg=NONE cterm=NONE
+	hi Directory ctermfg={{ vim_256.blue }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi EndOfBuffer ctermfg={{ vim_256.base6 }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi ErrorMsg ctermfg={{ vim_256.red }} ctermbg=NONE cterm=NONE
+	hi FoldColumn ctermfg=NONE ctermbg={{ vim_256.base4 }} cterm=NONE
+	hi LineNr ctermfg={{ vim_256.base3 }} ctermbg=NONE cterm=NONE
+	hi MatchParen ctermfg={{ vim_256.base8 }} ctermbg={{ vim_256.accent }} cterm=NONE
+	hi ModeMsg ctermfg={{ vim_256.base2 }} ctermbg={{ vim_256.green }} cterm=NONE
+	hi MoreMsg ctermfg={{ vim_256.green_mod2 }} ctermbg=NONE cterm=NONE
+	hi NonText ctermfg={{ vim_256.base6 }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi PMenu ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi PMenuSbar ctermfg=NONE ctermbg={{ vim_256.base3 }} cterm=NONE
+	hi PMenuSel ctermfg={{ vim_256.base2 }} ctermbg={{ vim_256.green }} cterm=NONE
+	hi PMenuThumb ctermfg=NONE ctermbg={{ vim_256.green }} cterm=NONE
+	hi Question ctermfg={{ vim_256.red }} ctermbg={{ vim_256.base4 }} cterm=NONE
+	hi Search ctermfg={{ vim_256.base6 }} ctermbg={{ vim_256.blue_mod2 }} cterm=NONE
+	hi SignColumn ctermfg={{ vim_256.base3 }} ctermbg={{ vim_256.base8 }} cterm=NONE
+	hi SpecialKey ctermfg={{ vim_256.yellow_mod2 }} ctermbg=NONE cterm=NONE
+	hi SpellBad ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellCap ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellRare ctermfg=NONE ctermbg=NONE cterm=underline
+	hi StatusLine ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi StatusLineNC ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi TabLine ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi TabLineFill ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi TabLineSel ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi Title ctermfg={{ vim_256.green_mod2 }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi VertSplit ctermfg={{ vim_256.base3 }} ctermbg={{ vim_256.base1 }} cterm=NONE
+	hi Visual ctermfg={{ vim_256.accent }} ctermbg={{ vim_256.accent_mod3 }} cterm=NONE
+	hi VisualNOS ctermfg={{ vim_256.accent }} ctermbg={{ vim_256.accent_mod3 }} cterm=NONE
+	hi WarningMsg ctermfg={{ vim_256.red }} ctermbg={{ vim_256.red_mod3 }} cterm=NONE
+	hi WildMenu ctermfg={{ vim_256.green }} ctermbg={{ vim_256.base2 }} cterm=NONE
+	hi Comment ctermfg={{ vim_256.base5 }} ctermbg=NONE cterm=NONE
+	hi Constant ctermfg={{ vim_256.base6 }} ctermbg=NONE cterm=NONE
+	hi Error ctermfg={{ vim_256.red_mod3 }} ctermbg={{ vim_256.red }} cterm=NONE
+	hi Identifier ctermfg={{ vim_256.base6 }} ctermbg=NONE cterm=NONE
+	hi Ignore ctermfg={{ vim_256.yellow_mod2 }} ctermbg=NONE cterm=NONE
+	hi PreProc ctermfg={{ vim_256.yellow }} ctermbg=NONE cterm=NONE
+	hi Special ctermfg={{ vim_256.green_mod2 }} ctermbg=NONE cterm=NONE
+	hi Statement ctermfg={{ vim_256.purple }} ctermbg=NONE cterm=NONE
+	hi Todo ctermfg={{ vim_256.accent }} ctermbg={{ vim_256.accent_mod3 }} cterm=NONE
+	hi Type ctermfg={{ vim_256.lime }} ctermbg=NONE cterm=NONE
+	hi Underline ctermfg={{ vim_256.red }} ctermbg=NONE cterm=underline
+	hi CursorIM ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarButton ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi DiffAdd ctermfg={{ vim_256.green }} ctermbg=NONE cterm=NONE
+	hi DiffChange ctermfg={{ vim_256.orange }} ctermbg=NONE cterm=NONE
+	hi DiffText ctermfg={{ vim_256.base6 }} ctermbg=NONE cterm=NONE
+	hi DiffDelete ctermfg={{ vim_256.red }} ctermbg=NONE cterm=NONE
+	unlet s:t_Co
+	finish
+endif
+
+if s:t_Co >= 16
+	" For colors possible see 16colors
+
+	hi Normal ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi ColorColumn ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi CursorColumn ctermfg=NONE ctermbg={{ vim_16.bright_blue }} cterm=NONE
+	hi CursorLine ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi CursorLineNr ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Folded ctermfg={{ vim_256.purple_mod1 }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi QuickFixLine ctermfg={{ vim_16.blue }} ctermbg=NONE cterm=NONE
+	hi Conceal ctermfg=NONE ctermbg={{ vim_16.black }} cterm=NONE
+	hi Cursor ctermfg={{ vim_16.bright_green }} ctermbg=NONE cterm=NONE
+	hi Directory ctermfg={{ vim_16.bright_blue }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi EndOfBuffer ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi ErrorMsg ctermfg={{ vim_16.bright_red }} ctermbg=NONE cterm=NONE
+	hi FoldColumn ctermfg=NONE ctermbg={{ vim_16.grey }} cterm=NONE
+	hi LineNr ctermfg={{ vim_16.black }} ctermbg=NONE cterm=NONE
+	hi MatchParen ctermfg={{ vim_16.white }} ctermbg={{ vim_16.bright_blue }} cterm=NONE
+	hi ModeMsg ctermfg={{ vim_16.black }} ctermbg={{ vim_16.bright_green }} cterm=NONE
+	hi MoreMsg ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi NonText ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenu ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenuSbar ctermfg=NONE ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenuSel ctermfg={{ vim_16.black }} ctermbg={{ vim_16.bright_green }} cterm=NONE
+	hi PMenuThumb ctermfg=NONE ctermbg={{ vim_16.bright_green }} cterm=NONE
+	hi Question ctermfg={{ vim_16.bright_red }} ctermbg={{ vim_16.grey }} cterm=NONE
+	hi Search ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi SignColumn ctermfg={{ vim_16.black }} ctermbg={{ vim_16.white }} cterm=NONE
+	hi SpecialKey ctermfg={{ vim_16.yellow }} ctermbg=NONE cterm=NONE
+	hi SpellBad ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellCap ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellRare ctermfg=NONE ctermbg=NONE cterm=underline
+	hi StatusLine ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi StatusLineNC ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLine ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLineFill ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLineSel ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Title ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi VertSplit ctermfg={{ vim_16.black }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Visual ctermfg={{ vim_16.bright_blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi VisualNOS ctermfg={{ vim_16.bright_blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi WarningMsg ctermfg={{ vim_16.bright_red }} ctermbg={{ vim_256.red_mod3 }} cterm=NONE
+	hi WildMenu ctermfg={{ vim_16.bright_green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Comment ctermfg={{ vim_16.grey }} ctermbg=NONE cterm=NONE
+	hi Constant ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi Error ctermfg={{ vim_256.red_mod3 }} ctermbg={{ vim_16.bright_red }} cterm=NONE
+	hi Identifier ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi Ignore ctermfg={{ vim_16.yellow }} ctermbg=NONE cterm=NONE
+	hi PreProc ctermfg={{ vim_16.bright_yellow }} ctermbg=NONE cterm=NONE
+	hi Special ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi Statement ctermfg={{ vim_16.purple }} ctermbg=NONE cterm=NONE
+	hi Todo ctermfg={{ vim_16.bright_blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi Type ctermfg={{ vim_16.bright_green }} ctermbg=NONE cterm=NONE
+	hi Underline ctermfg={{ vim_16.bright_red }} ctermbg=NONE cterm=underline
+	hi CursorIM ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarButton ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi DiffAdd ctermfg={{ vim_16.bright_green }} ctermbg=NONE cterm=NONE
+	hi DiffChange ctermfg={{ vim_16.bright_red }} ctermbg=NONE cterm=NONE
+	hi DiffText ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi DiffDelete ctermfg={{ vim_16.bright_red }} ctermbg=NONE cterm=NONE
+	unlet s:t_Co
+	finish
+endif
+
+if s:t_Co >= 8
+	" For colors possible see 8colors
+
+	hi Normal ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi ColorColumn ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi CursorColumn ctermfg=NONE ctermbg={{ vim_16.blue }} cterm=NONE
+	hi CursorLine ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi CursorLineNr ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Folded ctermfg={{ vim_256.accent_mod3 }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi QuickFixLine ctermfg={{ vim_16.blue }} ctermbg=NONE cterm=NONE
+	hi Conceal ctermfg=NONE ctermbg={{ vim_16.black }} cterm=NONE
+	hi Cursor ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi Directory ctermfg={{ vim_16.blue }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi EndOfBuffer ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi ErrorMsg ctermfg={{ vim_16.red }} ctermbg=NONE cterm=NONE
+	hi FoldColumn ctermfg=NONE ctermbg={{ vim_16.bright_grey }} cterm=NONE
+	hi LineNr ctermfg={{ vim_16.black }} ctermbg=NONE cterm=NONE
+	hi MatchParen ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi ModeMsg ctermfg={{ vim_16.black }} ctermbg={{ vim_16.green }} cterm=NONE
+	hi MoreMsg ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi NonText ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenu ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenuSbar ctermfg=NONE ctermbg={{ vim_16.black }} cterm=NONE
+	hi PMenuSel ctermfg={{ vim_16.black }} ctermbg={{ vim_16.green }} cterm=NONE
+	hi PMenuThumb ctermfg=NONE ctermbg={{ vim_16.green }} cterm=NONE
+	hi Question ctermfg={{ vim_16.red }} ctermbg={{ vim_16.bright_grey }} cterm=NONE
+	hi Search ctermfg={{ vim_16.bright_grey }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi SignColumn ctermfg={{ vim_16.black }} ctermbg={{ vim_16.bright_grey }} cterm=NONE
+	hi SpecialKey ctermfg={{ vim_16.yellow }} ctermbg=NONE cterm=NONE
+	hi SpellBad ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellCap ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=underline
+	hi SpellRare ctermfg=NONE ctermbg=NONE cterm=underline
+	hi StatusLine ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi StatusLineNC ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLine ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLineFill ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi TabLineSel ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Title ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi VertSplit ctermfg={{ vim_16.black }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Visual ctermfg={{ vim_16.blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi VisualNOS ctermfg={{ vim_16.blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi WarningMsg ctermfg={{ vim_16.red }} ctermbg={{ vim_256.red_mod3 }} cterm=NONE
+	hi WildMenu ctermfg={{ vim_16.green }} ctermbg={{ vim_16.black }} cterm=NONE
+	hi Comment ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi Constant ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi Error ctermfg={{ vim_256.red_mod3 }} ctermbg={{ vim_16.red }} cterm=NONE
+	hi Identifier ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi Ignore ctermfg={{ vim_16.yellow }} ctermbg=NONE cterm=NONE
+	hi PreProc ctermfg={{ vim_16.yellow }} ctermbg=NONE cterm=NONE
+	hi Special ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi Statement ctermfg={{ vim_16.purple }} ctermbg=NONE cterm=NONE
+	hi Todo ctermfg={{ vim_16.blue }} ctermbg={{ vim_16.blue }} cterm=NONE
+	hi Type ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi Underline ctermfg={{ vim_16.red }} ctermbg=NONE cterm=underline
+	hi CursorIM ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi ToolbarButton ctermfg=NONE ctermbg=NONE cterm=NONE
+	hi DiffAdd ctermfg={{ vim_16.green }} ctermbg=NONE cterm=NONE
+	hi DiffChange ctermfg={{ vim_16.red }} ctermbg=NONE cterm=NONE
+	hi DiffText ctermfg={{ vim_16.bright_grey }} ctermbg=NONE cterm=NONE
+	hi DiffDelete ctermfg={{ vim_16.red }} ctermbg=NONE cterm=NONE
+	unlet s:t_Co
+	finish
+endif
+
+if s:t_Co >= 0
+	hi Normal term=NONE
+  	hi ColorColumn term=reverse
+  	hi Conceal term=NONE
+  	hi Cursor term=reverse
+  	hi CursorColumn term=NONE
+  	hi CursorLine term=underline
+  	hi CursorLineNr term=bold
+  	hi DiffAdd term=reverse
+  	hi DiffChange term=NONE
+  	hi DiffDelete term=reverse
+  	hi DiffText term=reverse
+  	hi Directory term=NONE
+  	hi EndOfBuffer term=NONE
+  	hi ErrorMsg term=bold,reverse
+  	hi FoldColumn term=NONE
+  	hi Folded term=NONE
+  	hi IncSearch term=bold,reverse,underline
+  	hi LineNr term=NONE
+  	hi MatchParen term=bold,underline
+  	hi ModeMsg term=bold
+  	hi MoreMsg term=NONE
+  	hi NonText term=NONE
+  	hi Pmenu term=reverse
+  	hi PmenuSbar term=reverse
+  	hi PmenuSel term=bold
+  	hi PmenuThumb term=NONE
+  	hi Question term=standout
+  	hi Search term=reverse
+  	hi SignColumn term=reverse
+  	hi SpecialKey term=bold
+  	hi SpellBad term=underline
+  	hi SpellCap term=underline
+  	hi SpellLocal term=underline
+  	hi SpellRare term=underline
+  	hi StatusLine term=bold,reverse
+  	hi StatusLineNC term=bold,underline
+  	hi TabLine term=bold,underline
+  	hi TabLineFill term=NONE
+  	hi Terminal term=NONE
+  	hi TabLineSel term=bold,reverse
+  	hi Title term=NONE
+  	hi VertSplit term=NONE
+  	hi Visual term=reverse
+  	hi VisualNOS term=NONE
+  	hi WarningMsg term=standout
+  	hi WildMenu term=bold
+  	hi CursorIM term=NONE
+  	hi ToolbarLine term=reverse
+  	hi ToolbarButton term=bold,reverse
+  	hi CurSearch term=reverse
+  	hi CursorLineFold term=underline
+  	hi CursorLineSign term=underline
+  	hi Comment term=bold
+  	hi Constant term=NONE
+  	hi Error term=bold,reverse
+  	hi Identifier term=NONE
+  	hi Ignore term=NONE
+  	hi PreProc term=NONE
+  	hi Special term=NONE
+  	hi Statement term=NONE
+  	hi Todo term=bold,reverse
+  	hi Type term=NONE
+  	hi Underlined term=underline
+	unlet s:t_Co
+	finish
+endif
