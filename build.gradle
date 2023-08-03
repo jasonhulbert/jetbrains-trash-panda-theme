@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.5'
+version '2.0.6'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2023.1'
+    version = '2023.2'
 }
 
 tasks {
@@ -28,9 +28,13 @@ tasks {
 
 patchPluginXml {
     sinceBuild.set('213.*')
-    untilBuild.set('231.*')
+    untilBuild.set('232.*')
     changeNotes = """
-    <h2>2.0.5 (TBD)</h2>
+    <h2>2.0.6 (2023.08.01)</h2>
+    <ul>
+        <li>Updates intelij compatability to 2023.2</li>
+    </ul>
+    <h2>2.0.5 (2023.03.29)</h2>
     <ul>
         <li>Updates intelij compatability to 2023.1</li>
         <li>Adjustments to a few high-contrast theme colors for greater range of contrast in for various color perception disabilities</li>
