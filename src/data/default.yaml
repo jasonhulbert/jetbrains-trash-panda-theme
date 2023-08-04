@@ -5,6 +5,7 @@ theme_out_file: "trash-panda-theme.theme.json"
 scheme_out_file: "trash-panda-theme.xml"
 vim_out_file: "trash-panda-theme.vim"
 parent_scheme: "Darcula"
+colorscheme_name: "trashpanda"
 theme:
   transparent: "00000000"
   translucent: "00000050"

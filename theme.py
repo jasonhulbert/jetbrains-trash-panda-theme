@@ -33,7 +33,6 @@ for name in themes:
         scheme_out_file.write(theme_scheme_template.render(theme_data))
         scheme_out_file.close()
 
-    if name == "default":
-        with open(f'src/main/resources/{theme_data["vim_out_file"]}', 'w+') as vim_out_file:
-            vim_out_file.write(theme_vim_template.render(theme_data))
-            vim_out_file.close()
+    with open(f'src/main/resources/{theme_data["vim_out_file"]}', 'w+') as vim_out_file:
+        vim_out_file.write(theme_vim_template.render(theme_data))
+        vim_out_file.close()
