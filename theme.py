@@ -24,6 +24,7 @@ for name in themes:
     theme_template = env.get_template('theme.tmpl')
     theme_scheme_template = env.get_template('scheme.tmpl')
     theme_vim_template = env.get_template('vim.tmpl')
+    theme_nvim_template = env.get_template('nvim.tmpl')
 
     with open(f'src/main/resources/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
         theme_out_file.write(theme_template.render(theme_data))
@@ -36,3 +37,9 @@ for name in themes:
     with open(f'src/main/resources/{theme_data["vim_out_file"]}', 'w+') as vim_out_file:
         vim_out_file.write(theme_vim_template.render(theme_data))
         vim_out_file.close()
+
+    if name == "default":
+
+        with open(f'src/main/resources/trashpanda/{theme_data["nvim_out_file"]}', 'w+') as nvim_out_file:
+            nvim_out_file.write(theme_nvim_template.render(theme_data))
+            nvim_out_file.close()

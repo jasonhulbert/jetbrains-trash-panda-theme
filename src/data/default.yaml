@@ -4,6 +4,7 @@ dark: true
 theme_out_file: "trash-panda-theme.theme.json"
 scheme_out_file: "trash-panda-theme.xml"
 vim_out_file: "trash-panda-theme.vim"
+nvim_out_file: "colors.lua"
 parent_scheme: "Darcula"
 colorscheme_name: "trashpanda"
 theme:
@@ -130,4 +131,9 @@ vim_16:
   bright_grey: "007"
   white: "015"
 
-
+nvim:
+  macro_gold: "908b25"
+  macro_blue: "4aede5"
+  typedef: "b9bcd1"
+  function: "ffc66d"
+  diff_blue: "42badb"
