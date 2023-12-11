@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.6'
+version '2.0.7'
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2023.2'
+    version = '2023.3'
 }
 
 tasks {
@@ -28,10 +28,16 @@ tasks {
 
 patchPluginXml {
     sinceBuild.set('213.*')
-    untilBuild.set('232.*')
+    untilBuild.set('233.*')
     changeNotes = """
+    <h2>2.0.7 (2023.12.11)</h2>
+    <ul>
+        <li>Updates intelij compatability to 2023.3</li>
+    </ul>
     <h2>2.0.6 (2023.08.01)</h2>
     <ul>
+        <li>Inactive, selected file tree items now have a background color for easier identification</li>
+        <li>Minor additions to vcs file status colors</li>
         <li>Updates intelij compatability to 2023.2</li>
     </ul>
     <h2>2.0.5 (2023.03.29)</h2>
