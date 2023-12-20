@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '1.9.0'
+    id 'org.jetbrains.intellij' version '1.16.1'
 }
 
 group 'com.villains'
@@ -10,39 +10,36 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+buildSearchableOptions {
+    enabled = false
+}
+
+java {
+    targetCompatibility = '11'
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2023.3'
-}
-
-tasks {
-    buildSearchableOptions {
-        enabled=false
-    }
+    version = '2020.3'
 }
 
 patchPluginXml {
-    sinceBuild.set('213.*')
+    sinceBuild.set('203')
     untilBuild.set('233.*')
     changeNotes = """
     <h2>2.0.7 (2023.12.11)</h2>
     <ul>
-        <li>Updates intelij compatability to 2023.3</li>
+        <li>Updates Intellij compatability to 2023.3</li>
     </ul>
     <h2>2.0.6 (2023.08.01)</h2>
     <ul>
         <li>Inactive, selected file tree items now have a background color for easier identification</li>
         <li>Minor additions to vcs file status colors</li>
-        <li>Updates intelij compatability to 2023.2</li>
+        <li>Updates Intellij compatability to 2023.2</li>
     </ul>
     <h2>2.0.5 (2023.03.29)</h2>
     <ul>
-        <li>Updates intelij compatability to 2023.1</li>
+        <li>Updates Intellij compatability to 2023.1</li>
         <li>Adjustments to a few high-contrast theme colors for greater range of contrast in for various color perception disabilities</li>
         <li>Removes deprecated RunWidget theme properties</li>
     </ul>
@@ -70,7 +67,7 @@ patchPluginXml {
     <h2>2.0.0 (2022.07.26)</h2>
     <ul>
     <li>New "Light" and "Moonlight" themes</li>
-    <li>Default theme has been updated to better distinguish syntax colors and provide more overall contrast.</li>
+    <li>Default theme has been updated to better distinguish syntax colors and provide improved overall contrast.</li>
     <li>Various updates to buttons and form controls throughout the UI</li>
     <li>Updates compatability version to 2022.2</li>
     </ul>
@@ -82,7 +79,7 @@ patchPluginXml {
     </ul>
     <h2>1.14.1 (2022.03.07)</h2>
     <ul>
-    <li>Updates Menu/List/Tree selectected item styles</li>
+    <li>Updates Menu/List/Tree selected item styles</li>
     </ul>
     <h2>1.14 (2021.12.28)</h2>
     <ul>
