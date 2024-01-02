@@ -45,9 +45,10 @@
         "inactiveForeground": "#515252",
         "selectionBackground": "#d9e1fd",
         "selectionForeground": "#406bf4",
-        "selectionInactiveBackground": "#f5f6fb",
+        "selectionInactiveBackground": "#d9e1fd",
         "selectionInactiveForeground": "#515252",
         "acceleratorSelectionForeground": "#406bf4",
+        "acceleratorSelectionBackground": "#d9e1fd",
         "focusColor": "#b3c4fb",
         "focusedBorderColor": "#b3c4fb"
     },
@@ -260,7 +261,7 @@
     "ProgressBar.passedColor": "#08676d",
     "ProgressBar.passedEndColor": "#cee7e9",
 
-    "RadioButton.background": "#FFFFFF00",
+    "RadioButton.background": "#f5f6fb",
     "RadioButton.disabledText": "#C2C5C5",
     "RadioButton.foreground": "#515252",
 

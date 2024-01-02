@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.7'
+version '2.0.8'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,11 @@ patchPluginXml {
     sinceBuild.set('203')
     untilBuild.set('233.*')
     changeNotes = """
+    <h2>2.0.8 (2024.01.02)</h2>
+    <ul>
+        <li>Fixes issue wherein inactive/default, selected items in a menu did not appear selected.</li>
+        <li>Modifies color scheme to better distinguish between CSS keywords and identifiers.</li>
+    </ul>
     <h2>2.0.7 (2023.12.11)</h2>
     <ul>
         <li>Updates Intellij compatability to 2023.3</li>

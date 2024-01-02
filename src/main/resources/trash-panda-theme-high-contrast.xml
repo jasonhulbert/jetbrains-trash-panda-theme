@@ -281,7 +281,12 @@
             </value>
         </option>
 
-        <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
+        <option name="CSS.IDENT">
+          <value>
+            <option name="FOREGROUND" value="34e7f4" />
+          </value>
+        </option>
+        <option name="CSS.COLOR" value="f8a54c" />
         <option name="CSS.FUNCTION">
           <value>
             <option name="FOREGROUND" value="9cc46e" />
