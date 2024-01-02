@@ -261,12 +261,12 @@
     "ProgressBar.passedColor": "#42ba90",
     "ProgressBar.passedEndColor": "#102f24",
 
-    "RadioButton.background": "#253037",
+    "RadioButton.background": "#1d262c",
     "RadioButton.disabledText": "#556672",
     "RadioButton.foreground": "#b8bfc5",
 
     "RadioButtonMenuItem.acceleratorForeground": "#b8bfc5",
-    "RadioButtonMenuItem.background": "#253037",
+    "RadioButtonMenuItem.background": "#1d262c",
     "RadioButtonMenuItem.disabledBackground": "#556672",
     "RadioButtonMenuItem.disabledForeground": "#b8bfc5",
     "RadioButtonMenuItem.foreground": "#b8bfc5",
