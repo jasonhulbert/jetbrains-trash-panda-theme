@@ -31,6 +31,7 @@ patchPluginXml {
     <ul>
         <li>Fixes issue wherein inactive/default, selected items in a menu did not appear selected.</li>
         <li>Modifies color scheme to better distinguish between CSS keywords and identifiers.</li>
+        <li>Modifies background color of radio buttons to no longer use transparent color value.</li>
     </ul>
     <h2>2.0.7 (2023.12.11)</h2>
     <ul>
