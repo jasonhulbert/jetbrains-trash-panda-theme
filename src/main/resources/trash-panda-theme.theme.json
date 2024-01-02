@@ -45,9 +45,10 @@
         "inactiveForeground": "#b8babd",
         "selectionBackground": "#101B3D",
         "selectionForeground": "#406bf4",
-        "selectionInactiveBackground": "#1D2123",
+        "selectionInactiveBackground": "#101B3D",
         "selectionInactiveForeground": "#b8babd",
         "acceleratorSelectionForeground": "#406bf4",
+        "acceleratorSelectionBackground": "#101B3D",
         "focusColor": "#18285C",
         "focusedBorderColor": "#18285C"
     },
@@ -170,7 +171,7 @@
     "Link.secondaryForeground": "#3050b7",
     "Link.visitedForeground": "#406bf4",
 
-    "MemoryIndicator.usedBackground": "#42ba90",
+    "MemoryIndicator.usedBackground": "#215d48",
     "MemoryIndicator.allocatedBackground": "#5f656a",
 
     "Menu.acceleratorForeground": "#b8babd",
@@ -260,12 +261,12 @@
     "ProgressBar.passedColor": "#42ba90",
     "ProgressBar.passedEndColor": "#102f24",
 
-    "RadioButton.background": "#00000000",
+    "RadioButton.background": "#141618",
     "RadioButton.disabledText": "#5f656a",
     "RadioButton.foreground": "#b8babd",
 
     "RadioButtonMenuItem.acceleratorForeground": "#b8babd",
-    "RadioButtonMenuItem.background": "#1D2123",
+    "RadioButtonMenuItem.background": "#141618",
     "RadioButtonMenuItem.disabledBackground": "#5f656a",
     "RadioButtonMenuItem.disabledForeground": "#b8babd",
     "RadioButtonMenuItem.foreground": "#b8babd",
