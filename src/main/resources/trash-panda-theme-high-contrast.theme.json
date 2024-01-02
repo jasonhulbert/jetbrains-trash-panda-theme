@@ -171,7 +171,7 @@
     "Link.secondaryForeground": "#5b91b8",
     "Link.visitedForeground": "#79c1f5",
 
-    "MemoryIndicator.usedBackground": "#05c895",
+    "MemoryIndicator.usedBackground": "#03644b",
     "MemoryIndicator.allocatedBackground": "#5f707c",
 
     "Menu.acceleratorForeground": "#c2c9cf",
