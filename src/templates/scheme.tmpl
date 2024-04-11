@@ -1,9 +1,10 @@
 <scheme name="{{ name }}" version="142" parent_scheme="{{ parent_scheme }}">
     <colors>
+        <option name="ActionButton.iconTextForeground" value="{{ theme.base6 }}"/>
         <option name="ADDED_LINES_COLOR" value="{{ theme.green_mod3 }}" />
         <option name="BORDER_LINES_COLOR" value="{{ theme.base3 }}" />
         <option name="CARET_COLOR" value="{{ theme.accent }}" />
-        <option name="CARET_ROW_COLOR" value="{{ theme.base2 }}" />
+        <option name="CARET_ROW_COLOR" value="{{ theme.base1 }}" />
         <option name="CONSOLE_BACKGROUND_KEY" value="{{ theme.base1 }}" />
         <option name="DELETED_LINES_COLOR" value="{{ theme.red_mod3 }}" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="{{ theme.base3 }}" />
@@ -32,7 +33,7 @@
         <option name="GUTTER_BACKGROUND" value="{{ theme.base1 }}" />
         <option name="HTML_TAG_TREE_LEVEL0" value="{{ theme.purple }}" />
         <option name="HTML_TAG_TREE_LEVEL1" value="{{ theme.pink }}" />
-        <option name="HTML_TAG_TREE_LEVEL2" value="{{ theme.orange }}" />
+        <option name="HTML_TAG_TREE_LEVEL2" value="{{ theme.lime }}" />
         <option name="HTML_TAG_TREE_LEVEL3" value="{{ theme.yellow }}" />
         <option name="HTML_TAG_TREE_LEVEL4" value="{{ theme.green }}" />
         <option name="HTML_TAG_TREE_LEVEL5" value="{{ theme.blue }}" />
@@ -56,8 +57,8 @@
         <option name="RIGHT_MARGIN_COLOR" value="{{ theme.base3 }}" />
         <option name="SELECTED_INDENT_GUIDE" value="{{ theme.base4 }}" />
         <option name="SELECTED_TEARLINE_COLOR" value="{{ theme.base4 }}" />
-        <option name="SELECTION_BACKGROUND" value="{{ theme.accent_mod3 }}" />
-        <option name="SELECTION_FOREGROUND" value="{{ theme.base7 }}" />
+        <option name="SELECTION_BACKGROUND" value="{{ theme.accent_mod2 }}" />
+        <option name="SELECTION_FOREGROUND" value="{{ theme.base8 }}" />
         <option name="SEPARATOR_BELOW_COLOR" value="{{ theme.base3 }}" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="{{ theme.base3 }}" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="{{ theme.base3 }}" />
@@ -69,7 +70,6 @@
         <option name="VISUAL_INDENT_GUIDE" value="{{ theme.base3 }}" />
         <option name="WHITESPACES" value="{{ theme.base3 }}" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{{ theme.green_mod3 }}" />
-        <option name="ActionButton.iconTextForeground" value="{{ theme.base2 }}"/>
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
@@ -109,7 +109,7 @@
         </option>
         <option name="BREADCRUMBS_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="{{ theme.base5 }}" />
+                <option name="FOREGROUND" value="{{ theme.base4 }}" />
             </value>
         </option>
 
@@ -286,7 +286,7 @@
             <option name="FOREGROUND" value="{{ theme.cyan }}" />
           </value>
         </option>
-        <option name="CSS.COLOR" value="{{ theme.orange }}" />
+        <option name="CSS.COLOR" value="{{ theme.pink }}" />
         <option name="CSS.FUNCTION">
           <value>
             <option name="FOREGROUND" value="{{ theme.lime }}" />
@@ -358,7 +358,12 @@
                 <option name="FOREGROUND" value="{{ theme.base6 }}" />
             </value>
         </option>
-        <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="DEFAULT_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="{{ theme.pink }}" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
                 <option name="FOREGROUND" value="{{ theme.base5 }}" />

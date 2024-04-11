@@ -1,25 +1,26 @@
-name: "Trash Panda Theme (High Contrast)"
+name: "Trash Panda Theme (Blacklight)"
 author: "Jason Hulbert"
 dark: true
 high_contrast: true
-theme_out_file: "trash-panda-theme-high-contrast.theme.json"
-scheme_out_file: "trash-panda-theme-high-contrast.xml"
+theme_out_file: "trash-panda-theme-blacklight.theme.json"
+scheme_out_file: "trash-panda-theme-blacklight.xml"
 parent_scheme: "Darcula"
 theme:
   transparent: "00000000"
   translucent: "00000050"
-  base1: "080a0a" # Editable / Interactive Background
-  base2: "080a0a" # Background
-  base3: "3e4d58" # Border
-  base4: "5f707c" # Ignored / Disabled
-  base5: "6f8491" # Submodule / Comment / Label / UI "Grey" Elements
-  base6: "c2c9cf" # Foreground
-  base7: "f0f0f0" # Editable / Interactive Foreground
+  base0: "000000" # Bright Background
+  base1: "030507" # Editable / Interactive Background
+  base2: "030507" # Background
+  base3: "41464a" # Border / Selection Background
+  base4: "5f656a" # Ignored / Disabled
+  base5: "727a7f" # Submodule / Comment
+  base6: "b8babd" # Foreground
+  base7: "eeeeee" # Editable / Interactive Foreground
   base8: "FFFFFF" # Bright Foreground
-  accent: "79c1f5"
-  accent_mod1: "5b91b8"
-  accent_mod2: "3d617b"
-  accent_mod3: "1e303d"
+  accent: "8ca6f8"
+  accent_mod1: "697dba"
+  accent_mod2: "46537c"
+  accent_mod3: "23293e"
   lime: "9cc46e"
   lime_mod1: "759353"
   lime_mod2: "4e6237"

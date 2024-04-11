@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.0.8'
+version '2.1.0'
 
 repositories {
     mavenCentral()
@@ -25,8 +25,15 @@ intellij {
 
 patchPluginXml {
     sinceBuild.set('203')
-    untilBuild.set('233.*')
+    untilBuild.set('241.*')
     changeNotes = """
+    <h2>2.1.0 (2024.04.11)</h2>
+    <ul>
+        <li>NEW "Dawnlight" theme variant</li>
+        <li>"High Contrast" theme renamed to "Blacklight"</li>
+        <li>Bug fixes and enhancements</li>
+        <li>Updates Intellij compatability to 2024.*</li>
+    </ul>
     <h2>2.0.8 (2024.01.02)</h2>
     <ul>
         <li>Fixes issue wherein inactive/default, selected items in a menu did not appear selected.</li>

@@ -1,22 +1,23 @@
 <scheme name="Trash Panda Theme" version="142" parent_scheme="Darcula">
     <colors>
+        <option name="ActionButton.iconTextForeground" value="b8babd"/>
         <option name="ADDED_LINES_COLOR" value="102f24" />
         <option name="BORDER_LINES_COLOR" value="2C3135" />
         <option name="CARET_COLOR" value="406bf4" />
-        <option name="CARET_ROW_COLOR" value="1D2123" />
+        <option name="CARET_ROW_COLOR" value="141618" />
         <option name="CONSOLE_BACKGROUND_KEY" value="141618" />
-        <option name="DELETED_LINES_COLOR" value="3C1515" />
+        <option name="DELETED_LINES_COLOR" value="3a181c" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="2C3135" />
         <option name="DOCUMENTATION_COLOR" value="1D2123" />
-        <option name="ERROR_HINT" value="3C1515" />
+        <option name="ERROR_HINT" value="3a181c" />
         <option name="FILESTATUS_ADDED" value="42ba90" />
         <option name="FILESTATUS_COPIED" value="42ba90" />
-        <option name="FILESTATUS_DELETED" value="F07F5B" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="F07F5B" />
+        <option name="FILESTATUS_DELETED" value="E8886D" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="E8886D" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="5f656a" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="F05553" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="F05553" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="F05553" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="e8626f" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="e8626f" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="e8626f" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="dcc37c" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="a5925d" />
         <option name="FILESTATUS_MERGED" value="42ba90" />
@@ -26,18 +27,18 @@
         <option name="FILESTATUS_RENAMED" value="2c99db" />
         <option name="FILESTATUS_UNKNOWN" value="A07CF1" />
         <option name="FILESTATUS_addedOutside" value="42ba90" />
-        <option name="FILESTATUS_changelistConflict" value="F05553" />
+        <option name="FILESTATUS_changelistConflict" value="e8626f" />
         <option name="FILESTATUS_modifiedOutside" value="2c99db" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="727a7f" />
         <option name="GUTTER_BACKGROUND" value="141618" />
         <option name="HTML_TAG_TREE_LEVEL0" value="A07CF1" />
         <option name="HTML_TAG_TREE_LEVEL1" value="DC6096" />
-        <option name="HTML_TAG_TREE_LEVEL2" value="F07F5B" />
+        <option name="HTML_TAG_TREE_LEVEL2" value="8ec475" />
         <option name="HTML_TAG_TREE_LEVEL3" value="dcc37c" />
         <option name="HTML_TAG_TREE_LEVEL4" value="42ba90" />
         <option name="HTML_TAG_TREE_LEVEL5" value="2c99db" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="328b6c" />
-        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="B45F44" />
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="AE6652" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2173a4" />
         <option name="INDENT_GUIDE" value="2C3135" />
         <option name="INFORMATION_HINT" value="1D2123" />
@@ -56,8 +57,8 @@
         <option name="RIGHT_MARGIN_COLOR" value="2C3135" />
         <option name="SELECTED_INDENT_GUIDE" value="5f656a" />
         <option name="SELECTED_TEARLINE_COLOR" value="5f656a" />
-        <option name="SELECTION_BACKGROUND" value="101B3D" />
-        <option name="SELECTION_FOREGROUND" value="e2e2e2" />
+        <option name="SELECTION_BACKGROUND" value="18285C" />
+        <option name="SELECTION_FOREGROUND" value="FFFFFF" />
         <option name="SEPARATOR_BELOW_COLOR" value="2C3135" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="2C3135" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="2C3135" />
@@ -69,7 +70,6 @@
         <option name="VISUAL_INDENT_GUIDE" value="2C3135" />
         <option name="WHITESPACES" value="2C3135" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="102f24" />
-        <option name="ActionButton.iconTextForeground" value="1D2123"/>
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="" />
@@ -77,7 +77,7 @@
 
         <option name="BAD_CHARACTER">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -88,7 +88,7 @@
 
         <option name="BOOKMARKS_ATTRIBUTES">
             <value>
-                <option name="ERROR_STRIPE_COLOR" value="F05553" />
+                <option name="ERROR_STRIPE_COLOR" value="e8626f" />
             </value>
         </option>
 
@@ -109,7 +109,7 @@
         </option>
         <option name="BREADCRUMBS_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="727a7f" />
+                <option name="FOREGROUND" value="5f656a" />
             </value>
         </option>
 
@@ -155,12 +155,12 @@
         </option>
         <option name="CodeWithMe.USER_5_MARKER">
             <value>
-                <option name="BACKGROUND" value="5A3022" />
+                <option name="BACKGROUND" value="744437" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_SELECTION">
             <value>
-                <option name="BACKGROUND" value="3C2017" />
+                <option name="BACKGROUND" value="3A221B" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_MARKER">
@@ -201,7 +201,7 @@
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
             </value>
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
@@ -236,12 +236,12 @@
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="B4403E" />
+                <option name="FOREGROUND" value="ae4a53" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
             </value>
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -286,7 +286,7 @@
             <option name="FOREGROUND" value="50cae5" />
           </value>
         </option>
-        <option name="CSS.COLOR" value="F07F5B" />
+        <option name="CSS.COLOR" value="DC6096" />
         <option name="CSS.FUNCTION">
           <value>
             <option name="FOREGROUND" value="8ec475" />
@@ -294,7 +294,7 @@
         </option>
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="F07F5B" />
+                <option name="FOREGROUND" value="E8886D" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
@@ -358,7 +358,12 @@
                 <option name="FOREGROUND" value="b8babd" />
             </value>
         </option>
-        <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+        <option name="DEFAULT_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="DC6096" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="DEFAULT_DOC_COMMENT">
             <value>
                 <option name="FOREGROUND" value="727a7f" />
@@ -424,8 +429,8 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="F05553" />
-                <option name="EFFECT_COLOR" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
+                <option name="EFFECT_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -505,7 +510,7 @@
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="141618" />
-                <option name="BACKGROUND" value="F05553" />
+                <option name="BACKGROUND" value="e8626f" />
                 <option name="EFFECT_COLOR" value="141618" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
@@ -513,21 +518,21 @@
 
         <option name="DEPRECATED_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="F07F5B" />
+                <option name="EFFECT_COLOR" value="E8886D" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
 
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="3C1515" />
-                <option name="ERROR_STRIPE_COLOR" value="3C1515" />
+                <option name="BACKGROUND" value="3a181c" />
+                <option name="ERROR_STRIPE_COLOR" value="3a181c" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="3C2017" />
-                <option name="ERROR_STRIPE_COLOR" value="3C2017" />
+                <option name="BACKGROUND" value="3A221B" />
+                <option name="ERROR_STRIPE_COLOR" value="3A221B" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
@@ -546,14 +551,14 @@
         <option name="DUPLICATE_FROM_SERVER">
             <value>
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
             </value>
         </option>
 
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
-                <option name="ERROR_STRIPE_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
+                <option name="ERROR_STRIPE_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -575,8 +580,8 @@
 
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
-                <option name="ERROR_STRIPE_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
+                <option name="ERROR_STRIPE_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -675,7 +680,7 @@
         </option>
         <option name="LINE_NONE_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="3C1515" />
+                <option name="FOREGROUND" value="3a181c" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -699,7 +704,7 @@
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
             </value>
         </option>
         <option name="LOG_EXPIRED_ENTRY">
@@ -719,13 +724,13 @@
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="F07F5B" />
+                <option name="FOREGROUND" value="E8886D" />
             </value>
         </option>
 
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -761,8 +766,8 @@
 
         <option name="RUNTIME_ERROR">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
-                <option name="ERROR_STRIPE_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
+                <option name="ERROR_STRIPE_COLOR" value="e8626f" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -784,7 +789,7 @@
 
         <option name="SPY-JS.EXCEPTION">
             <value>
-                <option name="EFFECT_COLOR" value="F05553" />
+                <option name="EFFECT_COLOR" value="e8626f" />
             </value>
         </option>
         <option name="SPY-JS.FUNCTION_SCOPE">
@@ -860,22 +865,22 @@
 
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="F07F5B" />
+                <option name="EFFECT_COLOR" value="E8886D" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
 
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
                 <option name="BACKGROUND" value="2C3135" />
             </value>
         </option>
 
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="F07F5B" />
-                <option name="ERROR_STRIPE_COLOR" value="F07F5B" />
+                <option name="EFFECT_COLOR" value="E8886D" />
+                <option name="ERROR_STRIPE_COLOR" value="E8886D" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -895,7 +900,7 @@
 
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="F05553" />
+                <option name="FOREGROUND" value="e8626f" />
             </value>
         </option>
 
