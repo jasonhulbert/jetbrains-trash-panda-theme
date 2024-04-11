@@ -65,9 +65,9 @@
             "inactiveBackground": "base2",
             "inactiveForeground": "base6",
             "selectionBackground": {
-              "os.default": "base3",
-              "os.windows": "base3",
-              "os.mac": "base3"
+              "os.default": "accent_mod3",
+              "os.windows": "accent_mod3",
+              "os.mac": "accent_mod3"
             },
             "selectionForeground": {
               "os.default": "base7",
@@ -76,7 +76,7 @@
             },
             "selectionInactiveBackground": "base3",
             "selectionInactiveForeground": "base6",
-            "acceleratorSelectionBackground": "base3",
+            "acceleratorSelectionBackground": "accent_mod3",
             "acceleratorSelectionForeground": "base7",
             "focusColor": "accent_mod2",
             "focusedBorderColor": "accent_mod2"
@@ -327,7 +327,7 @@
         "Plugins.tagForeground": "base7",
         "Plugins.eapTagBackground": "orange_mod2",
         "Plugins.suggestedLabelBackground": "purple_mod2",
-        "Plugins.lightSelectionBackground": "accent_mod2",
+        "Plugins.lightSelectionBackground": "accent_mod3",
         "Plugins.hoverBackground": "base3",
 
         "Popup.paintBorder": true,
@@ -462,7 +462,7 @@
         "Table.stripeColor": "base3",
         "Table.lightSelectionForeground": "accent",
         "Table.lightSelectionInactiveForeground": "accent",
-        "Table.lightSelectionBackground": "base3",
+        "Table.lightSelectionBackground": "accent_mod3",
         "Table.lightSelectionInactiveBackground": "base3",
 
         "Tag.background": "accent_mod1",

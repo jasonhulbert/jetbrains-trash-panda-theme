@@ -10,17 +10,17 @@ theme:
   translucent: "00000050"
   base0: "000000" # Bright Background
   base1: "030507" # Editable / Interactive Background
-  base2: "030507" # Background
+  base2: "0c0e10" # Background
   base3: "41464a" # Border / Selection Background
   base4: "5f656a" # Ignored / Disabled
   base5: "727a7f" # Submodule / Comment
   base6: "b8babd" # Foreground
   base7: "eeeeee" # Editable / Interactive Foreground
   base8: "FFFFFF" # Bright Foreground
-  accent: "8ca6f8"
-  accent_mod1: "697dba"
-  accent_mod2: "46537c"
-  accent_mod3: "23293e"
+  accent: "406bf4"
+  accent_mod1: "3050b7"
+  accent_mod2: "18285C"
+  accent_mod3: "101B3D"
   lime: "9cc46e"
   lime_mod1: "759353"
   lime_mod2: "4e6237"

@@ -8,17 +8,17 @@
         "translucent": "#00000050",
         "base0": "#000000",
         "base1": "#030507",
-        "base2": "#030507",
+        "base2": "#0c0e10",
         "base3": "#41464a",
         "base4": "#5f656a",
         "base5": "#727a7f",
         "base6": "#b8babd",
         "base7": "#eeeeee",
         "base8": "#FFFFFF",
-        "accent": "#8ca6f8",
-        "accent_mod1": "#697dba",
-        "accent_mod2": "#46537c",
-        "accent_mod3": "#23293e",
+        "accent": "#406bf4",
+        "accent_mod1": "#3050b7",
+        "accent_mod2": "#18285C",
+        "accent_mod3": "#101B3D",
         "lime": "#9cc46e",
         "lime_mod1": "#759353",
         "lime_mod2": "#4e6237",
@@ -65,9 +65,9 @@
             "inactiveBackground": "base2",
             "inactiveForeground": "base6",
             "selectionBackground": {
-              "os.default": "base3",
-              "os.windows": "base3",
-              "os.mac": "base3"
+              "os.default": "accent_mod3",
+              "os.windows": "accent_mod3",
+              "os.mac": "accent_mod3"
             },
             "selectionForeground": {
               "os.default": "base7",
@@ -76,7 +76,7 @@
             },
             "selectionInactiveBackground": "base3",
             "selectionInactiveForeground": "base6",
-            "acceleratorSelectionBackground": "base3",
+            "acceleratorSelectionBackground": "accent_mod3",
             "acceleratorSelectionForeground": "base7",
             "focusColor": "accent_mod2",
             "focusedBorderColor": "accent_mod2"
@@ -327,7 +327,7 @@
         "Plugins.tagForeground": "base7",
         "Plugins.eapTagBackground": "orange_mod2",
         "Plugins.suggestedLabelBackground": "purple_mod2",
-        "Plugins.lightSelectionBackground": "accent_mod2",
+        "Plugins.lightSelectionBackground": "accent_mod3",
         "Plugins.hoverBackground": "base3",
 
         "Popup.paintBorder": true,
@@ -462,7 +462,7 @@
         "Table.stripeColor": "base3",
         "Table.lightSelectionForeground": "accent",
         "Table.lightSelectionInactiveForeground": "accent",
-        "Table.lightSelectionBackground": "base3",
+        "Table.lightSelectionBackground": "accent_mod3",
         "Table.lightSelectionInactiveBackground": "base3",
 
         "Tag.background": "accent_mod1",
@@ -593,11 +593,11 @@
             "Checkbox.Border.Default.Dark": "#41464a",
             "Checkbox.Background.Default.Dark": "#030507",
             "Checkbox.Background.Selected.Dark": "#030507",
-            "Checkbox.Foreground.Selected.Dark": "#8ca6f8",
+            "Checkbox.Foreground.Selected.Dark": "#406bf4",
             "Checkbox.Border.Selected.Dark": "#030507",
             
 
-            "linkForeground": "#8ca6f8"
+            "linkForeground": "#406bf4"
         }
     }
 }

@@ -4,7 +4,9 @@
         <option name="ADDED_LINES_COLOR" value="cee7e9" />
         <option name="BORDER_LINES_COLOR" value="c9c9cb" />
         <option name="CARET_COLOR" value="406bf4" />
-        <option name="CARET_ROW_COLOR" value="e2e2e2" />
+        
+        <option name="CARET_ROW_COLOR" value="d4d4d5" />
+        
         <option name="CONSOLE_BACKGROUND_KEY" value="e2e2e2" />
         <option name="DELETED_LINES_COLOR" value="fcd6d5" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="c9c9cb" />
@@ -42,7 +44,7 @@
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="423c9f" />
         <option name="INDENT_GUIDE" value="c9c9cb" />
         <option name="INFORMATION_HINT" value="d4d4d5" />
-        <option name="LINE_NUMBERS_COLOR" value="c9c9cb" />
+        <option name="LINE_NUMBERS_COLOR" value="909293" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="406bf4" />
         <option name="LOOKUP_COLOR" value="d4d4d5" />
         <option name="METHOD_SEPARATORS_COLOR" value="c9c9cb" />

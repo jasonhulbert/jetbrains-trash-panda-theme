@@ -4,7 +4,11 @@
         <option name="ADDED_LINES_COLOR" value="{{ theme.green_mod3 }}" />
         <option name="BORDER_LINES_COLOR" value="{{ theme.base3 }}" />
         <option name="CARET_COLOR" value="{{ theme.accent }}" />
-        <option name="CARET_ROW_COLOR" value="{{ theme.base1 }}" />
+        {% if high_contrast %}
+        <option name="CARET_ROW_COLOR" value="{{ theme.accent_mod3 }}" />
+        {% else %}
+        <option name="CARET_ROW_COLOR" value="{{ theme.base2 }}" />
+        {% endif %}
         <option name="CONSOLE_BACKGROUND_KEY" value="{{ theme.base1 }}" />
         <option name="DELETED_LINES_COLOR" value="{{ theme.red_mod3 }}" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="{{ theme.base3 }}" />
@@ -42,7 +46,7 @@
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="{{ theme.blue_mod1 }}" />
         <option name="INDENT_GUIDE" value="{{ theme.base3 }}" />
         <option name="INFORMATION_HINT" value="{{ theme.base2 }}" />
-        <option name="LINE_NUMBERS_COLOR" value="{{ theme.base3 }}" />
+        <option name="LINE_NUMBERS_COLOR" value="{{ theme.base4 }}" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="{{ theme.accent }}" />
         <option name="LOOKUP_COLOR" value="{{ theme.base2 }}" />
         <option name="METHOD_SEPARATORS_COLOR" value="{{ theme.base3 }}" />
