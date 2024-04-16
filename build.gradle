@@ -29,7 +29,7 @@ patchPluginXml {
     changeNotes = """
     <h2>2.1.0 (2024.04.11)</h2>
     <ul>
-        <li>NEW "Dawnlight" theme variant</li>
+        <li>NEW "Dawnlight" light theme variant</li>
         <li>"High Contrast" theme renamed to "Blacklight"</li>
         <li>Bug fixes and enhancements</li>
         <li>Updates Intellij compatability to 2024.*</li>
