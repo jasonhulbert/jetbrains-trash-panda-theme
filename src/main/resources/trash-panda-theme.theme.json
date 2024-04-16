@@ -1,446 +1,603 @@
 {
-  "name": "Trash Panda Theme",
-  "dark": true,
-  "author": "Jason Hulbert",
-  "editorScheme": "/trash-panda-theme.xml",
-  "icons": {
-    "ColorPalette": {
-        "Actions.Grey": "#727a7f",
-        "Actions.Red": "#F05553",
-        "Actions.Yellow": "#dcc37c",
-        "Actions.Green": "#42ba90",
-        "Actions.Blue": "#2c99db",
-        "Actions.GreyInline.Dark": "#727a7f",
-
-        "Objects.Grey": "#727a7f",
-        "Objects.RedStatus": "#F05553",
-        "Objects.Red": "#F05553",
-        "Objects.Pink": "#DC6096",
-        "Objects.Yellow": "#dcc37c",
-        "Objects.Green": "#42ba90",
-        "Objects.Blue": "#2c99db",
-        "Objects.Purple": "#A07CF1",
-        "Objects.BlackText": "#b8babd",
-        "Objects.YellowDark": "#a5925d",
-        "Objects.GreenAndroid": "#8ec475",
-
-        
-        "Checkbox.Border.Default.Dark": "#2C3135",
-        "Checkbox.Background.Default.Dark": "#141618",
-        "Checkbox.Background.Selected.Dark": "#141618",
-        "Checkbox.Foreground.Selected.Dark": "#406bf4",
-        "Checkbox.Border.Selected.Dark": "#2C3135",
-        
-
-        "linkForeground": "#406bf4"
-    }
-  },
-  "ui": {
-    "*": {
-        "windowBorder": "#1D2123",
-        "borderColor": "#2C3135",
-        "background": "#1D2123",
-        "foreground": "#b8babd",
-        "inactiveBackground": "#1D2123",
-        "inactiveForeground": "#b8babd",
-        "selectionBackground": "#101B3D",
-        "selectionForeground": "#406bf4",
-        "selectionInactiveBackground": "#101B3D",
-        "selectionInactiveForeground": "#b8babd",
-        "acceleratorSelectionForeground": "#406bf4",
-        "acceleratorSelectionBackground": "#101B3D",
-        "focusColor": "#18285C",
-        "focusedBorderColor": "#18285C"
+    "name": "Trash Panda Theme",
+    "dark": true,
+    "author": "Jason Hulbert",
+    "editorScheme": "/trash-panda-theme.xml",
+    "colors": {
+        "transparent": "#00000000",
+        "translucent": "#00000050",
+        "base0": "#000000",
+        "base1": "#141618",
+        "base2": "#1D2123",
+        "base3": "#2C3135",
+        "base4": "#5f656a",
+        "base5": "#727a7f",
+        "base6": "#b8babd",
+        "base7": "#e2e2e2",
+        "base8": "#FFFFFF",
+        "accent": "#406bf4",
+        "accent_mod1": "#3050b7",
+        "accent_mod2": "#18285C",
+        "accent_mod3": "#101B3D",
+        "lime": "#8ec475",
+        "lime_mod1": "#6b9358",
+        "lime_mod2": "#47623b",
+        "lime_mod3": "#24311d",
+        "green": "#42ba90",
+        "green_mod1": "#328b6c",
+        "green_mod2": "#215d48",
+        "green_mod3": "#102f24",
+        "blue": "#2c99db",
+        "blue_mod1": "#2173a4",
+        "blue_mod2": "#113A52",
+        "blue_mod3": "#0B2637",
+        "cyan": "#50cae5",
+        "cyan_mod1": "#3c98ac",
+        "cyan_mod2": "#1E4C56",
+        "cyan_mod3": "#143239",
+        "purple": "#A07CF1",
+        "purple_mod1": "#785DB5",
+        "purple_mod2": "#3C2F5B",
+        "purple_mod3": "#281F3C",
+        "pink": "#DC6096",
+        "pink_mod1": "#A54871",
+        "pink_mod2": "#532439",
+        "pink_mod3": "#371826",
+        "red": "#e8626f",
+        "red_mod1": "#ae4a53",
+        "red_mod2": "#743138",
+        "red_mod3": "#3a181c",
+        "orange": "#E8886D",
+        "orange_mod1": "#AE6652",
+        "orange_mod2": "#744437",
+        "orange_mod3": "#3A221B",
+        "yellow": "#dcc37c",
+        "yellow_mod1": "#a5925d",
+        "yellow_mod2": "#6e623e",
+        "yellow_mod3": "#37311f"
     },
-
-    "ActionButton.hoverBackground": "#141618",
-    "ActionButton.hoverBorderColor": "#141618",
-    "ActionButton.pressedBackground": "#141618",
-    "ActionButton.pressedBorderColor": "#141618",
-
-    "Borders.color": "#2C3135",
-    "Borders.ContrastBorderColor": "#2C3135",
-
-    "Button.arc": 8,
-    "Button.background": "#1D2123",
-    "Button.foreground": "#406bf4",
-    "Button.startBackground": "#141618",
-    "Button.endBackground": "#141618",
-    "Button.startBorderColor": "#406bf4",
-    "Button.endBorderColor": "#406bf4",
-    "Button.shadowColor": "#141618",
-    "Button.disabledBorderColor": "#5f656a",
-    "Button.disabledText": "#5f656a",
-    "Button.focusedBorderColor": "#18285C",
-
-    "Button.default.startBackground": "#406bf4",
-    "Button.default.endBackground": "#406bf4",
-    "Button.default.startBorderColor": "#406bf4",
-    "Button.default.endBorderColor": "#406bf4",
-    "Button.default.focusedBorderColor": "#18285C",
-    "Button.default.foreground": "#141618",
-    "Button.default.shadowColor": "#141618",
-
-    "CheckBox.background": "#1D2123",
-    "CheckBox.disabledText": "#5f656a",
-    "CheckBox.foreground": "#b8babd",
-    "CheckBox.select": "#406bf4",
-
-    "CheckBoxMenuItem.acceleratorForeground": "#b8babd",
-    "CheckBoxMenuItem.background": "#1D2123",
-    "CheckBoxMenuItem.disabledBackground": "#1D2123",
-    "CheckBoxMenuItem.disabledForeground": "#5f656a",
-    "CheckBoxMenuItem.foreground": "#b8babd",
-
-    "ComboBox.background": "#141618",
-    "ComboBox.disabledForeground": "#5f656a",
-    "ComboBox.foreground": "#e2e2e2",
-    "ComboBox.modifiedItemForeground": "#e2e2e2",
-    "ComboBox.nonEditableBackground": "#141618",
-
-    "ComboBox.ArrowButton.background": "#141618",
-    "ComboBox.ArrowButton.disabledIconColor": "#5f656a",
-    "ComboBox.ArrowButton.iconColor": "#406bf4",
-    "ComboBox.ArrowButton.nonEditableBackground": "#141618",
-
-    "ComboBoxButton.background": "#141618",
-
-    "ComboPopup.border": "1,1,1,1,2C3135",
-
-    "Component.borderColor": "#2C3135",
-    "Component.infoForeground": "#727a7f",
-    "Component.disabledBorderColor": "#5f656a",
-    "Component.focusColor": "#18285C",
-    "Component.focusedBorderColor": "#18285C",
-    "Component.errorFocusColor": "#5A201F",
-    "Component.inactiveErrorFocusColor": "#3C1515",
-    "Component.warningFocusColor": "#5A3022",
-    "Component.inactiveWarningFocusColor": "#3C2017",
-
-    "DefaultTabs.borderColor": "#2C3135",
-    "DefaultTabs.hoverBackground": "#141618",
-    "DefaultTabs.inactiveUnderlineColor": "#18285C",
-    "DefaultTabs.underlineColor": "#406bf4",
-    "DefaultTabs.underlinedTabForeground": "#e2e2e2",
-    "DefaultTabs.underlinedTabBackground": "#141618",
-    "DefaultTabs.underlineHeight": 2,
-
-    "DragAndDrop.areaForeground": "#e2e2e2",
-    "DragAndDrop.areaBackground": "#101B3D",
-    "DragAndDrop.borderColor": "#406bf4",
-
-    "Editor.SearchField.background": "#141618",
-
-    "Editor.shortcutForeground": "#406bf4",
-
-    "EditorPane.background": "#141618",
-    "EditorPane.caretForeground": "#406bf4",
-    "EditorPane.foreground": "#b8babd",
-
-    "EditorTabs.borderColor": "#2C3135",
-    "EditorTabs.hoverBackground": "#1D2123",
-    "EditorTabs.inactiveColoredFileBackground": "#1D2123",
-    "EditorTabs.inactiveUnderlineColor": "#18285C",
-    "EditorTabs.underlineColor": "#406bf4",
-    "EditorTabs.underlinedTabBackground": "#141618",
-    "EditorTabs.underlinedTabForeground": "#e2e2e2",
-
-    "FileColor.Blue": "#0B2637",
-    "FileColor.Green": "#102f24",
-    "FileColor.Orange": "#3C2017",
-    "FileColor.Rose": "#371826",
-    "FileColor.Violet": "#281F3C",
-    "FileColor.Yellow": "#37311f",
-
-    "FormattedTextField.background": "#141618",
-    "FormattedTextField.caretForeground": "#406bf4",
-    "FormattedTextField.foreground": "#e2e2e2",
-
-    "Label.disabledForeground": "#5f656a",
-    "Label.foreground": "#b8babd",
-    "Label.selectedForeground": "#e2e2e2",
-
-    "List.dropLineColor": "#2C3135",
-    "List.foreground": "#b8babd",
-    "List.hoverBackground": "#141618",
-    "List.hoverInactiveBackground": "#1D2123",
-
-    "Link.activeForeground": "#406bf4",
-    "Link.hoverForeground": "#406bf4",
-    "Link.pressedForeground": "#406bf4",
-    "Link.secondaryForeground": "#3050b7",
-    "Link.visitedForeground": "#406bf4",
-
-    "MemoryIndicator.usedBackground": "#215d48",
-    "MemoryIndicator.allocatedBackground": "#5f656a",
-
-    "Menu.acceleratorForeground": "#b8babd",
-    "Menu.borderColor": "#2C3135",
-    "Menu.disabledBackground": "#1D2123",
-    "Menu.disabledForeground": "#5f656a",
-    "Menu.foreground": "#b8babd",
-
-    "MenuBar.borderColor": "#2C3135",
-    "MenuBar.disabledBackground": "#1D2123",
-    "MenuBar.disabledForeground": "#5f656a",
-    "MenuBar.foreground": "#b8babd",
-    "MenuBar.highlight": "#e2e2e2",
-    "MenuBar.shadow": "#00000000",
-
-    "MenuItem.acceleratorForeground": "#b8babd",
-    "MenuItem.disabledBackground": "#1D2123",
-    "MenuItem.disabledForeground": "#5f656a",
-    "MenuItem.foreground": "#b8babd",
-
-    "NavBar.borderColor": "#2C3135",
-
-    "Notification.foreground": "#b8babd",
-    "Notification.borderColor": "#2C3135",
-    "Notification.errorBackground": "#3C1515",
-    "Notification.errorForeground": "#F05553",
-    "Notification.errorBorderColor": "#F05553",
-
-    "Notification.MoreButton.background": "#00000000",
-    "Notification.MoreButton.foreground": "#406bf4",
-    "Notification.MoreButton.innerBorderColor": "#00000000",
-
-    "Notification.ToolWindow.errorBackground": "#3C1515",
-    "Notification.ToolWindow.errorBorderColor": "#F05553",
-    "Notification.ToolWindow.errorForeground": "#F05553",
-    "Notification.ToolWindow.informativeBackground": "#0B2637",
-    "Notification.ToolWindow.informativeBorderColor": "#2c99db",
-    "Notification.ToolWindow.informativeForeground": "#2c99db",
-    "Notification.ToolWindow.warningBackground": "#3C2017",
-    "Notification.ToolWindow.warningBorderColor": "#F07F5B",
-    "Notification.ToolWindow.warningForeground": "#F07F5B",
-
-    "ParameterInfo.foreground": "#5f656a",
-    "ParameterInfo.currentOverloadBackground": "#FFFFFF",
-    "ParameterInfo.currentParameterForeground": "#e2e2e2",
-
-    "Plugins.Button.installForeground": "#141618",
-    "Plugins.Button.installBackground": "#42ba90",
-    "Plugins.Button.installBorderColor": "#42ba90",
-    "Plugins.Button.installFocusedBackground": "#42ba90",
-    "Plugins.Button.installFillForeground": "#141618",
-    "Plugins.Button.installFillBackground": "#42ba90",
-    "Plugins.Button.updateForeground": "#141618",
-    "Plugins.Button.updateBackground": "#406bf4",
-
-    "Plugins.SearchField.background": "#141618",
-
-    "Plugins.tagBackground": "#406bf4",
-    "Plugins.tagForeground": "#141618",
-    "Plugins.lightSelectionBackground": "#101B3D",
-    "Plugins.hoverBackground": "#101B3D",
-
-    "Popup.paintBorder": true,
-    "Popup.borderColor": "#2C3135",
-    "Popup.innerBorderColor": "#2C3135",
-    "Popup.inactiveBorderColor": "#2C3135",
-
-    "Popup.Advertiser.background": "#1D2123",
-    "Popup.Advertiser.borderColor": "#2C3135",
-    "Popup.Advertiser.borderInsets": "3,8,5,0",
-
-    "Popup.Header.activeBackground": "#1D2123",
-
-    "Popup.Toolbar.background": "#1D2123",
-    "Popup.Toolbar.borderColor": "#2C3135",
-
-    "PopupMenu.background": "#1D2123",
-    "PopupMenu.foreground": "#b8babd",
-    "PopupMenu.translucentBackground": "#00000050",
-
-    "ProgressBar.trackColor": "#1D2123",
-    "ProgressBar.progressColor": "#406bf4",
-    "ProgressBar.indeterminateStartColor": "#406bf4",
-    "ProgressBar.indeterminateEndColor": "#101B3D",
-    "ProgressBar.failedColor": "#F05553",
-    "ProgressBar.failedEndColor": "#3C1515",
-    "ProgressBar.passedColor": "#42ba90",
-    "ProgressBar.passedEndColor": "#102f24",
-
-    "RadioButton.background": "#141618",
-    "RadioButton.disabledText": "#5f656a",
-    "RadioButton.foreground": "#b8babd",
-
-    "RadioButtonMenuItem.acceleratorForeground": "#b8babd",
-    "RadioButtonMenuItem.background": "#141618",
-    "RadioButtonMenuItem.disabledBackground": "#5f656a",
-    "RadioButtonMenuItem.disabledForeground": "#b8babd",
-    "RadioButtonMenuItem.foreground": "#b8babd",
-
-    "RunToolbar.Debug.activeBackground": "#3C1515",
-    "RunToolbar.Profile.activeBackground": "#101B3D",
-    "RunToolbar.Run.activeBackground": "#102f24",
-
-    "RunWidget.foreground": "#e2e2e2",
-    "RunWidget.hoverBackground": "",
-    "RunWidget.pressedBackground": "",
-    "RunWidget.runningBackground": "#42ba90",
-
-    "ScrollBar.trackColor": "#1D2123",
-    "ScrollBar.thumbColor": "#2C3135",
-    "ScrollBar.thumbBorderColor": "#2C3135",
-    "ScrollBar.hoverThumbColor": "#2C3135",
-    "ScrollBar.hoverThumbBorderColor": "#2C3135",
-    "ScrollBar.hoverTrackColor": "#141618",
-
-    "ScrollBar.Transparent.trackColor": "#00000000",
-    "ScrollBar.Transparent.thumbColor": "#2C3135",
-    "ScrollBar.Transparent.thumbBorderColor": "#2C3135",
-    "ScrollBar.Transparent.hoverThumbColor": "#2C3135",
-    "ScrollBar.Transparent.hoverThumbBorderColor": "#2C3135",
-    "ScrollBar.Transparent.hoverTrackColor": "#141618",
-
-    "ScrollBar.Mac.trackColor": "#1D2123",
-    "ScrollBar.Mac.thumbColor": "#2C3135",
-    "ScrollBar.Mac.thumbBorderColor": "#2C3135",
-    "ScrollBar.Mac.hoverThumbColor": "#2C3135",
-    "ScrollBar.Mac.hoverThumbBorderColor": "#2C3135",
-    "ScrollBar.Mac.hoverTrackColor": "#141618",
-
-    "ScrollBar.Mac.Transparent.trackColor": "#00000000",
-    "ScrollBar.Mac.Transparent.thumbColor": "#2C3135",
-    "ScrollBar.Mac.Transparent.thumbBorderColor": "#2C3135",
-    "ScrollBar.Mac.Transparent.hoverThumbColor": "#2C3135",
-    "ScrollBar.Mac.Transparent.hoverThumbBorderColor": "#2C3135",
-    "ScrollBar.Mac.Transparent.hoverTrackColor": "#141618",
-
-    "SearchEverywhere.Advertiser.background": "#1D2123",
-    "SearchEverywhere.Advertiser.foreground": "#b8babd",
-
-    "SearchEverywhere.Header.background": "#1D2123",
-
-    "SearchEverywhere.List.separatorColor": "#2C3135",
-    "SearchEverywhere.List.separatorForeground": "#727a7f",
-
-    "SearchEverywhere.SearchField.background": "#141618",
-    "SearchEverywhere.SearchField.borderColor": "#2C3135",
-    "SearchEverywhere.SearchField.infoForeground": "#727a7f",
-
-    "SearchEverywhere.Tab.selectedBackground": "#141618",
-    "SearchEverywhere.Tab.selectedForeground": "#e2e2e2",
-
-    "SearchField.errorBackground": "#3C1515",
-    "SearchField.errorForeground": "#F05553",
-
-    
-    "SearchMatch.endBackground": "#406bf4",
-    "SearchMatch.startBackground": "#406bf4",
-    
-
-    "SidePanel.background": "#1D2123",
-
-    "StatusBar.borderColor": "#2C3135",
-
-    "TabbedPane.background": "#1D2123",
-    "TabbedPane.contentAreaColor": "#1D2123",
-    "TabbedPane.disabledForeground": "#5f656a",
-    "TabbedPane.disabledUnderlineColor": "#5f656a",
-    "TabbedPane.focus": "#e2e2e2",
-    "TabbedPane.focusColor": "#18285C",
-    "TabbedPane.foreground": "#b8babd",
-    "TabbedPane.hoverColor": "#141618",
-    "TabbedPane.underlineColor": "#406bf4",
-
-    "Table.foreground": "#b8babd",
-    "Table.gridColor": "#2C3135",
-    "Table.dropLineColor": "#2C3135",
-    "Table.dropLineShortColor": "#2C3135",
-    "Table.sortIconColor": "#406bf4",
-    "Table.stripeColor": "#2C3135",
-    "Table.lightSelectionForeground": "#406bf4",
-    "Table.lightSelectionInactiveForeground": "#406bf4",
-    "Table.lightSelectionBackground": "#101B3D",
-    "Table.lightSelectionInactiveBackground": "#1D2123",
-
-    "TextArea.background": "#141618",
-    "TextArea.foreground": "#e2e2e2",
-
-    "TextField.background": "#141618",
-    "TextField.caretForeground": "#406bf4",
-    "TextField.darkShadow": "#00000000",
-    "TextField.foreground": "#e2e2e2",
-    "TextField.highlight": "#00000000",
-
-    "ToggleButton.background": "#141618",
-    "ToggleButton.borderColor": "#2C3135",
-    "ToggleButton.buttonColor": "#1D2123",
-    "ToggleButton.disabledText": "#5f656a",
-    "ToggleButton.foreground": "#b8babd",
-    "ToggleButton.offBackground": "#1D2123",
-    "ToggleButton.offForeground": "#727a7f",
-    "ToggleButton.onBackground": "#406bf4",
-    "ToggleButton.onForeground": "#141618",
-
-    "ToolBar.background": "#1D2123",
-
-    "ToolWindow.background": "#1D2123",
-
-    "ToolWindow.Button.hoverBackground": "#141618",
-    "ToolWindow.Button.selectedForeground": "#e2e2e2",
-    "ToolWindow.Button.selectedBackground": "#141618",
-
-    "ToolWindow.Header.background": "#1D2123",
-    "ToolWindow.Header.borderColor": "#2C3135",
-    "ToolWindow.HeaderTab.hoverBackground": "#141618",
-    "ToolWindow.HeaderTab.hoverInactiveBackground": "#1D2123",
-    "ToolWindow.HeaderTab.selectedInactiveBackground": "#1D2123",
-    "ToolWindow.HeaderTab.underlineColor": "#406bf4",
-    "ToolWindow.HeaderTab.inactiveUnderlineColor": "#18285C",
-    "ToolWindow.HeaderTab.underlinedTabBackground": "#141618",
-    "ToolWindow.HeaderTab.underlinedTabInactiveBackground": "#141618",
-    "ToolWindow.HeaderCloseButton.background": "#141618",
-
-    "ToolTip.background": "#1D2123",
-    "ToolTip.foreground": "#b8babd",
-    "ToolTip.infoForeground": "#727a7f",
-
-    "ToolTip.Actions.background": "#1D2123",
-
-    "Tree.background": "#1D2123",
-    "Tree.errorForeground": "#F05553",
-    "Tree.foreground": "#b8babd",
-    "Tree.hoverBackground": "#1D2123",
-    "Tree.hoverInactiveBackground": "#1D2123",
-    "Tree.selectionForeground": "#FFFFFF",
-    "Tree.selectionBackground": "#101B3D",
-    "Tree.selectionInactiveBackground": "#101B3D",
-    "Tree.modifiedItemForeground": "#2c99db",
-    "Tree.rowHeight": "26",
-
-    "ValidationTooltip.errorBackground": "#3C1515",
-    "ValidationTooltip.errorBorderColor": "#F05553",
-    "ValidationTooltip.warningBackground": "#3C2017",
-    "ValidationTooltip.warningBorderColor": "#F07F5B",
-
-    "VersionControl.FileHistory.Commit.selectedBranchBackground": "#101B3D",
-
-    "VersionControl.GitLog.headIconColor": "#dcc37c",
-    "VersionControl.GitLog.localBranchIconColor": "#42ba90",
-    "VersionControl.GitLog.otherIconColor": "#5f656a",
-    "VersionControl.GitLog.remoteBranchIconColor": "#A07CF1",
-    "VersionControl.GitLog.tagIconColor": "#5f656a",
-
-    "VersionControl.HgLog.bookmarkIconColor": "#DC6096",
-    "VersionControl.HgLog.branchIconColor": "#406bf4",
-    "VersionControl.HgLog.closedBranchIconColor": "#F05553",
-    "VersionControl.HgLog.headIconColor": "#F05553",
-    "VersionControl.HgLog.localTagIconColor": "#2c99db",
-    "VersionControl.HgLog.mqTagIconColor": "#5f656a",
-    "VersionControl.HgLog.tagIconColor": "#5f656a",
-    "VersionControl.HgLog.tipIconColor": "#dcc37c",
-
-    "VersionControl.Log.Commit.currentBranchBackground": "#2C3135",
-    "VersionControl.Log.Commit.hoveredBackground": "#1D2123",
-    "VersionControl.Log.Commit.unmatchedForeground": "#727a7f",
-    "VersionControl.RefLabel.backgroundBase": "#141618",
-    "VersionControl.RefLabel.foreground": "#b8babd",
-
-    "WelcomeScreen.separatorColor": "#2C3135",
-
-    "Window.border": "1,1,1,1,2C3135"
-  }
+    "ui": {
+        "*": {
+            "windowBorder": "base2",
+            "borderColor": "base3",
+            "background": "base2",
+            "foreground": "base6",
+            "inactiveBackground": "base2",
+            "inactiveForeground": "base6",
+            "selectionBackground": {
+              "os.default": "accent_mod3",
+              "os.windows": "accent_mod3",
+              "os.mac": "accent_mod3"
+            },
+            "selectionForeground": {
+              "os.default": "base7",
+              "os.windows": "base7",
+              "os.mac": "base7"
+            },
+            "selectionInactiveBackground": "base3",
+            "selectionInactiveForeground": "base6",
+            "acceleratorSelectionBackground": "accent_mod3",
+            "acceleratorSelectionForeground": "base7",
+            "focusColor": "accent_mod2",
+            "focusedBorderColor": "accent_mod2"
+        },
+
+        "ActionButton.hoverBackground": "base3",
+        "ActionButton.hoverBorderColor": "base3",
+        "ActionButton.pressedBackground": "base1",
+        "ActionButton.pressedBorderColor": "base1",
+        "ActionButton.separatorColor": "base3",
+
+        "Borders.color": "base3",
+        "Borders.ContrastBorderColor": "base3",
+
+        "Button.arc": 8,
+        "Button.background": "base2",
+        "Button.foreground": "accent",
+        "Button.startBackground": "base1",
+        "Button.endBackground": "base1",
+        "Button.startBorderColor": "base1",
+        "Button.endBorderColor": "base1",
+        "Button.shadowColor": "base2",
+        "Button.disabledBorderColor": "base1",
+        "Button.disabledText": "base4",
+        "Button.focusedBorderColor": "accent_mod2",
+
+        "Button.default.foreground": "accent",
+        "Button.default.startBackground": "base1",
+        "Button.default.endBackground": "base1",
+        "Button.default.startBorderColor": "accent",
+        "Button.default.endBorderColor": "accent",
+        "Button.default.focusedBorderColor": "accent_mod2",
+        "Button.default.shadowColor": "base2",
+
+        "Button.Split.default.iconColor": "base2",
+        "Button.Split.default.separatorColor": "base3",
+
+        "CheckBox.background": "base2",
+        "CheckBox.disabledText": "base4",
+        "CheckBox.foreground": "base6",
+        "CheckBox.select": "accent",
+
+        "CheckBoxMenuItem.acceleratorForeground": "base6",
+        "CheckBoxMenuItem.background": "base2",
+        "CheckBoxMenuItem.disabledBackground": "base2",
+        "CheckBoxMenuItem.disabledForeground": "base4",
+        "CheckBoxMenuItem.foreground": "base6",
+
+        "CodeWithMe.MainToolbar.NoConnectionLabelForeground": "red",
+        "CodeWithMe.AccessDisabled.accessDot": "red",
+        "CodeWithMe.AccessEnabled.accessDot": "green",
+        "CodeWithMe.AccessEnabled.dropdownBorder": "green",
+        "CodeWithMe.AccessEnabled.pillBackground": "green",
+        "CodeWithMe.Avatar.foreground": "base6",
+        "CodeWithMe.Avatar.hover": "accent",
+        "CodeWithMe.Users.1.Foreground": "base1",
+        "CodeWithMe.Users.1.Background": "lime_mod3",
+        "CodeWithMe.Users.2.Foreground":  "base1",
+        "CodeWithMe.Users.2.Background": "blue_mod3",
+        "CodeWithMe.Users.3.Foreground":  "base1",
+        "CodeWithMe.Users.3.Background": "pink_mod3",
+        "CodeWithMe.Users.4.Foreground":  "base1",
+        "CodeWithMe.Users.4.Background": "purple_mod3",
+        "CodeWithMe.Users.5.Foreground":  "base1",
+        "CodeWithMe.Users.5.Background": "orange_mod3",
+        "CodeWithMe.Users.6.Foreground":  "base1",
+        "CodeWithMe.Users.6.Background": "green_mod3",
+
+        "ComboBox.background": "base1  ",
+        "ComboBox.disabledForeground": "base4",
+        "ComboBox.foreground": "base7",
+        "ComboBox.modifiedItemForeground": "base7",
+        "ComboBox.nonEditableBackground": "base1",
+
+        "ComboBox.ArrowButton.background": "base1",
+        "ComboBox.ArrowButton.disabledIconColor": "base4",
+        "ComboBox.ArrowButton.iconColor": "accent",
+        "ComboBox.ArrowButton.nonEditableBackground": "base1",
+
+        "ComboBoxButton.background": "base1",
+
+        "ComboPopup.border": "1,1,1,1,2C3135",
+
+        "Component.infoForeground": "base5",
+        "Component.borderColor": "base3",
+        "Component.disabledBorderColor": "base4",
+        "Component.focusColor": "accent_mod2",
+        "Component.focusedBorderColor": "accent_mod2",
+        "Component.errorFocusColor": "red_mod2",
+        "Component.inactiveErrorFocusColor": "red_mod3",
+        "Component.warningFocusColor": "orange_mod2",
+        "Component.inactiveWarningFocusColor": "orange_mod3",
+
+        "DefaultTabs.borderColor": "base3",
+        "DefaultTabs.hoverBackground": "base3",
+        "DefaultTabs.inactiveUnderlineColor": "accent_mod2",
+        "DefaultTabs.underlineColor": "accent",
+        "DefaultTabs.underlinedTabForeground": "base7",
+        "DefaultTabs.underlinedTabBackground": "base1",
+        "DefaultTabs.underlineHeight": 2,
+
+        "DragAndDrop.areaForeground": "base7",
+        "DragAndDrop.areaBackground": "accent_mod3",
+        "DragAndDrop.borderColor": "accent",
+
+        "Editor.SearchField.background": "base1",
+
+        "Editor.background": "base2",
+        "Editor.foreground": "base7",
+        "Editor.shortcutForeground": "accent",
+
+        "EditorPane.background": "base1",
+        "EditorPane.caretForeground": "accent",
+        "EditorPane.foreground": "base6",
+        "EditorPane.inactiveForeground": "base6",
+        "EditorPane.inactiveBackground": "base2",
+        "EditorPane.selectionForeground": "base7",
+
+        "EditorTabs.borderColor": "base3",
+        "EditorTabs.hoverBackground": "base3",
+        "EditorTabs.inactiveColoredFileBackground": "base2",
+        "EditorTabs.underlineColor": "accent",
+        "EditorTabs.inactiveUnderlineColor": "accent_mod2",
+        "EditorTabs.underlineHeight": "2",
+        "EditorTabs.underlinedTabBackground": "base3",
+        "EditorTabs.underlinedTabForeground": "base7",
+
+        "FileColor.Blue": "blue_mod3",
+        "FileColor.Green": "green_mod3",
+        "FileColor.Orange": "orange_mod3",
+        "FileColor.Rose": "pink_mod3",
+        "FileColor.Violet": "purple_mod3",
+        "FileColor.Yellow": "yellow_mod3",
+
+        "FormattedTextField.background": "base1",
+        "FormattedTextField.caretForeground": "accent",
+        "FormattedTextField.foreground": "base7",
+
+        "IconBadge.errorBackground": "red",
+        "IconBadge.infoBackground": "blue",
+        "IconBadge.successBackground": "green",
+        "IconBadge.warningBackground": "orange",
+
+        "Label.foreground": "base6",
+        "Label.background": "base2",
+        "Label.selectedForeground": "base7",
+        "Label.disabledForeground": "base4",
+        "Label.infoForeground": "blue",
+        "Label.successForeground": "green",
+        "Label.errorForeground": "red",
+
+        "List.dropLineColor": "base3",
+        "List.foreground": "base6",
+        "List.hoverBackground": "base3",
+        "List.hoverInactiveBackground": "base2",
+
+        "List.Button.hoverBackground": "base3",
+
+        "List.Tag.foreground": "base7",
+        "List.Tag.background": "blue_mod3",
+
+        "Link.activeForeground": "accent",
+        "Link.hoverForeground": "accent",
+        "Link.pressedForeground": "accent",
+        "Link.secondaryForeground": "accent_mod1",
+        "Link.visitedForeground": "accent",
+
+        "MainToolbar.background": "base2",
+        "MainToolbar.separatorColor": "base6",
+
+        "MainWindow.Tab.background": "base2",
+        "MainWindow.Tab.foreground": "base5",
+        "MainWindow.Tab.borderColor": "base3",
+        "MainWindow.Tab.separatorColor": "base3",
+        "MainWindow.Tab.hoverBackground": "base3",
+        "MainWindow.Tab.hoverForeground": "base6",
+        "MainWindow.Tab.selectedBackground": "base1",
+        "MainWindow.Tab.selectedForeground": "accent",
+        "MainWindow.Tab.selectedInactiveBackground": "base1",
+
+        "MainWindow.FullScreeControl.Background": "base1",
+
+        "MemoryIndicator.usedBackground": "green_mod2",
+        "MemoryIndicator.allocatedBackground": "base4",
+
+        "Menu.acceleratorForeground": "base6",
+        "Menu.borderColor": "base3",
+        "Menu.disabledBackground": "base2",
+        "Menu.disabledForeground": "base4",
+        "Menu.foreground": "base6",
+
+        "MenuBar.borderColor": "base3",
+        "MenuBar.disabledBackground": "base2",
+        "MenuBar.disabledForeground": "base4",
+        "MenuBar.foreground": "base6",
+        "MenuBar.highlight": "base7",
+        "MenuBar.shadow": "transparent",
+
+        "MenuItem.acceleratorForeground": "base6",
+        "MenuItem.disabledBackground": "base2",
+        "MenuItem.disabledForeground": "base4",
+        "MenuItem.foreground": "base6",
+
+        "NavBar.borderColor": "base3",
+
+        "Notification.foreground": "base6",
+        "Notification.borderColor": "base3",
+        "Notification.errorBackground": "red_mod3",
+        "Notification.errorForeground": "red",
+        "Notification.errorBorderColor": "red",
+
+        "Notification.Button.foreground": "base6",
+
+        "Notification.MoreButton.background": "transparent",
+        "Notification.MoreButton.foreground": "accent",
+        "Notification.MoreButton.innerBorderColor": "transparent",
+
+        "Notification.ToolWindow.errorBackground": "red_mod3",
+        "Notification.ToolWindow.errorBorderColor": "red",
+        "Notification.ToolWindow.errorForeground": "red",
+        "Notification.ToolWindow.informativeBackground": "blue_mod3",
+        "Notification.ToolWindow.informativeBorderColor": "blue",
+        "Notification.ToolWindow.informativeForeground": "blue",
+        "Notification.ToolWindow.warningBackground": "orange_mod3",
+        "Notification.ToolWindow.warningBorderColor": "orange",
+        "Notification.ToolWindow.warningForeground": "orange",
+
+        "Panel.foreground": "base6",
+        "Panel.background": "base2",
+
+        "ParameterInfo.foreground": "base4",
+        "ParameterInfo.currentOverloadBackground": "base8",
+        "ParameterInfo.currentParameterForeground": "base7",
+
+        "Plugins.Button.installForeground": "base1",
+        "Plugins.Button.installBackground": "green",
+        "Plugins.Button.installBorderColor": "green",
+        "Plugins.Button.installFocusedBackground": "green",
+        "Plugins.Button.installFillForeground": "base1",
+        "Plugins.Button.installFillBackground": "green",
+        "Plugins.Button.updateForeground": "base1",
+        "Plugins.Button.updateBackground": "accent",
+        "Plugins.Button.updateBorderColor": "accent",
+
+        "Plugins.SearchField.background": "base1",
+
+        "Plugins.tagBackground": "blue_mod2",
+        "Plugins.tagForeground": "base7",
+        "Plugins.eapTagBackground": "orange_mod2",
+        "Plugins.suggestedLabelBackground": "purple_mod2",
+        "Plugins.lightSelectionBackground": "accent_mod3",
+        "Plugins.hoverBackground": "base3",
+
+        "Popup.paintBorder": true,
+        "Popup.borderColor": "base3",
+        "Popup.innerBorderColor": "base3",
+        "Popup.inactiveBorderColor": "base3",
+
+        "Popup.Advertiser.foreground": "base6",
+        "Popup.Advertiser.background": "base2",
+        "Popup.Advertiser.borderColor": "base3",
+        "Popup.Advertiser.borderInsets": "3,8,5,0",
+
+        "Popup.Header.activeBackground": "base2",
+        "Popup.Header.activeForeground": "base6",
+
+        "Popup.Toolbar.background": "base2",
+        "Popup.Toolbar.borderColor": "base3",
+
+        "PopupMenu.background": "base2",
+        "PopupMenu.foreground": "base6",
+        "PopupMenu.translucentBackground": "translucent",
+
+        "ProblemsView.projectAnalysisButtonBackground": "green_mod2",
+
+        "ProgressBar.trackColor": "base2",
+        "ProgressBar.progressColor": "accent",
+        "ProgressBar.indeterminateStartColor": "accent",
+        "ProgressBar.indeterminateEndColor": "accent_mod3",
+        "ProgressBar.failedColor": "red",
+        "ProgressBar.failedEndColor": "red_mod3  ",
+        "ProgressBar.passedColor": "green",
+        "ProgressBar.passedEndColor": "green_mod3",
+
+        "RadioButton.background": "base2",
+        "RadioButton.disabledText": "base4",
+        "RadioButton.foreground": "base6",
+
+        "RadioButtonMenuItem.foreground": "base6",
+        "RadioButtonMenuItem.background": "base2",
+        "RadioButtonMenuItem.disabledBackground": "base2",
+        "RadioButtonMenuItem.disabledForeground": "base4",
+        "RadioButtonMenuItem.acceleratorForeground": "base6",
+
+        "RunToolbar.Debug.activeBackground": "red_mod3",
+        "RunToolbar.Profile.activeBackground": "accent_mod3",
+        "RunToolbar.Run.activeBackground": "green_mod3",
+
+        "RunWidget.foreground": "base7",
+        "RunWidget.iconColor": "base7",
+        "RunWidget.hoverBackground": "/* We exclude this because hover states override the background of run/stop buttons */",
+        "RunWidget.stopBackground": "red",
+        "RunWidget.pressedBackground": "base1",
+        "RunWidget.runIconColor": "green",
+        "RunWidget.runningIconColor": "base1",
+        "RunWidget.runningBackground": "green",
+
+        "ScrollBar.trackColor": "base2",
+        "ScrollBar.thumbColor": "base3",
+        "ScrollBar.thumbBorderColor": "base3",
+        "ScrollBar.hoverThumbColor": "base3",
+        "ScrollBar.hoverThumbBorderColor": "base3",
+        "ScrollBar.hoverTrackColor": "base1",
+
+        "ScrollBar.Transparent.trackColor": "transparent",
+        "ScrollBar.Transparent.thumbColor": "base3",
+        "ScrollBar.Transparent.thumbBorderColor": "base3",
+        "ScrollBar.Transparent.hoverThumbColor": "base3",
+        "ScrollBar.Transparent.hoverThumbBorderColor": "base3",
+        "ScrollBar.Transparent.hoverTrackColor": "base1",
+
+        "ScrollBar.Mac.trackColor": "base2",
+        "ScrollBar.Mac.thumbColor": "base3",
+        "ScrollBar.Mac.thumbBorderColor": "base3",
+        "ScrollBar.Mac.hoverThumbColor": "base3",
+        "ScrollBar.Mac.hoverThumbBorderColor": "base3",
+        "ScrollBar.Mac.hoverTrackColor": "base1",
+
+        "ScrollBar.Mac.Transparent.trackColor": "transparent",
+        "ScrollBar.Mac.Transparent.thumbColor": "base3",
+        "ScrollBar.Mac.Transparent.thumbBorderColor": "base3",
+        "ScrollBar.Mac.Transparent.hoverThumbColor": "base3",
+        "ScrollBar.Mac.Transparent.hoverThumbBorderColor": "base3",
+        "ScrollBar.Mac.Transparent.hoverTrackColor": "base1",
+
+        "SearchEverywhere.Advertiser.background": "base2",
+        "SearchEverywhere.Advertiser.foreground": "base6",
+
+        "SearchEverywhere.Header.background": "base2",
+
+        "SearchEverywhere.List.separatorColor": "base3",
+        "SearchEverywhere.List.separatorForeground": "base5",
+
+        "SearchEverywhere.SearchField.background": "base1",
+        "SearchEverywhere.SearchField.borderColor": "base3",
+        "SearchEverywhere.SearchField.infoForeground": "base5",
+
+        "SearchEverywhere.Tab.selectedBackground": "base1",
+        "SearchEverywhere.Tab.selectedForeground": "base7",
+
+        "SearchField.errorBackground": "red_mod3",
+        "SearchField.errorForeground": "red",
+
+        
+        "SearchMatch.endBackground": "accent",
+        "SearchMatch.startBackground": "accent",
+        
+
+        "SegmentedButton.selectedStartBorderColor": "base3",
+        "SegmentedButton.selectedEndBorderColor": "base3",
+        "SegmentedButton.selectedButtonColor": "accent",
+        "SegmentedButton.focusedSelectedButtonColor": "accent",
+
+        "SidePanel.background": "base2",
+
+        "StatusBar.borderColor": "base3",
+
+        "TabbedPane.background": "base2",
+        "TabbedPane.contentAreaColor": "base2",
+        "TabbedPane.disabledForeground": "base4",
+        "TabbedPane.disabledUnderlineColor": "base4",
+        "TabbedPane.focus": "base7",
+        "TabbedPane.focusColor": "accent_mod2",
+        "TabbedPane.foreground": "base6",
+        "TabbedPane.hoverColor": "base3",
+        "TabbedPane.underlineColor": "accent",
+
+        "Table.foreground": "base6",
+        "Table.gridColor": "base3",
+        "Table.dropLineColor": "base3",
+        "Table.dropLineShortColor": "base3",
+        "Table.sortIconColor": "accent",
+        "Table.stripeColor": "base3",
+        "Table.lightSelectionForeground": "accent",
+        "Table.lightSelectionInactiveForeground": "accent",
+        "Table.lightSelectionBackground": "accent_mod3",
+        "Table.lightSelectionInactiveBackground": "base3",
+
+        "Tag.background": "accent_mod1",
+
+        "TextArea.background": "base1",
+        "TextArea.foreground": "base7",
+
+        "TextField.background": "base1",
+        "TextField.caretForeground": "accent",
+        "TextField.darkShadow": "transparent",
+        "TextField.foreground": "base7",
+        "TextField.highlight": "transparent",
+
+        "ToggleButton.background": "base1",
+        "ToggleButton.borderColor": "base3",
+        "ToggleButton.buttonColor": "base2",
+        "ToggleButton.disabledText": "base4",
+        "ToggleButton.foreground": "base6",
+        "ToggleButton.offBackground": "base2",
+        "ToggleButton.offForeground": "base5",
+        "ToggleButton.onBackground": "accent",
+        "ToggleButton.onForeground": "base1",
+
+        "ToolBar.foreground": "base6",
+        "ToolBar.background": "base2",
+        "ToolBar.floatingForeground": "base6",
+
+        "Toolbar.Floating.background": "base2",
+        "Toolbar.Floating.borderColor": "base3",
+
+        "ToolWindow.background": "base2",
+
+        "ToolWindow.Button.hoverBackground": "base3",
+        "ToolWindow.Button.selectedForeground": "base7",
+        "ToolWindow.Button.selectedBackground": "base1",
+
+        "ToolWindow.Header.background": "base2",
+        "ToolWindow.Header.borderColor": "base3",
+
+        "ToolWindow.HeaderTab.hoverBackground": "base3",
+        "ToolWindow.HeaderTab.hoverInactiveBackground": "base3",
+        "ToolWindow.HeaderTab.selectedInactiveBackground": "base3",
+        "ToolWindow.HeaderTab.underlineColor": "accent",
+        "ToolWindow.HeaderTab.underlineHeight": "2",
+        "ToolWindow.HeaderTab.inactiveUnderlineColor": "accent_mod2",
+        "ToolWindow.HeaderTab.underlinedTabBackground": "base1",
+        "ToolWindow.HeaderTab.underlinedTabInactiveBackground": "base2",
+
+        "ToolWindow.HeaderCloseButton.background": "base3",
+
+        "ToolTip.background": "base2",
+        "ToolTip.foreground": "base6",
+        "ToolTip.borderColor": "base3",
+        "ToolTip.linkForeground": "blue",
+        "Tooltip.separatorColor": "base3",
+        "ToolTip.paintBorder": true,
+        "ToolTip.infoForeground": "base5",
+
+        "ToolTip.Actions.background": "base2",
+        "ToolTip.Actions.infoForeground": "base6",
+
+        "Tree.background": "base2",
+        "Tree.errorForeground": "red",
+        "Tree.foreground": "base6",
+        "Tree.hoverBackground": "base3",
+        "Tree.hoverInactiveBackground": "base2",
+        "Tree.selectionForeground": "base7",
+        "Tree.selectionBackground": "accent_mod3",
+        "Tree.selectionInactiveBackground": "accent_mod3",
+        "Tree.modifiedItemForeground": "blue",
+        "Tree.rowHeight": "26",
+
+        "ValidationTooltip.errorBackground": "red_mod3",
+        "ValidationTooltip.errorBorderColor": "red",
+        "ValidationTooltip.warningBackground": "orange_mod3",
+        "ValidationTooltip.warningBorderColor": "orange",
+
+        "VersionControl.FileHistory.Commit.selectedBranchBackground": "accent_mod3",
+
+        "VersionControl.GitLog.headIconColor": "yellow",
+        "VersionControl.GitLog.localBranchIconColor": "green",
+        "VersionControl.GitLog.otherIconColor": "base4",
+        "VersionControl.GitLog.remoteBranchIconColor": "purple",
+        "VersionControl.GitLog.tagIconColor": "base4",
+
+        "VersionControl.HgLog.bookmarkIconColor": "pink",
+        "VersionControl.HgLog.branchIconColor": "accent",
+        "VersionControl.HgLog.closedBranchIconColor": "red",
+        "VersionControl.HgLog.headIconColor": "red",
+        "VersionControl.HgLog.localTagIconColor": "blue",
+        "VersionControl.HgLog.mqTagIconColor": "base4",
+        "VersionControl.HgLog.tagIconColor": "base4",
+        "VersionControl.HgLog.tipIconColor": "yellow",
+
+        "VersionControl.Log.Commit.currentBranchBackground": "base3",
+        "VersionControl.Log.Commit.hoveredBackground": "base2",
+        "VersionControl.Log.Commit.unmatchedForeground": "base5",
+        "VersionControl.RefLabel.backgroundBase": "base1",
+        "VersionControl.RefLabel.foreground": "base6",
+
+        "WelcomeScreen.separatorColor": "base3",
+
+        "Window.border": "1,1,1,1,2C3135",
+        "Window.undecorated.border": "1,1,1,1,2C3135"
+    },
+    "icons": {
+        "ColorPalette": {
+            "Actions.Grey": "#b8babd",
+            "Actions.Red": "#e8626f",
+            "Actions.Yellow": "#dcc37c",
+            "Actions.Green": "#42ba90",
+            "Actions.Blue": "#2c99db",
+            "Actions.GreyInline.Dark": "#b8babd",
+
+            "Objects.Grey": "#b8babd",
+            "Objects.RedStatus": "#e8626f",
+            "Objects.Red": "#e8626f",
+            "Objects.Pink": "#DC6096",
+            "Objects.Yellow": "#dcc37c",
+            "Objects.Green": "#42ba90",
+            "Objects.Blue": "#2c99db",
+            "Objects.Purple": "#A07CF1",
+            "Objects.BlackText": "#e2e2e2",
+            "Objects.YellowDark": "#a5925d",
+            "Objects.GreenAndroid": "#8ec475",
+
+            
+            "Checkbox.Border.Default.Dark": "#2C3135",
+            "Checkbox.Background.Default.Dark": "#141618",
+            "Checkbox.Background.Selected.Dark": "#141618",
+            "Checkbox.Foreground.Selected.Dark": "#406bf4",
+            "Checkbox.Border.Selected.Dark": "#141618",
+            
+
+            "linkForeground": "#406bf4"
+        }
+    }
 }

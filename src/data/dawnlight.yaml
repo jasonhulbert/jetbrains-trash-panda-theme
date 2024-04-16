@@ -1,20 +1,21 @@
-name: "Trash Panda Theme (Light)"
+name: "Trash Panda Theme (Dawnlight)"
 author: "Jason Hulbert"
 dark: false
 high_contrast: false
-theme_out_file: "trash-panda-theme-light.theme.json"
-scheme_out_file: "trash-panda-theme-light.xml"
+theme_out_file: "trash-panda-theme-dawnlight.theme.json"
+scheme_out_file: "trash-panda-theme-dawnlight.xml"
 parent_scheme: "Default"
 theme:
   transparent: "FFFFFF00"
   translucent: "FFFFFF50"
-  base1: "ffffff" # Editable / Interactive Background
-  base2: "f5f6fb" # Background
-  base3: "E0E3E4" # Border
-  base4: "C2C5C5" # Ignored / Disabled
-  base5: "A2A4A4" # Submodule / Comment / Label / UI "Grey" Elements
-  base6: "515252" # Foreground
-  base7: "262727" # Editable / Interactive Foreground
+  base0: "ffffff" # Bright Background
+  base1: "e2e2e2" # Editable / Interactive Background
+  base2: "d4d4d5" # Background
+  base3: "c9c9cb" # Border / Selection Background
+  base4: "909293" # Ignored / Disabled
+  base5: "606162" # Submodule / Comment
+  base6: "3e3f3f" # Foreground
+  base7: "242626" # Editable / Interactive Foreground
   base8: "000000" # Bright Foreground
   accent: "406bf4"
   accent_mod1: "6689f6"

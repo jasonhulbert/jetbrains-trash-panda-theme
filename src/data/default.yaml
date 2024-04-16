@@ -8,11 +8,12 @@ parent_scheme: "Darcula"
 theme:
   transparent: "00000000"
   translucent: "00000050"
+  base0: "000000" # Bright Background
   base1: "141618" # Editable / Interactive Background
   base2: "1D2123" # Background
-  base3: "2C3135" # Border
+  base3: "2C3135" # Border / Selection Background
   base4: "5f656a" # Ignored / Disabled
-  base5: "727a7f" # Submodule / Comment / Label / UI "Grey" Elements
+  base5: "727a7f" # Submodule / Comment
   base6: "b8babd" # Foreground
   base7: "e2e2e2" # Editable / Interactive Foreground
   base8: "FFFFFF" # Bright Foreground
@@ -44,14 +45,14 @@ theme:
   pink_mod1: "A54871"
   pink_mod2: "532439"
   pink_mod3: "371826"
-  red: "F05553"
-  red_mod1: "B4403E"
-  red_mod2: "5A201F"
-  red_mod3: "3C1515"
-  orange: "F07F5B"
-  orange_mod1: "B45F44"
-  orange_mod2: "5A3022"
-  orange_mod3: "3C2017"
+  red: "e8626f"
+  red_mod1: "ae4a53"
+  red_mod2: "743138"
+  red_mod3: "3a181c"
+  orange: "E8886D"
+  orange_mod1: "AE6652"
+  orange_mod2: "744437"
+  orange_mod3: "3A221B"
   yellow: "dcc37c"
   yellow_mod1: "a5925d"
   yellow_mod2: "6e623e"
