@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.1.0'
+version '2.1.1'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,13 @@ patchPluginXml {
     sinceBuild.set('203')
     untilBuild.set('241.*')
     changeNotes = """
+    <h2>2.1.1 (2024.04.25)</h2>
+    <ul>
+        <li>Adds missing GoLang-specific scheme attributes</li>
+        <li>Improvements to CSS scheme attributes</li>
+        <li>Fixes console "Black" and "White" ANSI console colors</li>
+        <li>Minor improvements/fixes</li>
+    </ul>
     <h2>2.1.0 (2024.04.11)</h2>
     <ul>
         <li>NEW "Dawnlight" light theme variant</li>
@@ -59,125 +66,125 @@ patchPluginXml {
     </ul>
     <h2>2.0.4 (2023.01.11)</h2>
     <ul>
-    <li>Reduces saturation/intensity of yellows and greens</li>
-    <li>Adds "High Contrast" theme variation</li>
-    <li>Adds syntax rule for `HTML_CUSTOM_TAG_NAME`</li>
+        <li>Reduces saturation/intensity of yellows and greens</li>
+        <li>Adds "High Contrast" theme variation</li>
+        <li>Adds syntax rule for `HTML_CUSTOM_TAG_NAME`</li>
     </ul>
     <h2>2.0.3 (2022.12.01)</h2>
     <ul>
-    <li>Adds theme properties for New UI `RunWidget`</li>
+        <li>Adds theme properties for New UI `RunWidget`</li>
     </ul>
     <h2>2.0.2 (2022.11.30)</h2>
     <ul>
-    <li>Updates build compatability to 223.*</li>
+        <li>Updates build compatability to 223.*</li>
     </ul>
     <h2>2.0.1 (2022.10.19)</h2>
     <ul>
-    <li>Darkens background and border colors in default dark theme</li>
-    <li>Improves overall contrast of "Light" theme. Theme colors have been darkened and background/border colors are now brighter</li>
-    <li>Fixes issue where the currently opened/active file in the project view was not highlighted</li>
-    <li>Chore: theme file cleanup, removing some unneeded theme properties</li>
+        <li>Darkens background and border colors in default dark theme</li>
+        <li>Improves overall contrast of "Light" theme. Theme colors have been darkened and background/border colors are now brighter</li>
+        <li>Fixes issue where the currently opened/active file in the project view was not highlighted</li>
+        <li>Chore: theme file cleanup, removing some unneeded theme properties</li>
     </ul>
     <h2>2.0.0 (2022.07.26)</h2>
     <ul>
-    <li>New "Light" and "Moonlight" themes</li>
-    <li>Default theme has been updated to better distinguish syntax colors and provide improved overall contrast.</li>
-    <li>Various updates to buttons and form controls throughout the UI</li>
-    <li>Updates compatability version to 2022.2</li>
+        <li>New "Light" and "Moonlight" themes</li>
+        <li>Default theme has been updated to better distinguish syntax colors and provide improved overall contrast.</li>
+        <li>Various updates to buttons and form controls throughout the UI</li>
+        <li>Updates compatability version to 2022.2</li>
     </ul>
     <h2>1.15 (2022.04.13)</h2>
     <ul>
-    <li>Updates compatability version to 2022.1</li>
-    <li>Changes accent color to better distinguish from theme blue</li>
-    <li>Brightens theme blue and green colors</li>
+        <li>Updates compatability version to 2022.1</li>
+        <li>Changes accent color to better distinguish from theme blue</li>
+        <li>Brightens theme blue and green colors</li>
     </ul>
     <h2>1.14.1 (2022.03.07)</h2>
     <ul>
-    <li>Updates Menu/List/Tree selected item styles</li>
+        <li>Updates Menu/List/Tree selected item styles</li>
     </ul>
     <h2>1.14 (2021.12.28)</h2>
     <ul>
-    <li>Updates compatability version to 2021.3</li>
+        <li>Updates compatability version to 2021.3</li>
     </ul>
     <h2>1.13 (2021.11.11)</h2>
     <ul>
-    <li>Adds a more noticeable effect for matched braces.</li>
+        <li>Adds a more noticeable effect for matched braces.</li>
     </ul>
     <h2>1.12 (2021.11.10)</h2>
     <ul>
-    <li>Fixes injected language fragment color scheme.</li>
+        <li>Fixes injected language fragment color scheme.</li>
     </ul>
     <h2>1.11 (2021.11.10)</h2>
     <ul>
-    <li>Replaces all transparent variations of colors with shade (darkened) variations. This corrects issues previously discovered wherein transparent colors would sometimes overlay ecachother causing unexpected results.</li>
-    <li>Fixes markup/html/xml scheme colors.</li>
-    <li>Updates diff viewer colors and gutter VCS colors.</li>
-    <li>Updates global variables/references to be theme orange.</li>
-    <li>Reduces the height of tree list items.</li>
-    <li>Changes default/recommended theme font (editor and console) to Fira Code instead of Fira Code Retina</li>
+        <li>Replaces all transparent variations of colors with shade (darkened) variations. This corrects issues previously discovered wherein transparent colors would sometimes overlay ecachother causing unexpected results.</li>
+        <li>Fixes markup/html/xml scheme colors.</li>
+        <li>Updates diff viewer colors and gutter VCS colors.</li>
+        <li>Updates global variables/references to be theme orange.</li>
+        <li>Reduces the height of tree list items.</li>
+        <li>Changes default/recommended theme font (editor and console) to Fira Code instead of Fira Code Retina</li>
     </ul>
     <h2>1.10 (2021.11.08)</h2>
     <ul>
-    <li>Fixes some language-specific color scheme rules.</li>
+        <li>Fixes some language-specific color scheme rules.</li>
     </ul>
     <h2>1.9 (2021.11.08)</h2>
     <ul>
-    <li>Fixes UI border color.</li>
+        <li>Fixes UI border color.</li>
     </ul>
     <h2>1.8 (2021.11.08)</h2>
     <ul>
-    <li>Updates plugin icon.</li>
+        <li>Updates plugin icon.</li>
     </ul>
     <h2>1.7 (2021.11.08)</h2>
     <ul>
-    <li>Migrates plugin to gradle-based plugin project.</li>
-    <li>Darkens background colors. Increase contrast between 'background' and 'alt background' for displays with limited contrast levels.</li>
-    <li>Fixes issue wherein instances of the identifier underneath the caret were not highlighted. This highlighting can be disabled in IDE settings.</li>
+        <li>Migrates plugin to gradle-based plugin project.</li>
+        <li>Darkens background colors. Increase contrast between 'background' and 'alt background' for displays with limited contrast levels.</li>
+        <li>Fixes issue wherein instances of the identifier underneath the caret were not highlighted. This highlighting can be disabled in IDE settings.</li>
     </ul>
     <h2>1.6 (2019.12.05)</h2>
     <ul>
-    <li>Fixes terminal black output color</li>
-    <li>Sets default font size to 13px (instead of 14px)</li>
-    <li>Adds matching iTerm color theme; available at github repo</li>
+        <li>Fixes terminal black output color</li>
+        <li>Sets default font size to 13px (instead of 14px)</li>
+        <li>Adds matching iTerm color theme; available at github repo</li>
     </ul>
     <h2>1.5 (2019.10.17)</h2>
     <ul>
-    <li>Modifies scrollbar color to use border color instead of accent color.</li>
-    <li>Modifies general ide border color (slightly lighter)</li>
+        <li>Modifies scrollbar color to use border color instead of accent color.</li>
+        <li>Modifies general ide border color (slightly lighter)</li>
     </ul>
     <h2>1.4 (2019.10.01)</h2>
     <ul>
-    <li>Updates Regex highlighting</li>
-    <li>Updates plugin icon</li>
+        <li>Updates Regex highlighting</li>
+        <li>Updates plugin icon</li>
     </ul>
     <h2>1.3 (2019.09.26)</h2>
     <ul>
-    <li>Red is now only used for errors, conflicts, etc</li>
-    <li>Adds slight differentiation between general ide background and editor background</li>
-    <li>Slight adjustment to accent blue for better contrast</li>
-    <li>Replaces uses of red for syntax hightlighting with pink</li>
+        <li>Red is now only used for errors, conflicts, etc</li>
+        <li>Adds slight differentiation between general ide background and editor background</li>
+        <li>Slight adjustment to accent blue for better contrast</li>
+        <li>Replaces uses of red for syntax highlighting with pink</li>
     </ul>
     <h2>1.2 (2019.09.13)</h2>
     <ul>
-    <li>Removes 'attention' color. Now 'accent' is used for all ui accents</li>
-    <li>Modifies border color to be slightly darker</li>
-    <li>Modifies foreground color to be slightly darker</li>
-    <li>Updates lime to be less "puke-colored"</li>
-    <li>Updates orange to be less vibrant</li>
-    <li>Adds new plugin icon</li>
+        <li>Removes 'attention' color. Now 'accent' is used for all ui accents</li>
+        <li>Modifies border color to be slightly darker</li>
+        <li>Modifies foreground color to be slightly darker</li>
+        <li>Updates lime to be less "puke-colored"</li>
+        <li>Updates orange to be less vibrant</li>
+        <li>Adds new plugin icon</li>
     </ul>
     <h2>1.1 (2019.09.10)</h2>
     <ul>
-    <li>Updates background and border colors (slightly darker)</li>
-    <li>Updates default identifier colors</li>
-    <li>Updates function/method colors</li>
-    <li>Updates meta/decorator colors</li>
-    <li>Minor adjustments specific to java, javascript, css and sass</li>
+        <li>Updates background and border colors (slightly darker)</li>
+        <li>Updates default identifier colors</li>
+        <li>Updates function/method colors</li>
+        <li>Updates meta/decorator colors</li>
+        <li>Minor adjustments specific to java, javascript, css and sass</li>
     </ul>
     <h2>1.0 (2019.09.09)</h2>
     <ul>
-    <li>Publishing initial plugin</li>
-    <li>Updates soon to follow</li>
+        <li>Publishing initial plugin</li>
+        <li>Updates soon to follow</li>
     </ul>
     """
 }
