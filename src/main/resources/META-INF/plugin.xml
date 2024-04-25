@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.trashpandatheme</id>
     <name>Trash Panda Theme</name>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
     <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,8 @@
 
     <h4>Features</h4>
     <ul>
-        <li><b>Five theme variations:</b> Dark (Default), Blacklight (High Contrast), Moonlight, Dawnlight, and Daylight</li>
+        <li><b>Five dark theme variations:</b> Dark (Default), Blacklight (High Contrast), Moonlight</li>
+        <li><b>Two light theme variations:</b> Dawnlight, and Daylight</li>
         <li><b>Vibrant Color Scheme:</b> Utilizes a palette of bright, engaging colors to enhance code readability and reduce visual fatigue.</li>
         <li><b>Optimized for Scanning:</b> Carefully designed to highlight syntax and structure in order to make it easier to navigate and scan code.</li>
         <li><b>Modern, Clean Aesthetic:</b> Offers a minimalist IDE appearance that reduces distractions, allowing you to focus on the code.</li>
