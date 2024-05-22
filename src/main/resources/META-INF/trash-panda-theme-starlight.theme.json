@@ -1,19 +1,19 @@
 {
-    "name": "Trash Panda Theme (Moonlight)",
+    "name": "Trash Panda Theme (Starlight)",
     "dark": true,
     "author": "Jason Hulbert",
-    "editorScheme": "/trash-panda-theme-moonlight.xml",
+    "editorScheme": "/META-INF/trash-panda-theme-starlight.xml",
     "colors": {
         "transparent": "#00000000",
         "translucent": "#00000050",
         "base0": "#000000",
-        "base1": "#1a2426",
-        "base2": "#202c2e",
-        "base3": "#293639",
-        "base4": "#545e61",
-        "base5": "#7f8688",
-        "base6": "#a9afb0",
-        "base7": "#d4d7d7",
+        "base1": "#161c2b",
+        "base2": "#1c2332",
+        "base3": "#242a3a",
+        "base4": "#505561",
+        "base5": "#7c7f89",
+        "base6": "#a7aab0",
+        "base7": "#d3d4d8",
         "base8": "#FFFFFF",
         "accent": "#406bf4",
         "accent_mod1": "#3050b7",
@@ -145,7 +145,7 @@
         "CodeWithMe.Users.6.Foreground":  "base1",
         "CodeWithMe.Users.6.Background": "green_mod3",
 
-        "ComboBox.background": "base1  ",
+        "ComboBox.background": "base1",
         "ComboBox.disabledForeground": "base4",
         "ComboBox.foreground": "base7",
         "ComboBox.modifiedItemForeground": "base7",
@@ -158,7 +158,7 @@
 
         "ComboBoxButton.background": "base1",
 
-        "ComboPopup.border": "1,1,1,1,293639",
+        "ComboPopup.border": "1,1,1,1,242a3a",
 
         "Component.infoForeground": "base5",
         "Component.borderColor": "base3",
@@ -531,7 +531,7 @@
         "Tree.hoverInactiveBackground": "base2",
         "Tree.selectionForeground": "base7",
         "Tree.selectionBackground": "accent_mod3",
-        "Tree.selectionInactiveBackground": "accent_mod3",
+        "Tree.selectionInactiveBackground": "base3",
         "Tree.modifiedItemForeground": "blue",
         "Tree.rowHeight": "26",
 
@@ -565,19 +565,19 @@
 
         "WelcomeScreen.separatorColor": "base3",
 
-        "Window.border": "1,1,1,1,293639",
-        "Window.undecorated.border": "1,1,1,1,293639"
+        "Window.border": "1,1,1,1,242a3a",
+        "Window.undecorated.border": "1,1,1,1,242a3a"
     },
     "icons": {
         "ColorPalette": {
-            "Actions.Grey": "#a9afb0",
+            "Actions.Grey": "#a7aab0",
             "Actions.Red": "#e8626f",
             "Actions.Yellow": "#dcc37c",
             "Actions.Green": "#42ba90",
             "Actions.Blue": "#2c99db",
-            "Actions.GreyInline.Dark": "#a9afb0",
+            "Actions.GreyInline.Dark": "#a7aab0",
 
-            "Objects.Grey": "#a9afb0",
+            "Objects.Grey": "#a7aab0",
             "Objects.RedStatus": "#e8626f",
             "Objects.Red": "#e8626f",
             "Objects.Pink": "#DC6096",
@@ -585,16 +585,16 @@
             "Objects.Green": "#42ba90",
             "Objects.Blue": "#2c99db",
             "Objects.Purple": "#A07CF1",
-            "Objects.BlackText": "#d4d7d7",
+            "Objects.BlackText": "#d3d4d8",
             "Objects.YellowDark": "#a5925d",
             "Objects.GreenAndroid": "#8ec475",
 
             
-            "Checkbox.Border.Default.Dark": "#293639",
-            "Checkbox.Background.Default.Dark": "#1a2426",
-            "Checkbox.Background.Selected.Dark": "#1a2426",
+            "Checkbox.Border.Default.Dark": "#242a3a",
+            "Checkbox.Background.Default.Dark": "#161c2b",
+            "Checkbox.Background.Selected.Dark": "#161c2b",
             "Checkbox.Foreground.Selected.Dark": "#406bf4",
-            "Checkbox.Border.Selected.Dark": "#1a2426",
+            "Checkbox.Border.Selected.Dark": "#161c2b",
             
 
             "linkForeground": "#406bf4"

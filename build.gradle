@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.1.1'
+version '2.2.0'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,11 @@ patchPluginXml {
     sinceBuild.set('203')
     untilBuild.set('241.*')
     changeNotes = """
+    <h2>2.2.0 (2024.05.06)</h2>
+    <ul>
+        <li>Adds new "Starlight" dark theme</li>
+        <li>Minor; Updates ignored file color in file tree to be more visible</li>
+    </ul>
     <h2>2.1.1 (2024.04.25)</h2>
     <ul>
         <li>Adds missing GoLang-specific scheme attributes</li>
