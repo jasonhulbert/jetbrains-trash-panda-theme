@@ -5,6 +5,7 @@ yaml = YAML(typ='safe')   # default, if not specified, is 'rt' (round-trip)
 
 themes = {
     'default': 'default.yaml',
+    'starlight': 'starlight.yaml',
     'moonlight': 'moonlight.yaml',
     'dawnlight': 'dawnlight.yaml',
     'daylight': 'daylight.yaml',
@@ -25,10 +26,10 @@ for name in themes:
     theme_template = env.get_template('theme.tmpl')
     theme_scheme_template = env.get_template('scheme.tmpl')
 
-    with open(f'src/main/resources/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
+    with open(f'src/main/resources/META-INF/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
         theme_out_file.write(theme_template.render(theme_data))
         theme_out_file.close()
 
-    with open(f'src/main/resources/{theme_data["scheme_out_file"]}', 'w+') as scheme_out_file:
+    with open(f'src/main/resources/META-INF/{theme_data["scheme_out_file"]}', 'w+') as scheme_out_file:
         scheme_out_file.write(theme_scheme_template.render(theme_data))
         scheme_out_file.close()

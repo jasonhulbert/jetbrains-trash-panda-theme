@@ -2,7 +2,7 @@
     "name": "Trash Panda Theme",
     "dark": true,
     "author": "Jason Hulbert",
-    "editorScheme": "/trash-panda-theme.xml",
+    "editorScheme": "/META-INF/trash-panda-theme.xml",
     "colors": {
         "transparent": "#00000000",
         "translucent": "#00000050",
@@ -145,7 +145,7 @@
         "CodeWithMe.Users.6.Foreground":  "base1",
         "CodeWithMe.Users.6.Background": "green_mod3",
 
-        "ComboBox.background": "base1  ",
+        "ComboBox.background": "base1",
         "ComboBox.disabledForeground": "base4",
         "ComboBox.foreground": "base7",
         "ComboBox.modifiedItemForeground": "base7",
@@ -531,7 +531,7 @@
         "Tree.hoverInactiveBackground": "base2",
         "Tree.selectionForeground": "base7",
         "Tree.selectionBackground": "accent_mod3",
-        "Tree.selectionInactiveBackground": "accent_mod3",
+        "Tree.selectionInactiveBackground": "base3",
         "Tree.modifiedItemForeground": "blue",
         "Tree.rowHeight": "26",
 
