@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '1.16.1'
+    id 'org.jetbrains.intellij' version '1.17.3'
 }
 
 group 'com.villains'
@@ -20,12 +20,12 @@ java {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version = '2020.3'
+    version = '2023.2.6'
 }
 
 patchPluginXml {
-    sinceBuild.set('203')
-    untilBuild.set('241.*')
+    sinceBuild.set('232')
+    untilBuild.set('242.*')
     changeNotes = """
     <h2>2.2.0 (2024.05.06)</h2>
     <ul>
