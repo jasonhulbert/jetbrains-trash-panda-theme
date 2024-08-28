@@ -25,7 +25,7 @@ intellij {
 
 patchPluginXml {
     sinceBuild.set('232')
-    untilBuild.set('242.*')
+    untilBuild.set('*.*')
     changeNotes = """
     <h2>2.2.0 (2024.05.06)</h2>
     <ul>
