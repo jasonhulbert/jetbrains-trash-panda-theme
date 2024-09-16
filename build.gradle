@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.2.0'
+version '2.2.1'
 
 repositories {
     mavenCentral()
@@ -25,8 +25,12 @@ intellij {
 
 patchPluginXml {
     sinceBuild.set('203')
-    untilBuild.set('241.*')
+    untilBuild.set('242.*')
     changeNotes = """
+    <h2>2.2.1 (2024.09.16)</h2>
+    <ul>
+        <li>Updates Intellij compatability</li>
+    </ul>
     <h2>2.2.0 (2024.05.06)</h2>
     <ul>
         <li>Adds new "Starlight" dark theme</li>
