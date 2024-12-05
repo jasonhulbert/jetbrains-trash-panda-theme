@@ -4,6 +4,8 @@ dark: false
 high_contrast: false
 theme_out_file: "trash-panda-theme-dawnlight.theme.json"
 scheme_out_file: "trash-panda-theme-dawnlight.xml"
+iterm_theme_out_file: "trash-panda-dawnlight.itermcolors"
+warp_theme_out_file: "trash-panda-dawnlight.yaml"
 parent_scheme: "Default"
 theme:
   transparent: "FFFFFF00"

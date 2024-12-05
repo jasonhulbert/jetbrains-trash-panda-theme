@@ -175,7 +175,7 @@
         "DefaultTabs.inactiveUnderlineColor": "accent_mod2",
         "DefaultTabs.underlineColor": "accent",
         "DefaultTabs.underlinedTabForeground": "base7",
-        "DefaultTabs.underlinedTabBackground": "base1",
+        "DefaultTabs.underlinedTabBackground": "base2",
         "DefaultTabs.underlineHeight": 2,
 
         "DragAndDrop.areaForeground": "base7",
@@ -201,8 +201,10 @@
         "EditorTabs.underlineColor": "accent",
         "EditorTabs.inactiveUnderlineColor": "accent_mod2",
         "EditorTabs.underlineHeight": "2",
-        "EditorTabs.underlinedTabBackground": "base3",
+        "EditorTabs.underlinedTabBackground": "base2",
         "EditorTabs.underlinedTabForeground": "base7",
+        "EditorTabs.unselectedAlpha": "0.7",
+        "EditorTabs.unselectedBlend": "0.7",
 
         "FileColor.Blue": "blue_mod3",
         "FileColor.Green": "green_mod3",
@@ -247,17 +249,17 @@
         "MainToolbar.background": "base2",
         "MainToolbar.separatorColor": "base6",
 
-        "MainWindow.Tab.background": "base2",
+        "MainWindow.Tab.background": "base3",
         "MainWindow.Tab.foreground": "base5",
         "MainWindow.Tab.borderColor": "base3",
         "MainWindow.Tab.separatorColor": "base3",
         "MainWindow.Tab.hoverBackground": "base3",
-        "MainWindow.Tab.hoverForeground": "base6",
-        "MainWindow.Tab.selectedBackground": "base1",
-        "MainWindow.Tab.selectedForeground": "accent",
-        "MainWindow.Tab.selectedInactiveBackground": "base1",
+        "MainWindow.Tab.hoverForeground": "base7",
+        "MainWindow.Tab.selectedBackground": "base2",
+        "MainWindow.Tab.selectedForeground": "base7",
+        "MainWindow.Tab.selectedInactiveBackground": "base2",
 
-        "MainWindow.FullScreeControl.Background": "base1",
+        "MainWindow.FullScreeControl.Background": "base3",
 
         "MemoryIndicator.usedBackground": "green_mod2",
         "MemoryIndicator.allocatedBackground": "base4",
@@ -357,7 +359,7 @@
         "ProgressBar.indeterminateStartColor": "accent",
         "ProgressBar.indeterminateEndColor": "accent_mod3",
         "ProgressBar.failedColor": "red",
-        "ProgressBar.failedEndColor": "red_mod3  ",
+        "ProgressBar.failedEndColor": "red_mod3",
         "ProgressBar.passedColor": "green",
         "ProgressBar.passedEndColor": "green_mod3",
 
@@ -453,6 +455,7 @@
         "TabbedPane.foreground": "base6",
         "TabbedPane.hoverColor": "base3",
         "TabbedPane.underlineColor": "accent",
+        "TabbedPane.tabHeight": "32",
 
         "Table.foreground": "base6",
         "Table.gridColor": "base3",
@@ -508,7 +511,7 @@
         "ToolWindow.HeaderTab.underlineColor": "accent",
         "ToolWindow.HeaderTab.underlineHeight": "2",
         "ToolWindow.HeaderTab.inactiveUnderlineColor": "accent_mod2",
-        "ToolWindow.HeaderTab.underlinedTabBackground": "base1",
+        "ToolWindow.HeaderTab.underlinedTabBackground": "base2",
         "ToolWindow.HeaderTab.underlinedTabInactiveBackground": "base2",
 
         "ToolWindow.HeaderCloseButton.background": "base3",

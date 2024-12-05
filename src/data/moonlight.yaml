@@ -4,6 +4,8 @@ dark: true
 high_contrast: false
 theme_out_file: "trash-panda-theme-moonlight.theme.json"
 scheme_out_file: "trash-panda-theme-moonlight.xml"
+iterm_theme_out_file: "trash-panda-moonlight.itermcolors"
+warp_theme_out_file: "trash-panda-moonlight.yaml"
 parent_scheme: "Darcula"
 theme:
   transparent: "00000000"

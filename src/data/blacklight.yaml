@@ -4,6 +4,8 @@ dark: true
 high_contrast: true
 theme_out_file: "trash-panda-theme-blacklight.theme.json"
 scheme_out_file: "trash-panda-theme-blacklight.xml"
+iterm_theme_out_file: "trash-panda-blacklight.itermcolors"
+warp_theme_out_file: "trash-panda-blacklight.yaml"
 parent_scheme: "Darcula"
 theme:
   transparent: "00000000"

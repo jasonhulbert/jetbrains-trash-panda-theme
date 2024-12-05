@@ -1,0 +1,401 @@
+{#
+Ansi 0 Color: Black
+Ansi 1 Color: Red
+Ansi 2 Color: Green
+Ansi 3 Color: Yellow
+Ansi 4 Color: Blue
+Ansi 5 Color: Magenta
+Ansi 6 Color: Cyan
+Ansi 7 Color: White
+Ansi 8 Color: Bright Black (usually a dark gray)
+Ansi 9 Color: Bright Red
+Ansi 10 Color: Bright Green
+Ansi 11 Color: Bright Yellow
+Ansi 12 Color: Bright Blue
+Ansi 13 Color: Bright Magenta
+Ansi 14 Color: Bright Cyan
+Ansi 15 Color: Bright White
+#}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ansi 0 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+		<real>1</real>
+		<key>Blue Component</key>
+		<real>{{ iterm.srgb.base0[2] }}</real>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Green Component</key>
+		<real>{{ iterm.srgb.base0[1] }}</real>
+		<key>Red Component</key>
+		<real>{{ iterm.srgb.base0[0] }}</real>
+	</dict>
+	<key>Ansi 1 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.red[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.red[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.red[0] }}</real>
+	</dict>
+	<key>Ansi 10 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.green_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.green_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.green_mod1[0] }}</real>
+	</dict>
+	<key>Ansi 11 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.yellow_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.yellow_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.yellow_mod1[0] }}</real>
+	</dict>
+	<key>Ansi 12 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.blue_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.blue_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.blue_mod1[0] }}</real>
+	</dict>
+	<key>Ansi 13 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.purple_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.purple_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.purple_mod1[0] }}</real>
+	</dict>
+	<key>Ansi 14 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.cyan_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.cyan_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.cyan_mod1[0] }}</real>
+	</dict>
+	<key>Ansi 15 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base8[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base8[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base8[0] }}</real>
+	</dict>
+	<key>Ansi 2 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.green[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.green[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.green[0] }}</real>
+	</dict>
+	<key>Ansi 3 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.yellow[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.yellow[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.yellow[0] }}</real>
+	</dict>
+	<key>Ansi 4 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.blue[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.blue[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.blue[0] }}</real>
+	</dict>
+	<key>Ansi 5 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.purple[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.purple[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.purple[0] }}</real>
+	</dict>
+	<key>Ansi 6 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.cyan[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.cyan[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.cyan[0] }}</real>
+	</dict>
+	<key>Ansi 7 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base7[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base7[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base7[0] }}</real>
+	</dict>
+	<key>Ansi 8 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base2[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base2[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base2[0] }}</real>
+	</dict>
+	<key>Ansi 9 Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.red_mod1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.red_mod1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.red_mod1[0] }}</real>
+	</dict>
+	<key>Background Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base1[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base1[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base1[0] }}</real>
+	</dict>
+	<key>Badge Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>0.5</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.accent[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.accent[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.accent[0] }}</real>
+	</dict>
+	<key>Bold Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>0.5</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base8[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base8[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base8[0] }}</real>
+	</dict>
+	<key>Cursor Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.accent[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.accent[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.accent[0] }}</real>
+	</dict>
+	<key>Cursor Guide Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>0.5</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base3[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base3[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base3[0] }}</real>
+	</dict>
+	<key>Cursor Text Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>0.5</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base7[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base7[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base7[0] }}</real>
+	</dict>
+	<key>Foreground Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base6[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base6[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base6[0] }}</real>
+	</dict>
+	<key>Link Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.accent[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.accent[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.accent[0] }}</real>
+	</dict>
+	<key>Match Background Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.accent_mod3[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.accent_mod3[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.accent_mod3[0] }}</real>
+	</dict>
+	<key>Selected Text Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base8[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base8[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base8[0] }}</real>
+	</dict>
+	<key>Selection Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.accent_mod2[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.accent_mod2[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.accent_mod2[0] }}</real>
+	</dict>
+	<key>Tab Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base2[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base2[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base2[0] }}</real>
+	</dict>
+	<key>Underline Color</key>
+	<dict>
+		<key>Alpha Component</key>
+        <real>1</real>
+        <key>Blue Component</key>
+        <real>{{ iterm.srgb.base6[2] }}</real>
+        <key>Color Space</key>
+        <string>sRGB</string>
+        <key>Green Component</key>
+        <real>{{ iterm.srgb.base6[1] }}</real>
+        <key>Red Component</key>
+        <real>{{ iterm.srgb.base6[0] }}</real>
+	</dict>
+</dict>
+</plist>

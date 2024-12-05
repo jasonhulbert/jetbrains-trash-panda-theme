@@ -774,7 +774,7 @@
 
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="505561" />
+                <option name="FOREGROUND" value="7c7f89" />
             </value>
         </option>
 
@@ -841,14 +841,14 @@
         <option name="TAB_SELECTED">
             <value>
                 <option name="FOREGROUND" value="d3d4d8" />
-                <option name="BACKGROUND" value="161c2b" />
+                <option name="BACKGROUND" value="1c2332" />
             </value>
         </option>
 
         <option name="TAB_SELECTED_INACTIVE">
             <value>
                 <option name="FOREGROUND" value="a7aab0" />
-                <option name="BACKGROUND" value="161c2b" />
+                <option name="BACKGROUND" value="1c2332" />
             </value>
         </option>
 
