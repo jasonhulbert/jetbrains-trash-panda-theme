@@ -1,6 +1,6 @@
 # Dist / Artifacts
-build/
-.gradle/
+jetbrains/build/
+jetbrains/.gradle/
 __pycache__
 
 # IDEs and Editors

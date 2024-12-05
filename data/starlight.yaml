@@ -5,7 +5,7 @@ high_contrast: false
 theme_out_file: "trash-panda-theme-starlight.theme.json"
 scheme_out_file: "trash-panda-theme-starlight.xml"
 iterm_theme_out_file: "trash-panda-starlight.itermcolors"
-warp_theme_out_file: "trash-panda-starlight.itermcolors"
+warp_theme_out_file: "trash-panda-starlight.yaml"
 parent_scheme: "Darcula"
 theme:
   transparent: "00000000"

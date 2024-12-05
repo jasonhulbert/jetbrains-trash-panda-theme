@@ -14,12 +14,12 @@ themes = {
 }
 
 def generate_theme_file(theme_template, theme_data):
-    with open(f'src/main/resources/META-INF/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
+    with open(f'jetbrains/src/main/resources/META-INF/{theme_data["theme_out_file"]}', 'w+') as theme_out_file:
         theme_out_file.write(theme_template.render(theme_data))
         theme_out_file.close()
 
 def generate_scheme_file(scheme_template, theme_data):
-    with open(f'src/main/resources/META-INF/{theme_data["scheme_out_file"]}', 'w+') as scheme_out_file:
+    with open(f'jetbrains/src/main/resources/META-INF/{theme_data["scheme_out_file"]}', 'w+') as scheme_out_file:
         scheme_out_file.write(scheme_template.render(theme_data))
         scheme_out_file.close()
 
@@ -47,17 +47,17 @@ def generate_warp_theme_file(warp_theme_template, theme_data):
 
 def generate_theme_files():
     for name in themes:
-        with open(f'src/data/{themes[name]}') as theme_data_file:
+        with open(f'data/{themes[name]}') as theme_data_file:
             theme_data = yaml.load(theme_data_file)
 
         jinja_env = Environment(
-            loader=PackageLoader('theme', '../src/templates'),
+            loader=PackageLoader('theme', '../templates'),
             autoescape=select_autoescape()
         )
 
         jinja_env.filters['bool'] = bool
 
-        generate_theme_file(jinja_env.get_template('theme.tmpl'), theme_data)
-        generate_scheme_file(jinja_env.get_template('scheme.tmpl'), theme_data)
+        generate_theme_file(jinja_env.get_template('jetbrains-theme.tmpl'), theme_data)
+        generate_scheme_file(jinja_env.get_template('jetbrains-scheme.tmpl'), theme_data)
         generate_iterm_theme_file(jinja_env.get_template('iterm-theme.tmpl'), theme_data)
         generate_warp_theme_file(jinja_env.get_template('warp-theme.tmpl'), theme_data)
