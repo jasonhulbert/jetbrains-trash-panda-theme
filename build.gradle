@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.2.1'
+version '2.2.2'
 
 repositories {
     mavenCentral()
@@ -25,8 +25,12 @@ intellij {
 
 patchPluginXml {
     sinceBuild.set('203')
-    untilBuild.set('242.*')
+    untilBuild.set('243.*')
     changeNotes = """
+    <h2>2.2.2 (2024.11.18)</h2>
+    <ul>
+        <li>Updates Intellij compatability</li>
+    </ul>
     <h2>2.2.1 (2024.09.16)</h2>
     <ul>
         <li>Updates Intellij compatability</li>
