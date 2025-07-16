@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '2.2.3'
+version '2.2.4'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,10 @@ patchPluginXml {
     sinceBuild.set('203')
     untilBuild.set('251.*')
     changeNotes = """
+    <h2>2.2.4 (TBD)</h2>
+    <ul>
+        <li>Updates main window tab inactive background</li>
+    </ul>
     <h2>2.2.3 (2025.04.28)</h2>
     <ul>
         <li>Updates Intellij compatability</li>
