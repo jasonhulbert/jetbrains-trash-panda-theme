@@ -9,7 +9,8 @@ themes = {
     'moonlight': 'moonlight.yaml',
     'dawnlight': 'dawnlight.yaml',
     'daylight': 'daylight.yaml',
-    'blacklight': 'blacklight.yaml'
+    'blacklight': 'blacklight.yaml',
+    'neonlight': 'neonlight.yaml'
 }
 
 for name in themes:
