@@ -14,8 +14,8 @@
         <option name="ERROR_HINT" value="5B122E" />
         <option name="FILESTATUS_ADDED" value="00c4a7" />
         <option name="FILESTATUS_COPIED" value="00c4a7" />
-        <option name="FILESTATUS_DELETED" value="2D0917" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="2D0917" />
+        <option name="FILESTATUS_DELETED" value="FF4319" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="FF4319" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ffb400" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E22D76" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E22D76" />
@@ -212,7 +212,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="2D0917" />
+                <option name="FOREGROUND" value="FF4319" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -343,12 +343,12 @@
         </option>
         <option name="CodeWithMe.USER_5_MARKER">
             <value>
-                <option name="BACKGROUND" value="744437" />
+                <option name="BACKGROUND" value="7F210C" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_SELECTION">
             <value>
-                <option name="BACKGROUND" value="3A221B" />
+                <option name="BACKGROUND" value="3F1006" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_MARKER">
@@ -496,7 +496,7 @@
         </option>
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="2D0917" />
+                <option name="FOREGROUND" value="FF4319" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
@@ -754,7 +754,7 @@
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="2D0917" />
+                <option name="FOREGROUND" value="FF4319" />
             </value>
         </option>
 
@@ -895,7 +895,7 @@
 
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="2D0917" />
+                <option name="EFFECT_COLOR" value="FF4319" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -909,8 +909,8 @@
 
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="2D0917" />
-                <option name="ERROR_STRIPE_COLOR" value="2D0917" />
+                <option name="EFFECT_COLOR" value="FF4319" />
+                <option name="ERROR_STRIPE_COLOR" value="FF4319" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
