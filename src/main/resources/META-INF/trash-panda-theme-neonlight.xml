@@ -44,7 +44,7 @@
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2f6ac5" />
         <option name="INDENT_GUIDE" value="24213a" />
         <option name="INFORMATION_HINT" value="171F2B" />
-        <option name="LINE_NUMBERS_COLOR" value="3d6664" />
+        <option name="LINE_NUMBERS_COLOR" value="476654" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="30CBF2" />
         <option name="LOOKUP_COLOR" value="171F2B" />
         <option name="METHOD_SEPARATORS_COLOR" value="24213a" />
@@ -57,16 +57,16 @@
         <option name="READONLY_FRAGMENT_BACKGROUND" value="24213a" />
         <option name="RECENT_LOCATIONS_SELECTION" value="171F2B" />
         <option name="RIGHT_MARGIN_COLOR" value="24213a" />
-        <option name="SELECTED_INDENT_GUIDE" value="3d6664" />
-        <option name="SELECTED_TEARLINE_COLOR" value="3d6664" />
-        <option name="SELECTION_BACKGROUND" value="0F414C" />
+        <option name="SELECTED_INDENT_GUIDE" value="476654" />
+        <option name="SELECTED_TEARLINE_COLOR" value="476654" />
+        <option name="SELECTION_BACKGROUND" value="0C363F" />
         <option name="SELECTION_FOREGROUND" value="FFFFFF" />
         <option name="SEPARATOR_BELOW_COLOR" value="24213a" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="24213a" />
         <option name="ScrollBar.Mac.hoverThumbColor" value="24213a" />
         <option name="ScrollBar.Mac.thumbColor" value="24213a" />
         <option name="TAB_UNDERLINE" value="30CBF2" />
-        <option name="TAB_UNDERLINE_INACTIVE" value="0F414C" />
+        <option name="TAB_UNDERLINE_INACTIVE" value="0C363F" />
         <option name="TEARLINE_COLOR" value="24213a" />
         <option name="TOOLTIP" value="171F2B" />
         <option name="VISUAL_INDENT_GUIDE" value="24213a" />
@@ -297,7 +297,7 @@
         </option>
         <option name="BREADCRUMBS_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="3d6664" />
+                <option name="FOREGROUND" value="476654" />
             </value>
         </option>
 
@@ -384,7 +384,7 @@
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="3d6664" />
+                <option name="FOREGROUND" value="476654" />
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -588,7 +588,7 @@
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="0e1420" />
-                <option name="BACKGROUND" value="3d6664" />
+                <option name="BACKGROUND" value="476654" />
             </value>
         </option>
 
@@ -667,7 +667,7 @@
 
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="3d6664" />
+                <option name="FOREGROUND" value="476654" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
@@ -739,7 +739,7 @@
         </option>
         <option name="LOG_EXPIRED_ENTRY">
             <value>
-                <option name="FOREGROUND" value="3d6664" />
+                <option name="FOREGROUND" value="476654" />
             </value>
         </option>
         <option name="LOG_INFO_OUTPUT">
@@ -768,13 +768,13 @@
         <option name="MATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="e5e9f5" />
-                <option name="BACKGROUND" value="0F414C" />
+                <option name="BACKGROUND" value="0C363F" />
             </value>
         </option>
 
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="3d6664" />
+                <option name="FOREGROUND" value="476654" />
             </value>
         </option>
 
