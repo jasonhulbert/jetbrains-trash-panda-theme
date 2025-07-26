@@ -10,50 +10,51 @@ theme:
   translucent: "00000050"
   base0: "000000" # Bright Background
   base1: "0e1420" # Editable / Interactive Background - dark blue-black
-  base2: "131926" # Background - dark blue with hint of cyber aesthetic
-  base3: "1c2334" # Border / Selection Background - midnight blue
-  base4: "3d4766" # Ignored / Disabled - muted blue-purple
+  base2: "171F2B" # Background - dark blue with hint of cyber aesthetic
+  base3: "24213a" # Border / Selection Background - midnight purple
+  base4: "3d6664" # Ignored / Disabled - muted cyan
   base5: "5c698c" # Submodule / Comment - muted violet
   base6: "bbc2d9" # Foreground - light blue-violet
   base7: "e5e9f5" # Editable / Interactive Foreground - blue-tinted white
   base8: "FFFFFF" # Bright Foreground
-  accent: "0dcfde" # Bright cyan accent - moderate neon blue
-  accent_mod1: "0ba4b0"
-  accent_mod2: "087a83"
-  accent_mod3: "053d42"
-  lime: "5be595" # Neon green - toned down but still vibrant
-  lime_mod1: "47b778"
-  lime_mod2: "308851"
-  lime_mod3: "194429"
-  green: "00c4a7" # Neon teal - moderate yet still vibrant
-  green_mod1: "009d86"
-  green_mod2: "006958"
-  green_mod3: "00342c"
-  blue: "3b84f7" # Bright blue - vibrant but not extreme
-  blue_mod1: "2f69c5"
-  blue_mod2: "1f4683"
-  blue_mod3: "102342"
-  cyan: "33d6ff" # Bright cyan - moderate neon blue
-  cyan_mod1: "29abc7"
-  cyan_mod2: "1c7d91"
-  cyan_mod3: "0e3e48"
-  purple: "9d5bd9" # Rich purple - less intense but still vibrant
-  purple_mod1: "7d49ad"
-  purple_mod2: "543174"
-  purple_mod3: "2a183a"
-  pink: "e04fc5" # Bright pink - less extreme but still neon
-  pink_mod1: "b33f9e"
-  pink_mod2: "782a6a"
-  pink_mod3: "3c1535"
-  red: "f04e6f" # Neon pink-red - bright but not extreme
-  red_mod1: "c03e59"
-  red_mod2: "802a3c"
-  red_mod3: "40151e"
-  orange: "ff7b29" # Bright orange - vivid but softer
-  orange_mod1: "cc6222"
-  orange_mod2: "884217"
-  orange_mod3: "44210c"
-  yellow: "ffcb33" # Amber yellow - bright but easier on the eyes
-  yellow_mod1: "cca229"
-  yellow_mod2: "886c1c"
-  yellow_mod3: "44360e"
+  accent: "30CBF2"   # remapped from 2.67x brightness of mod2
+  accent_mod1: "2498B5"   # 2x brightness of mod2
+  accent_mod2: "0F414C"   # confirmed target
+  accent_mod3: "0B313A"   # 0.67x brightness of mod2
+  lime: "5be595"
+  lime_mod1: "48b978"
+  lime_mod2: "368d5b"
+  lime_mod3: "245136"
+  green: "00c4a7"
+  green_mod1: "009c85"
+  green_mod2: "007463"
+  green_mod3: "004c42"
+  blue: "3b84f7"
+  blue_mod1: "2f6ac5"
+  blue_mod2: "235093"
+  blue_mod3: "173662"
+  cyan: "33d6ff"
+  cyan_mod1: "29abc9"
+  cyan_mod2: "1f8093"
+  cyan_mod3: "14555d"
+  purple: "9d5bd9"
+  purple_mod1: "7e49ae"
+  purple_mod2: "5e3783"
+  purple_mod3: "3f2458"
+  pink: "e04fc5"
+  pink_mod1: "b3409e"
+  pink_mod2: "862f78"
+  pink_mod3: "5a1f51"
+  red: "c54ef0"
+  red_mod1: "9e3ec0"
+  red_mod2: "772f90"
+  red_mod3: "501f60"
+  orange: "E8886D"
+  orange_mod1: "AE6652"
+  orange_mod2: "744437"
+  orange_mod3: "3A221B"
+  yellow: "ffb400" # neon yellow-orange
+  yellow_mod1: "cc9000"
+  yellow_mod2: "996c00"
+  yellow_mod3: "664800"
+  
