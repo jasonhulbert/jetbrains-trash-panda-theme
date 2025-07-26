@@ -8,18 +8,18 @@
         <option name="CARET_ROW_COLOR" value="0B313A" />
         
         <option name="CONSOLE_BACKGROUND_KEY" value="0e1420" />
-        <option name="DELETED_LINES_COLOR" value="501f60" />
+        <option name="DELETED_LINES_COLOR" value="5B122E" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="24213a" />
         <option name="DOCUMENTATION_COLOR" value="171F2B" />
-        <option name="ERROR_HINT" value="501f60" />
+        <option name="ERROR_HINT" value="5B122E" />
         <option name="FILESTATUS_ADDED" value="00c4a7" />
         <option name="FILESTATUS_COPIED" value="00c4a7" />
-        <option name="FILESTATUS_DELETED" value="E8886D" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="E8886D" />
+        <option name="FILESTATUS_DELETED" value="2D0917" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="2D0917" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ffb400" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="c54ef0" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="c54ef0" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="c54ef0" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E22D76" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E22D76" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="E22D76" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="ffb400" />
         <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="cc9000" />
         <option name="FILESTATUS_MERGED" value="00c4a7" />
@@ -29,7 +29,7 @@
         <option name="FILESTATUS_RENAMED" value="3b84f7" />
         <option name="FILESTATUS_UNKNOWN" value="9d5bd9" />
         <option name="FILESTATUS_addedOutside" value="00c4a7" />
-        <option name="FILESTATUS_changelistConflict" value="c54ef0" />
+        <option name="FILESTATUS_changelistConflict" value="E22D76" />
         <option name="FILESTATUS_modifiedOutside" value="3b84f7" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="5c698c" />
         <option name="GUTTER_BACKGROUND" value="0e1420" />
@@ -40,7 +40,7 @@
         <option name="HTML_TAG_TREE_LEVEL4" value="00c4a7" />
         <option name="HTML_TAG_TREE_LEVEL5" value="3b84f7" />
         <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="009c85" />
-        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="9e3ec0" />
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="B7245D" />
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2f6ac5" />
         <option name="INDENT_GUIDE" value="24213a" />
         <option name="INFORMATION_HINT" value="171F2B" />
@@ -180,8 +180,8 @@
         </option>
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
-                <option name="EFFECT_COLOR" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
+                <option name="EFFECT_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -212,7 +212,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="E8886D" />
+                <option name="FOREGROUND" value="2D0917" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -265,7 +265,7 @@
 
         <option name="BAD_CHARACTER">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -276,7 +276,7 @@
 
         <option name="BOOKMARKS_ATTRIBUTES">
             <value>
-                <option name="ERROR_STRIPE_COLOR" value="c54ef0" />
+                <option name="ERROR_STRIPE_COLOR" value="E22D76" />
             </value>
         </option>
 
@@ -389,7 +389,7 @@
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
             </value>
         </option>
         <option name="CONSOLE_GRAY_OUTPUT">
@@ -424,12 +424,12 @@
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="9e3ec0" />
+                <option name="FOREGROUND" value="B7245D" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
             </value>
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -496,7 +496,7 @@
         </option>
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="E8886D" />
+                <option name="FOREGROUND" value="2D0917" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
@@ -533,7 +533,7 @@
         <option name="DELETED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="0e1420" />
-                <option name="BACKGROUND" value="c54ef0" />
+                <option name="BACKGROUND" value="E22D76" />
                 <option name="EFFECT_COLOR" value="0e1420" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
@@ -547,14 +547,14 @@
 
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="501f60" />
-                <option name="ERROR_STRIPE_COLOR" value="501f60" />
+                <option name="BACKGROUND" value="5B122E" />
+                <option name="ERROR_STRIPE_COLOR" value="5B122E" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="501f60" />
-                <option name="ERROR_STRIPE_COLOR" value="501f60" />
+                <option name="BACKGROUND" value="5B122E" />
+                <option name="ERROR_STRIPE_COLOR" value="5B122E" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
@@ -573,14 +573,14 @@
         <option name="DUPLICATE_FROM_SERVER">
             <value>
                 <option name="FONT_TYPE" value="2" />
-                <option name="EFFECT_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
             </value>
         </option>
 
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
-                <option name="ERROR_STRIPE_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
+                <option name="ERROR_STRIPE_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -610,8 +610,8 @@
 
         <option name="GENERIC_SERVER_ERROR_OR_WARNING">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
-                <option name="ERROR_STRIPE_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
+                <option name="ERROR_STRIPE_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="1" />
             </value>
         </option>
@@ -710,7 +710,7 @@
         </option>
         <option name="LINE_NONE_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="501f60" />
+                <option name="FOREGROUND" value="5B122E" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -734,7 +734,7 @@
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
             </value>
         </option>
         <option name="LOG_EXPIRED_ENTRY">
@@ -754,13 +754,13 @@
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="E8886D" />
+                <option name="FOREGROUND" value="2D0917" />
             </value>
         </option>
 
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -796,8 +796,8 @@
 
         <option name="RUNTIME_ERROR">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
-                <option name="ERROR_STRIPE_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
+                <option name="ERROR_STRIPE_COLOR" value="E22D76" />
                 <option name="EFFECT_TYPE" value="5" />
             </value>
         </option>
@@ -819,7 +819,7 @@
 
         <option name="SPY-JS.EXCEPTION">
             <value>
-                <option name="EFFECT_COLOR" value="c54ef0" />
+                <option name="EFFECT_COLOR" value="E22D76" />
             </value>
         </option>
         <option name="SPY-JS.FUNCTION_SCOPE">
@@ -895,22 +895,22 @@
 
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="E8886D" />
+                <option name="EFFECT_COLOR" value="2D0917" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
 
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
                 <option name="BACKGROUND" value="24213a" />
             </value>
         </option>
 
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="E8886D" />
-                <option name="ERROR_STRIPE_COLOR" value="E8886D" />
+                <option name="EFFECT_COLOR" value="2D0917" />
+                <option name="ERROR_STRIPE_COLOR" value="2D0917" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -930,7 +930,7 @@
 
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="c54ef0" />
+                <option name="FOREGROUND" value="E22D76" />
             </value>
         </option>
 
