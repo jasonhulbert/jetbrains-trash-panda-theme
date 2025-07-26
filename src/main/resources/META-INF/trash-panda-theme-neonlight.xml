@@ -642,7 +642,7 @@
 
         <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="664800" />
+                <option name="BACKGROUND" value="75400B" />
             </value>
         </option>
 
@@ -918,7 +918,7 @@
         <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
             <value>
                 <option name="EFFECT_COLOR" value="996c00" />
-                <option name="BACKGROUND" value="664800" />
+                <option name="BACKGROUND" value="75400B" />
             </value>
         </option>
         <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
