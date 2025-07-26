@@ -12,7 +12,7 @@ theme:
   base1: "0e1420" # Editable / Interactive Background - dark blue-black
   base2: "171F2B" # Background - dark blue with hint of cyber aesthetic
   base3: "24213a" # Border / Selection Background - midnight purple
-  base4: "336648" # Ignored / Disabled - muted cyan
+  base4: "5F656A"#"336648" # Ignored / Disabled - muted cyan
   base5: "5c698c" # Submodule / Comment - muted violet
   base6: "bbc2d9" # Foreground - light blue-violet
   base7: "e5e9f5" # Editable / Interactive Foreground - blue-tinted white
