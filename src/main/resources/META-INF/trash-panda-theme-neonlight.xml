@@ -14,8 +14,8 @@
         <option name="ERROR_HINT" value="5B122E" />
         <option name="FILESTATUS_ADDED" value="00c4a7" />
         <option name="FILESTATUS_COPIED" value="00c4a7" />
-        <option name="FILESTATUS_DELETED" value="FF4319" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="FF4319" />
+        <option name="FILESTATUS_DELETED" value="E57050" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="E57050" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ffb400" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E22D76" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E22D76" />
@@ -44,7 +44,7 @@
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="2f6ac5" />
         <option name="INDENT_GUIDE" value="24213a" />
         <option name="INFORMATION_HINT" value="171F2B" />
-        <option name="LINE_NUMBERS_COLOR" value="4C5C72" />
+        <option name="LINE_NUMBERS_COLOR" value="687D99" />
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="30CBF2" />
         <option name="LOOKUP_COLOR" value="171F2B" />
         <option name="METHOD_SEPARATORS_COLOR" value="24213a" />
@@ -57,8 +57,8 @@
         <option name="READONLY_FRAGMENT_BACKGROUND" value="24213a" />
         <option name="RECENT_LOCATIONS_SELECTION" value="171F2B" />
         <option name="RIGHT_MARGIN_COLOR" value="24213a" />
-        <option name="SELECTED_INDENT_GUIDE" value="4C5C72" />
-        <option name="SELECTED_TEARLINE_COLOR" value="4C5C72" />
+        <option name="SELECTED_INDENT_GUIDE" value="687D99" />
+        <option name="SELECTED_TEARLINE_COLOR" value="687D99" />
         <option name="SELECTION_BACKGROUND" value="0C363F" />
         <option name="SELECTION_FOREGROUND" value="FFFFFF" />
         <option name="SEPARATOR_BELOW_COLOR" value="24213a" />
@@ -212,7 +212,7 @@
         </option>
         <option name="DEFAULT_NUMBER">
             <value>
-                <option name="FOREGROUND" value="FF4319" />
+                <option name="FOREGROUND" value="E57050" />
             </value>
         </option>
         <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -297,7 +297,7 @@
         </option>
         <option name="BREADCRUMBS_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="4C5C72" />
+                <option name="FOREGROUND" value="687D99" />
             </value>
         </option>
 
@@ -343,12 +343,12 @@
         </option>
         <option name="CodeWithMe.USER_5_MARKER">
             <value>
-                <option name="BACKGROUND" value="7F210C" />
+                <option name="BACKGROUND" value="703527" />
             </value>
         </option>
         <option name="CodeWithMe.USER_5_SELECTION">
             <value>
-                <option name="BACKGROUND" value="3F1006" />
+                <option name="BACKGROUND" value="54271D" />
             </value>
         </option>
         <option name="CodeWithMe.USER_6_MARKER">
@@ -384,7 +384,7 @@
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="4C5C72" />
+                <option name="FOREGROUND" value="687D99" />
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -496,7 +496,7 @@
         </option>
         <option name="CSS.IMPORTANT">
             <value>
-                <option name="FOREGROUND" value="FF4319" />
+                <option name="FOREGROUND" value="E57050" />
                 <option name="FONT_TYPE" value="3" />
             </value>
         </option>
@@ -588,7 +588,7 @@
         <option name="FOLDED_TEXT_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="0e1420" />
-                <option name="BACKGROUND" value="4C5C72" />
+                <option name="BACKGROUND" value="687D99" />
             </value>
         </option>
 
@@ -667,7 +667,7 @@
 
         <option name="INLINE_PARAMETER_HINT">
             <value>
-                <option name="FOREGROUND" value="4C5C72" />
+                <option name="FOREGROUND" value="687D99" />
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
@@ -739,7 +739,7 @@
         </option>
         <option name="LOG_EXPIRED_ENTRY">
             <value>
-                <option name="FOREGROUND" value="4C5C72" />
+                <option name="FOREGROUND" value="687D99" />
             </value>
         </option>
         <option name="LOG_INFO_OUTPUT">
@@ -754,7 +754,7 @@
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="FF4319" />
+                <option name="FOREGROUND" value="E57050" />
             </value>
         </option>
 
@@ -774,7 +774,7 @@
 
         <option name="NOT_USED_ELEMENT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="4C5C72" />
+                <option name="FOREGROUND" value="687D99" />
             </value>
         </option>
 
@@ -895,7 +895,7 @@
 
         <option name="TYPO">
             <value>
-                <option name="EFFECT_COLOR" value="FF4319" />
+                <option name="EFFECT_COLOR" value="E57050" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -909,8 +909,8 @@
 
         <option name="WARNING_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="FF4319" />
-                <option name="ERROR_STRIPE_COLOR" value="FF4319" />
+                <option name="EFFECT_COLOR" value="E57050" />
+                <option name="ERROR_STRIPE_COLOR" value="E57050" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>

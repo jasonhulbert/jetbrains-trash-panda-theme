@@ -12,7 +12,7 @@ theme:
   base1: "0e1420" # Editable / Interactive Background - dark blue-black
   base2: "171F2B" # Background - dark blue with hint of cyber aesthetic
   base3: "24213a" # Border / Selection Background - midnight purple
-  base4: "4C5C72"#"5F656A" #"336648" # Ignored / Disabled
+  base4: "687D99" # Ignored / Disabled
   base5: "5c698c" # Submodule / Comment - muted violet
   base6: "bbc2d9" # Foreground - light blue-violet
   base7: "e5e9f5" # Editable / Interactive Foreground - blue-tinted white
@@ -49,10 +49,10 @@ theme:
   red_mod1: "B7245D"
   red_mod2: "891B45"
   red_mod3: "5B122E"
-  orange: "FF4319"
-  orange_mod1: "BF3213"
-  orange_mod2: "7F210C"
-  orange_mod3: "3F1006"
+  orange: "E57050"
+  orange_mod1: "AA523B"
+  orange_mod2: "703527"
+  orange_mod3: "54271D"
   yellow: "ffb400" # neon yellow-orange
   yellow_mod1: "cc9000"
   yellow_mod2: "996c00"
