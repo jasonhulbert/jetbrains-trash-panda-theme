@@ -1,0 +1,59 @@
+name: "Trash Panda Theme (Neonlight)"
+author: "Jason Hulbert"
+dark: true
+high_contrast: true
+theme_out_file: "trash-panda-theme-neonlight.theme.json"
+scheme_out_file: "trash-panda-theme-neonlight.xml"
+parent_scheme: "Darcula"
+theme:
+  transparent: "00000000"
+  translucent: "00000050"
+  base0: "000000" # Bright Background
+  base1: "0e1420" # Editable / Interactive Background - dark blue-black
+  base2: "171F2B" # Background - dark blue with hint of cyber aesthetic
+  base3: "24213a" # Border / Selection Background - midnight purple
+  base4: "687D99" # Ignored / Disabled
+  base5: "5c698c" # Submodule / Comment - muted violet
+  base6: "bbc2d9" # Foreground - light blue-violet
+  base7: "e5e9f5" # Editable / Interactive Foreground - blue-tinted white
+  base8: "FFFFFF" # Bright Foreground
+  accent: "30CBF2"   # remapped from 2.67x brightness of mod2
+  accent_mod1: "2498B5"   # 2x brightness of mod2
+  accent_mod2: "0C363F"   # confirmed target
+  accent_mod3: "0B313A"   # 0.67x brightness of mod2
+  lime: "5be595"
+  lime_mod1: "48b978"
+  lime_mod2: "368d5b"
+  lime_mod3: "245136"
+  green: "00c4a7"
+  green_mod1: "009c85"
+  green_mod2: "007463"
+  green_mod3: "004c42"
+  blue: "3b84f7"
+  blue_mod1: "2f6ac5"
+  blue_mod2: "235093"
+  blue_mod3: "173662"
+  cyan: "33d6ff"
+  cyan_mod1: "29abc9"
+  cyan_mod2: "1f8093"
+  cyan_mod3: "14555d"
+  purple: "9d5bd9"
+  purple_mod1: "7e49ae"
+  purple_mod2: "5e3783"
+  purple_mod3: "3f2458"
+  pink: "e04fc5"
+  pink_mod1: "b3409e"
+  pink_mod2: "862f78"
+  pink_mod3: "5a1f51"
+  red: "E22D76"
+  red_mod1: "B7245D"
+  red_mod2: "891B45"
+  red_mod3: "5B122E"
+  orange: "E57050"
+  orange_mod1: "AA523B"
+  orange_mod2: "703527"
+  orange_mod3: "54271D"
+  yellow: "ffb400" # neon yellow-orange
+  yellow_mod1: "cc9000"
+  yellow_mod2: "996c00"
+  yellow_mod3: "75400B"

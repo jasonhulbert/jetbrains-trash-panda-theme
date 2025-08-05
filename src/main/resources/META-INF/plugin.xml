@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.trashpandatheme</id>
     <name>Trash Panda Theme</name>
-    <version>2.2.3</version>
+    <version>2.3.0</version>
     <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
 
     <description><![CDATA[
@@ -9,7 +9,7 @@
 
     <h4>Features</h4>
     <ul>
-        <li><b>Four dark theme variations:</b> Dark (Default), Blacklight (High Contrast), Starlight, Moonlight</li>
+        <li><b>Five dark theme variations:</b> Dark (Default), Blacklight (High Contrast), Starlight, Moonlight, Neonlight (Cyberpunk)</li>
         <li><b>Two light theme variations:</b> Dawnlight, and Daylight</li>
         <li><b>Vibrant Color Scheme:</b> Utilizes a palette of bright, engaging colors to enhance code readability and reduce visual fatigue.</li>
         <li><b>Optimized for Scanning:</b> Carefully designed to highlight syntax and structure in order to make it easier to navigate and scan code.</li>
@@ -32,6 +32,7 @@
         <themeProvider id="c04a27f6-cb40-4682-8327-e2497c5e5f41" path="/META-INF/trash-panda-theme-moonlight.theme.json"/>
         <themeProvider id="01d1366c-3648-41eb-bcd6-9bbf29cdd450" path="/META-INF/trash-panda-theme-dawnlight.theme.json"/>
         <themeProvider id="107ba859-1e1a-45c1-b91c-debff5ea4082" path="/META-INF/trash-panda-theme-daylight.theme.json"/>
+        <themeProvider id="e517f49e-3cb9-4c48-b071-a1c29c9cbf30" path="/META-INF/trash-panda-theme-neonlight.theme.json"/>
     </extensions>
 
     <actions>
