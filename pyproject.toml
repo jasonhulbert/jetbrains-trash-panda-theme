@@ -1,0 +1,29 @@
+[project]
+name = "jetbrains-trash-panda-theme"
+version = "3.0.0"
+description = "A theme for raccoons and other creatures of the night."
+readme = "README.md"
+authors = [
+    { name = "jasonhulbert", email = "hulbert.jason@gmail.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "jinja2>=3.1.6",
+    "ruamel-yaml>=0.18.16",
+]
+
+[dependency-groups]
+dev = [
+    "black>=24.8.0",
+    "pytest>=8.3.5",
+]
+
+[project.scripts]
+build-themes = "theme_builder.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["theme_builder"]
