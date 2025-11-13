@@ -778,12 +778,39 @@
             </value>
         </option>
 
+        <option name="PY.ANNOTATION">
+          <value>
+            <option name="FOREGROUND" value="50cae5" />
+          </value>
+        </option>
         <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
         <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER">
+          <value>
+            <option name="FOREGROUND" value="A07CF1" />
+          </value>
+        </option>
         <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
         <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
+
+        <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="PY.LOCAL_VARIABLE">
+          <value>
+            <option name="FOREGROUND" value="42ba90" />
+          </value>
+        </option>
+        <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+        <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+        <option name="PY.STRING.B" baseAttributes="DEFAULT_STRING" />
+        <option name="PY.TYPE_PARAMETER">
+          <value>
+            <option name="FOREGROUND" value="3c98ac" />
+          </value>
+        </option>
 
         <option name="REGEXP.BRACES" baseAttributes="DEFAULT_BRACES" />
         <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />

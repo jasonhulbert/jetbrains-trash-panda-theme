@@ -1,0 +1,31 @@
+# Theme configuration file
+# This file defines all available theme variants and their data files
+
+themes:
+  - name: default
+    data_file: default.yaml
+    description: "The original Trash Panda theme"
+
+  - name: default-2026
+    data_file: default-2026.yaml
+    description: "Updated default theme for 2026"
+
+  - name: starlight
+    data_file: starlight.yaml
+    description: "A starlit variation with cosmic blues"
+
+  - name: moonlight
+    data_file: moonlight.yaml
+    description: "A softer moonlit variation"
+
+  - name: dawnlight
+    data_file: dawnlight.yaml
+    description: "A warm dawn-inspired variation"
+
+  - name: daylight
+    data_file: daylight.yaml
+    description: "A brighter daylight variation"
+
+  - name: blacklight
+    data_file: blacklight.yaml
+    description: "A high-contrast blacklight variation"
