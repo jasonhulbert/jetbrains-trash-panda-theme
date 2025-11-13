@@ -12,11 +12,37 @@ A theme for raccoons and other creatures of the night.
 
 ## Building the plugin:
 
-First, compile the theme template files via python. Run the following python command from the project root:
+### Theme Builder (Modern Approach)
 
+The project includes a modern Python theme builder for generating theme files from YAML configuration and Jinja2 templates.
+
+**Quick Start with UV (Recommended):**
+```bash
+# Install dependencies
+uv sync
+
+# Build all themes  
+uv run python -m theme_builder
 ```
-python ./theme.py
+
+**Alternative methods:**
+```bash
+# Direct Python execution
+python -m theme_builder
+
+# Build specific theme
+uv run python -m theme_builder --theme starlight
+
+# List available themes
+uv run python -m theme_builder --list-themes
+
+# Enable debug logging
+uv run python -m theme_builder --log-level DEBUG
 ```
+
+> See [CLAUDE.md](CLAUDE.md) for additional details.
+
+### Plugin Distribution
 
 This will generate the theme `*.json` and scheme `*.xml` files in `src/main/resources`. 
 

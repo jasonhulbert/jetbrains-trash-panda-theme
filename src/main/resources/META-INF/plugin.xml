@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.villains.intelij.plugin.trashpandatheme</id>
     <name>Trash Panda Theme</name>
-    <version>2.2.4</version>
+    <version>3.0.0</version>
     <vendor email="hulbert.jason@gmail.com" url="http://github.com/jasonhulbert/jetbrains-trash-panda-theme">Jason Hulbert</vendor>
 
     <description><![CDATA[
@@ -32,6 +32,7 @@
         <themeProvider id="c04a27f6-cb40-4682-8327-e2497c5e5f41" path="/META-INF/trash-panda-theme-moonlight.theme.json"/>
         <themeProvider id="01d1366c-3648-41eb-bcd6-9bbf29cdd450" path="/META-INF/trash-panda-theme-dawnlight.theme.json"/>
         <themeProvider id="107ba859-1e1a-45c1-b91c-debff5ea4082" path="/META-INF/trash-panda-theme-daylight.theme.json"/>
+        <themeProvider id="7f4c2fba-a1ae-4df9-9ab7-5ad802400fdc" path="/META-INF/trash-panda-theme-2026.theme.json"/>
     </extensions>
 
     <actions>

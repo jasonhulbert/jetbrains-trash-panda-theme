@@ -3,6 +3,9 @@ build/
 .gradle/
 __pycache__
 
+# UV
+.venv/
+
 # IDEs and Editors
 .idea/
 .project
