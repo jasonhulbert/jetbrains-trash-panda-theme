@@ -1,0 +1,150 @@
+{% if dark %}
+.theme-dark {
+{% else %}
+.theme-light {
+{% endif %}
+  /* ===========================
+   * {{ name }}
+   * =========================== */
+
+  /* Base colors */
+  --color-base-00: #{{ theme.base0 }};
+  --color-base-05: #{{ theme.base0 }};
+  --color-base-10: #{{ theme.base1 }};
+  --color-base-20: #{{ theme.base2 }};
+  --color-base-25: #{{ theme.base2 }};
+  --color-base-30: #{{ theme.base3 }};
+  --color-base-35: #{{ theme.base3 }};
+  --color-base-40: #{{ theme.base4 }};
+  --color-base-50: #{{ theme.base5 }};
+  --color-base-60: #{{ theme.base5 }};
+  --color-base-70: #{{ theme.base6 }};
+  --color-base-100: #{{ theme.base7 }};
+
+  /* Extended colors */
+  --color-red: #{{ theme.red }};
+  --color-orange: #{{ theme.orange }};
+  --color-yellow: #{{ theme.yellow }};
+  --color-green: #{{ theme.green }};
+  --color-cyan: #{{ theme.cyan }};
+  --color-blue: #{{ theme.blue }};
+  --color-purple: #{{ theme.purple }};
+  --color-pink: #{{ theme.pink }};
+
+  /* Background */
+  --background-primary: #{{ theme.base1 }};
+  --background-primary-alt: #{{ theme.base2 }};
+  --background-secondary: #{{ theme.base2 }};
+  --background-secondary-alt: #{{ theme.base3 }};
+  --background-modifier-hover: #{{ theme.base3 }};
+  --background-modifier-active-hover: #{{ theme.accent_mod3 }};
+  --background-modifier-border: #{{ theme.base3 }};
+  --background-modifier-border-hover: #{{ theme.base4 }};
+  --background-modifier-border-focus: #{{ theme.accent }};
+
+  /* Interactive */
+  --interactive-normal: #{{ theme.base2 }};
+  --interactive-hover: #{{ theme.base3 }};
+  --interactive-accent: #{{ theme.accent }};
+  --interactive-accent-hover: #{{ theme.accent_mod1 }};
+
+  /* Text */
+  --text-normal: #{{ theme.base6 }};
+  --text-muted: #{{ theme.base5 }};
+  --text-faint: #{{ theme.base4 }};
+  --text-on-accent: #{{ theme.base8 }};
+  --text-error: #{{ theme.red }};
+  --text-success: #{{ theme.green }};
+  --text-selection: #{{ theme.accent_mod2 }};
+  --text-highlight-bg: #{{ theme.accent_mod3 }};
+  --text-accent: #{{ theme.accent }};
+  --text-accent-hover: #{{ theme.accent_mod1 }};
+
+  /* Headings */
+  --h1-color: #{{ theme.purple }};
+  --h2-color: #{{ theme.blue }};
+  --h3-color: #{{ theme.cyan }};
+  --h4-color: #{{ theme.green }};
+  --h5-color: #{{ theme.lime }};
+  --h6-color: #{{ theme.yellow }};
+
+  /* Tags */
+  --tag-color: #{{ theme.accent }};
+  --tag-background: #{{ theme.accent_mod3 }};
+  --tag-color-hover: #{{ theme.accent_mod1 }};
+  --tag-background-hover: #{{ theme.accent_mod2 }};
+
+  /* Links */
+  --link-color: #{{ theme.accent }};
+  --link-color-hover: #{{ theme.accent_mod1 }};
+  --link-external-color: #{{ theme.cyan }};
+  --link-external-color-hover: #{{ theme.cyan_mod1 }};
+  --link-unresolved-color: #{{ theme.purple }};
+
+  /* Cursor and selection */
+  --cursor-color: #{{ theme.accent }};
+
+  /* Scrollbar */
+  --scrollbar-bg: #{{ theme.base1 }};
+  --scrollbar-thumb-bg: #{{ theme.base3 }};
+  --scrollbar-active-thumb-bg: #{{ theme.base4 }};
+
+  /* Nav */
+  --nav-item-color: #{{ theme.base6 }};
+  --nav-item-color-hover: #{{ theme.base7 }};
+  --nav-item-color-active: #{{ theme.base7 }};
+  --nav-item-background-hover: #{{ theme.base3 }};
+  --nav-item-background-active: #{{ theme.accent_mod3 }};
+  --nav-collapse-icon-color: #{{ theme.base5 }};
+
+  /* Titlebar */
+  --titlebar-background: #{{ theme.base2 }};
+  --titlebar-background-focused: #{{ theme.base2 }};
+  --titlebar-text-color: #{{ theme.base6 }};
+  --titlebar-text-color-focused: #{{ theme.base7 }};
+
+  /* Tab */
+  --tab-text-color: #{{ theme.base5 }};
+  --tab-text-color-focused: #{{ theme.base7 }};
+  --tab-text-color-focused-active: #{{ theme.base7 }};
+  --tab-text-color-focused-active-current: #{{ theme.accent }};
+  --tab-background-active: #{{ theme.base1 }};
+
+  /* Divider */
+  --divider-color: #{{ theme.base3 }};
+
+  /* Bold and italic */
+  --bold-color: #{{ theme.orange }};
+  --italic-color: #{{ theme.pink }};
+
+  /* Checkbox */
+  --checkbox-color: #{{ theme.accent }};
+  --checkbox-border-color: #{{ theme.base4 }};
+
+  /* Blockquote */
+  --blockquote-border-color: #{{ theme.accent }};
+
+  /* Callout */
+  --callout-default: #{{ theme.base5 }};
+
+  /* Code */
+  --code-background: #{{ theme.base2 }};
+  --code-normal: #{{ theme.base6 }};
+  --code-comment: #{{ theme.base5 }};
+  --code-function: #{{ theme.lime }};
+  --code-important: #{{ theme.red }};
+  --code-keyword: #{{ theme.purple }};
+  --code-operator: #{{ theme.purple }};
+  --code-property: #{{ theme.green }};
+  --code-punctuation: #{{ theme.base6 }};
+  --code-string: #{{ theme.yellow }};
+  --code-tag: #{{ theme.purple }};
+  --code-value: #{{ theme.orange }};
+
+  /* Graph */
+  --graph-line: #{{ theme.base3 }};
+  --graph-node: #{{ theme.accent }};
+  --graph-node-focused: #{{ theme.accent_mod1 }};
+  --graph-node-tag: #{{ theme.green }};
+  --graph-node-attachment: #{{ theme.yellow }};
+}

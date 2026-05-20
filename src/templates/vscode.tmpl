@@ -1,0 +1,389 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "{{ name }}",
+  {% if dark %}
+  "type": "dark",
+  {% else %}
+  "type": "light",
+  {% endif %}
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#{{ theme.base1 }}",
+    "editor.foreground": "#{{ theme.base6 }}",
+    "editorCursor.foreground": "#{{ theme.accent }}",
+    "editor.selectionBackground": "#{{ theme.accent_mod2 }}",
+    {% if high_contrast %}
+    "editor.lineHighlightBackground": "#{{ theme.accent_mod3 }}",
+    {% else %}
+    "editor.lineHighlightBackground": "#{{ theme.base2 }}",
+    {% endif %}
+    "editorLineNumber.foreground": "#{{ theme.base4 }}",
+    "editorLineNumber.activeForeground": "#{{ theme.accent }}",
+    "editorIndentGuide.background": "#{{ theme.base3 }}",
+    "editorWhitespace.foreground": "#{{ theme.base3 }}",
+    "editorBracketMatch.background": "#{{ theme.accent_mod3 }}",
+    "editorBracketMatch.border": "#{{ theme.accent_mod1 }}",
+
+    "activityBar.background": "#{{ theme.base2 }}",
+    "activityBar.foreground": "#{{ theme.base7 }}",
+    "activityBar.inactiveForeground": "#{{ theme.base5 }}",
+    "activityBarBadge.background": "#{{ theme.accent }}",
+    "activityBarBadge.foreground": "#{{ theme.base8 }}",
+
+    "sideBar.background": "#{{ theme.base2 }}",
+    "sideBar.foreground": "#{{ theme.base6 }}",
+    "sideBar.border": "#{{ theme.base3 }}",
+    "sideBarTitle.foreground": "#{{ theme.base7 }}",
+    "sideBarSectionHeader.background": "#{{ theme.base2 }}",
+    "sideBarSectionHeader.foreground": "#{{ theme.base6 }}",
+
+    "titleBar.activeBackground": "#{{ theme.base2 }}",
+    "titleBar.activeForeground": "#{{ theme.base6 }}",
+    "titleBar.inactiveBackground": "#{{ theme.base2 }}",
+    "titleBar.inactiveForeground": "#{{ theme.base5 }}",
+
+    "tab.activeBackground": "#{{ theme.base1 }}",
+    "tab.activeForeground": "#{{ theme.base7 }}",
+    "tab.activeBorderTop": "#{{ theme.accent }}",
+    "tab.inactiveBackground": "#{{ theme.base2 }}",
+    "tab.inactiveForeground": "#{{ theme.base5 }}",
+    "tab.border": "#{{ theme.base2 }}",
+    "editorGroupHeader.tabsBackground": "#{{ theme.base2 }}",
+
+    "statusBar.background": "#{{ theme.base2 }}",
+    "statusBar.foreground": "#{{ theme.base6 }}",
+    "statusBar.debuggingBackground": "#{{ theme.orange }}",
+    "statusBar.noFolderBackground": "#{{ theme.base2 }}",
+
+    "list.activeSelectionBackground": "#{{ theme.accent_mod3 }}",
+    "list.activeSelectionForeground": "#{{ theme.base7 }}",
+    "list.hoverBackground": "#{{ theme.base3 }}",
+    "list.focusBackground": "#{{ theme.accent_mod3 }}",
+    "list.inactiveSelectionBackground": "#{{ theme.base3 }}",
+
+    "input.background": "#{{ theme.base1 }}",
+    "input.foreground": "#{{ theme.base7 }}",
+    "input.border": "#{{ theme.base3 }}",
+    "input.placeholderForeground": "#{{ theme.base5 }}",
+    "inputOption.activeBorder": "#{{ theme.accent }}",
+
+    "dropdown.background": "#{{ theme.base2 }}",
+    "dropdown.foreground": "#{{ theme.base6 }}",
+    "dropdown.border": "#{{ theme.base3 }}",
+
+    "button.background": "#{{ theme.accent }}",
+    "button.foreground": "#{{ theme.base8 }}",
+    "button.hoverBackground": "#{{ theme.accent_mod1 }}",
+
+    "badge.background": "#{{ theme.accent }}",
+    "badge.foreground": "#{{ theme.base8 }}",
+
+    "scrollbar.shadow": "#{{ theme.base0 }}",
+    "scrollbarSlider.background": "#{{ theme.base3 }}80",
+    "scrollbarSlider.hoverBackground": "#{{ theme.base4 }}80",
+    "scrollbarSlider.activeBackground": "#{{ theme.base5 }}80",
+
+    "gitDecoration.addedResourceForeground": "#{{ theme.green }}",
+    "gitDecoration.modifiedResourceForeground": "#{{ theme.blue }}",
+    "gitDecoration.deletedResourceForeground": "#{{ theme.orange }}",
+    "gitDecoration.untrackedResourceForeground": "#{{ theme.green }}",
+    "gitDecoration.conflictingResourceForeground": "#{{ theme.red }}",
+    "gitDecoration.ignoredResourceForeground": "#{{ theme.base4 }}",
+
+    "terminal.background": "#{{ theme.base1 }}",
+    "terminal.foreground": "#{{ theme.base6 }}",
+    "terminal.ansiBlack": "#{{ theme.base0 }}",
+    "terminal.ansiRed": "#{{ theme.red }}",
+    "terminal.ansiGreen": "#{{ theme.green }}",
+    "terminal.ansiYellow": "#{{ theme.yellow }}",
+    "terminal.ansiBlue": "#{{ theme.blue }}",
+    "terminal.ansiMagenta": "#{{ theme.pink }}",
+    "terminal.ansiCyan": "#{{ theme.cyan }}",
+    "terminal.ansiWhite": "#{{ theme.base7 }}",
+    "terminal.ansiBrightBlack": "#{{ theme.base4 }}",
+    "terminal.ansiBrightRed": "#{{ theme.red_mod1 }}",
+    "terminal.ansiBrightGreen": "#{{ theme.green_mod1 }}",
+    "terminal.ansiBrightYellow": "#{{ theme.yellow_mod1 }}",
+    "terminal.ansiBrightBlue": "#{{ theme.blue_mod1 }}",
+    "terminal.ansiBrightMagenta": "#{{ theme.pink_mod1 }}",
+    "terminal.ansiBrightCyan": "#{{ theme.cyan_mod1 }}",
+    "terminal.ansiBrightWhite": "#{{ theme.base8 }}",
+
+    "focusBorder": "#{{ theme.accent_mod2 }}",
+    "widget.shadow": "#{{ theme.base0 }}40",
+
+    "panel.background": "#{{ theme.base2 }}",
+    "panel.border": "#{{ theme.base3 }}",
+    "panelTitle.activeBorder": "#{{ theme.accent }}",
+    "panelTitle.activeForeground": "#{{ theme.base7 }}",
+    "panelTitle.inactiveForeground": "#{{ theme.base5 }}",
+
+    "notificationCenterHeader.background": "#{{ theme.base2 }}",
+    "notifications.background": "#{{ theme.base2 }}",
+    "notifications.foreground": "#{{ theme.base6 }}",
+    "notifications.border": "#{{ theme.base3 }}",
+
+    "minimap.selectionHighlight": "#{{ theme.accent_mod2 }}",
+    "minimapGutter.addedBackground": "#{{ theme.green }}",
+    "minimapGutter.modifiedBackground": "#{{ theme.blue }}",
+    "minimapGutter.deletedBackground": "#{{ theme.orange }}",
+
+    "breadcrumb.foreground": "#{{ theme.base5 }}",
+    "breadcrumb.focusForeground": "#{{ theme.base7 }}",
+    "breadcrumb.activeSelectionForeground": "#{{ theme.base7 }}",
+    "breadcrumbPicker.background": "#{{ theme.base2 }}",
+
+    "peekView.border": "#{{ theme.accent }}",
+    "peekViewEditor.background": "#{{ theme.base1 }}",
+    "peekViewResult.background": "#{{ theme.base2 }}",
+    "peekViewTitle.background": "#{{ theme.base2 }}"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "comment.block",
+        "comment.line",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.base5 }}",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.yellow }}"
+      }
+    },
+    {
+      "name": "String Escape",
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "#{{ theme.yellow_mod1 }}"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#{{ theme.orange }}"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant.language",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.pink }}"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.purple }}"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#{{ theme.purple }}"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.lime }}"
+      }
+    },
+    {
+      "name": "Class / Type",
+      "scope": [
+        "entity.name.class",
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.lime }}"
+      }
+    },
+    {
+      "name": "Type Reference",
+      "scope": [
+        "support.type",
+        "entity.other.inherited-class"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.blue }}"
+      }
+    },
+    {
+      "name": "Interface",
+      "scope": "entity.name.type.interface",
+      "settings": {
+        "foreground": "#{{ theme.cyan }}"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.base6 }}"
+      }
+    },
+    {
+      "name": "Property / Field",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.green }}"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.purple }}"
+      }
+    },
+    {
+      "name": "Attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#{{ theme.cyan }}"
+      }
+    },
+    {
+      "name": "Annotation / Decorator",
+      "scope": [
+        "meta.decorator variable.other.readwrite",
+        "meta.decorator punctuation.decorator",
+        "punctuation.definition.annotation",
+        "meta.annotation entity.name",
+        "storage.type.annotation",
+        "tag.decorator.js entity.name.tag",
+        "tag.decorator.ts entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.cyan }}"
+      }
+    },
+    {
+      "name": "CSS Property",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#{{ theme.green }}"
+      }
+    },
+    {
+      "name": "CSS Class",
+      "scope": "entity.other.attribute-name.class.css",
+      "settings": {
+        "foreground": "#{{ theme.blue }}"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#{{ theme.pink }}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#{{ theme.red }}"
+      }
+    },
+    {
+      "name": "Markup Heading",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#{{ theme.purple }}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Link",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "#{{ theme.cyan }}"
+      }
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Diff Inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#{{ theme.green }}"
+      }
+    },
+    {
+      "name": "Diff Deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#{{ theme.red }}"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "function": "#{{ theme.lime }}",
+    "method": "#{{ theme.lime }}",
+    "variable": "#{{ theme.base6 }}",
+    "property": "#{{ theme.green }}",
+    "type": "#{{ theme.cyan }}",
+    "interface": "#{{ theme.cyan }}",
+    "class": "#{{ theme.lime }}",
+    "enum": "#{{ theme.cyan }}",
+    "enumMember": "#{{ theme.pink }}",
+    "constant": "#{{ theme.pink }}",
+    "parameter": "#{{ theme.base6 }}",
+    "namespace": "#{{ theme.blue }}"
+  }
+}

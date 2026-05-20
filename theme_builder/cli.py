@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Build JetBrains theme files for the Trash Panda Theme",
+        description="Build theme files for the Trash Panda Theme",
         prog="build-themes",
     )
 
@@ -21,11 +21,22 @@ def main() -> int:
     )
 
     parser.add_argument(
+        "--target",
+        choices=["jetbrains", "vscode", "warp", "obsidian", "all"],
+        default="all",
+        help="Build for specific target only (default: all)",
+    )
+
+    parser.add_argument(
         "--output-dir", type=Path, help="Override output directory", metavar="PATH"
     )
 
     parser.add_argument(
         "--list-themes", action="store_true", help="List available themes and exit"
+    )
+
+    parser.add_argument(
+        "--list-targets", action="store_true", help="List available targets and exit"
     )
 
     parser.add_argument(
@@ -58,12 +69,23 @@ def main() -> int:
                 print(f"  - {theme}")
             return 0
 
+        if args.list_targets:
+            targets = builder.list_available_targets()
+            print("Available targets:")
+            for target in sorted(targets):
+                print(f"  - {target}")
+            return 0
+
         if args.theme:
             logger.info(f"Building specific theme: {args.theme}")
-            builder.build_all(theme_filter=args.theme)
-        else:
-            logger.info("Building all themes")
-            builder.build_all()
+
+        if args.target != "all":
+            logger.info(f"Building for target: {args.target}")
+
+        builder.build_all(
+            theme_filter=args.theme,
+            target_filter=args.target,
+        )
 
         print("Theme building completed successfully!")
         return 0
