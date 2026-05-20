@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.villains'
-version '3.0.1'
+version '3.1.0'
 
 repositories {
     mavenCentral()
@@ -27,6 +27,10 @@ patchPluginXml {
     sinceBuild.set('203')
     untilBuild.set('261.*')
     changeNotes = """
+    <h2>3.1.0 (2026.05.20)</h2>
+    <ul>
+        <li>Add VS Code, Warp, and Obsidian theme templates and outputs</li>
+    </ul>
     <h2>3.0.1 (2026.03.26)</h2>
     <ul>
         <li>Updates Intellij compatability to 2026.*</li>
