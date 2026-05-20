@@ -1,9 +1,9 @@
 import logging
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, List, Optional
 from ruamel.yaml import YAML
 
-from .models import BuildConfig
+from .models import BuildConfig, TargetConfig
 
 logger = logging.getLogger(__name__)
 
@@ -36,6 +36,24 @@ class ConfigManager:
             logger.error("No themes.yaml found.")
 
             return {}
+
+    def get_targets_config(self) -> List[TargetConfig]:
+        themes_config_file = self.base_dir / "theme_builder" / "themes.yaml"
+
+        if not themes_config_file.exists():
+            logger.error("No themes.yaml found.")
+            return []
+
+        with open(themes_config_file, "r") as f:
+            config = self.yaml.load(f)
+
+        targets_data = config.get("targets", {})
+        targets = []
+        for name, data in targets_data.items():
+            target = TargetConfig.from_dict(name, data)
+            if target.enabled:
+                targets.append(target)
+        return targets
 
     def load_theme_data(self, data_file: Path) -> Dict[str, Any]:
         if not data_file.exists():

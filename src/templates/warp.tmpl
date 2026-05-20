@@ -1,0 +1,27 @@
+accent: "#{{ theme.accent }}"
+background: "#{{ theme.base1 }}"
+{% if dark %}
+details: darker
+{% else %}
+details: lighter
+{% endif %}
+foreground: "#{{ theme.base6 }}"
+terminal_colors:
+  bright:
+    black: "#{{ theme.base4 }}"
+    blue: "#{{ theme.blue_mod1 }}"
+    cyan: "#{{ theme.cyan_mod1 }}"
+    green: "#{{ theme.green_mod1 }}"
+    magenta: "#{{ theme.pink_mod1 }}"
+    red: "#{{ theme.red_mod1 }}"
+    white: "#{{ theme.base8 }}"
+    yellow: "#{{ theme.yellow_mod1 }}"
+  normal:
+    black: "#{{ theme.base0 }}"
+    blue: "#{{ theme.blue }}"
+    cyan: "#{{ theme.cyan }}"
+    green: "#{{ theme.green }}"
+    magenta: "#{{ theme.pink }}"
+    red: "#{{ theme.red }}"
+    white: "#{{ theme.base7 }}"
+    yellow: "#{{ theme.yellow }}"

@@ -1,5 +1,6 @@
 # Dist / Artifacts
 build/
+dist/
 .gradle/
 __pycache__
 

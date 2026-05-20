@@ -1,0 +1,26 @@
+{
+  "name": "trash-panda-theme",
+  "displayName": "Trash Panda Theme",
+  "description": "A dark and light theme collection for Visual Studio Code",
+  "version": "3.0.0",
+  "publisher": "jasonhulbert",
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "themes": [
+      {% for entry in themes %}
+      {
+        "label": "{{ entry.label }}",
+        "uiTheme": "{{ entry.uiTheme }}",
+        "path": "{{ entry.path }}"
+      }{% if not loop.last %},{% endif %}
+
+      {% endfor %}
+    ]
+  }
+}

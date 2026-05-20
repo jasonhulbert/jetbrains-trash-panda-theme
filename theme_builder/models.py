@@ -1,6 +1,39 @@
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Dict, Any, List, Optional
+
+
+@dataclass
+class TargetTemplate:
+    template: str
+    output_key: Optional[str] = None
+    output_suffix: Optional[str] = None
+
+
+@dataclass
+class TargetConfig:
+    name: str
+    templates: List[TargetTemplate]
+    output_dir: str
+    enabled: bool = True
+
+    @classmethod
+    def from_dict(cls, name: str, data: Dict[str, Any]) -> "TargetConfig":
+        templates = []
+        for t in data.get("templates", []):
+            templates.append(
+                TargetTemplate(
+                    template=t["template"],
+                    output_key=t.get("output_key"),
+                    output_suffix=t.get("output_suffix"),
+                )
+            )
+        return cls(
+            name=name,
+            templates=templates,
+            output_dir=data["output_dir"],
+            enabled=data.get("enabled", True),
+        )
 
 
 @dataclass
@@ -26,6 +59,16 @@ class ThemeConfig:
             parent_scheme=data["parent_scheme"],
             theme=data["theme"],
         )
+
+    @property
+    def slug(self) -> str:
+        """Derive slug from theme_out_file by stripping .theme.json suffix."""
+        return self.theme_out_file.replace(".theme.json", "")
+
+    @property
+    def slug_underscored(self) -> str:
+        """Slug with underscores instead of hyphens (for Warp filenames)."""
+        return self.slug.replace("-", "_")
 
 
 @dataclass

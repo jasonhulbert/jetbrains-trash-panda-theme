@@ -29,3 +29,34 @@ themes:
   - name: blacklight
     data_file: blacklight.yaml
     description: "A high-contrast blacklight variation"
+
+targets:
+  jetbrains:
+    enabled: true
+    templates:
+      - template: theme.tmpl
+        output_key: theme_out_file
+      - template: scheme.tmpl
+        output_key: scheme_out_file
+    output_dir: src/main/resources/META-INF
+
+  vscode:
+    enabled: true
+    templates:
+      - template: vscode.tmpl
+        output_suffix: "-color-theme.json"
+    output_dir: dist/vscode/themes
+
+  warp:
+    enabled: true
+    templates:
+      - template: warp.tmpl
+        output_suffix: ".yaml"
+    output_dir: dist/warp
+
+  obsidian:
+    enabled: true
+    templates:
+      - template: obsidian.tmpl
+        output_suffix: ".css"
+    output_dir: dist/obsidian
