@@ -25,8 +25,12 @@ intellij {
 
 patchPluginXml {
     sinceBuild.set('203')
-    untilBuild.set('261.*')
+    untilBuild.set('262.*')
     changeNotes = """
+    <h2>3.1.0 (2026.05.20)</h2>
+    <ul>
+        <li>Updates Intellij compatability to 262.*</li>
+    </ul>
     <h2>3.1.0 (2026.05.20)</h2>
     <ul>
         <li>Add VS Code, Warp, and Obsidian theme templates and outputs</li>
