@@ -1,6 +1,6 @@
 [project]
 name = "jetbrains-trash-panda-theme"
-version = "3.0.0"
+version = "3.1.2"
 description = "A theme for raccoons and other creatures of the night."
 readme = "README.md"
 authors = [
